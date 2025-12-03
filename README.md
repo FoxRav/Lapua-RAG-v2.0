@@ -1,3 +1,5 @@
+https://lapua-rag-v2-0.vercel.app/
+
 ## Lapuan Kaupunki RAG
 
 Docling-pohjainen RAG-hakupalvelu, jossa Qdrant-vektorihaku ja Groq-LLM analysoivat Lapuan kaupungin pöytäkirjoja (valtuusto, hallitus, lautakunnat).

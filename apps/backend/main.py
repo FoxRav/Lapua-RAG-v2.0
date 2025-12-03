@@ -17,10 +17,11 @@ _log = logging.getLogger(__name__)
 
 app = FastAPI(title="Lapua Kaupunki RAG API")
 
+# CORS: allow public frontend and local dev without credentials
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
-    allow_credentials=True,
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
