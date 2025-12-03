@@ -9,9 +9,6 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
 from agents.query_agent import LapuaAnswer, LapuaQueryAgent, LapuaQueryFilters
-from docling_pipeline.cli import parse_all as docling_parse_all
-from rag_core.chunking import run_all as chunking_run_all
-from rag_core.indexing import index_all_chunks
 
 _log = logging.getLogger(__name__)
 
@@ -67,8 +64,14 @@ async def admin_reindex() -> dict[str, Annotated[int, Field(ge=0)]]:
     Run full pipeline: Docling parse -> chunking -> Qdrant indexing.
 
     This endpoint is intended for manual/admin use because it can take a long time.
+    Heavy Docling/Qdrant imports are done lazily here to keep API startup light,
+    especially in constrained hosting environments.
     """
     try:
+        from docling_pipeline.cli import parse_all as docling_parse_all
+        from rag_core.chunking import run_all as chunking_run_all
+        from rag_core.indexing import index_all_chunks
+
         _log.info("Starting admin reindex: Docling parse_all")
         docling_parse_all()
         _log.info("Docling parse_all completed, running chunking")
