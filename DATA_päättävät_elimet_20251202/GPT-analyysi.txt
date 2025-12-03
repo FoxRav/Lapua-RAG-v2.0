@@ -1,0 +1,92 @@
+Johtopäätös
+Kävin läpi kaikki toimielinten pöytäkirjat (valtuusto, kaupunginhallitus, tekninen lautakunta, sivistyslautakunta, hyvinvointilautakunta, tarkastuslautakunta, loka–marras 2025).
+Pöytäkirjojen perusteella en näe yksiselitteisesti selvästi lainvastaisia päätöksiä tai räikeitä esteellisyysrikkomuksia. Sen sijaan nousee esiin joukko kriittisiä riskikohtia, joista voi rakentaa hyvin perusteltua opponointia:
+• Koko kaupungin talous ja erittäin raskas investointiohjelma
+• Valtuuston 3. osavuosikatsaus: vuoden 2025 ennakoitu 1,8 M€ alijäämä ei todennäköisesti toteudu täysimääräisenä, mutta lainamäärä on 62,4 M€, josta lyhytaikaisia lainoja 22 M€.
+• KH 18.11.2025: vuoden 2026 talousarvio on virallisesti tasapainoinen (tulos 0 €), mutta asiakirja itse toteaa, että toteutumiseen liittyy “merkittäviä riskejä” (tasapainottamistoimet, verotulot, sote-kiinteistöjen vuokrasopimukset, korkokehitys, TE-uudistus).
+• Tekninen lautakunta 14.10.2025: investointiesitys 2026–2028 on hyvin raskas: teknisen lautakunnan investoinnit n. 20 M€ + uimahalli 9 M€ (yhteensä n. 29 M€ 3 vuodessa).
+Kuntalain 129 §:n mukaan kunnan myöntämä laina, takaus tai muu vakuus ei saa vaarantaa kunnan kykyä hoitaa lakisääteisiä tehtäviään. Sama periaate käytännössä koskee myös investointiohjelman mitoitusta suhteessa velkatasoon.
+→ Tämä kokonaisuus ei ole itsessään lainvastainen, mutta antaa vahvan lähtökohdan kritiikille: velkataso ja investoinnit ovat raskaita tilanteessa, jossa talous on herkkä sokille (korot, valtionosuudet, TE-uudistus).
+• Uimahalli-investointi ja investointikatto
+• Tekninen lautakunta 14.10.2025: teknisen lautakunnan nettoinvestointikatto 6,7 M€ vuodelle 2026, mutta uimahalli on tämän katon “ulkopuolella”. Uimahallin kustannusarvio 14 M€ (5 M€ 2025, 6 M€ 2026, 3 M€ 2027).
+• Käytännössä 2026 nettoinvestoinnit ovat 12,7 M€ (sis. uimahallin 6 M€).
+Kriittinen näkökulma:
+• Investointikatto menettää merkitystään, jos suurimmat hankkeet jätetään sen “ulkopuolelle”.
+• Uimahalli sitoo merkittävän osan investointikyvystä vuosiksi eteenpäin samalla kun koulurakennuksia puretaan ja kouluverkkoa supistetaan.
+→ Tästä syntyy poliittisesti ja taloudellisesti hyvin vahva kritiikkilinja, vaikka menettely sinänsä ei pöytäkirjojen perusteella riko lakia.
+• Rengonharju-säätiön takausvastuu ja regressio-oikeudesta luopuminen
+• KH 18.11.2025 § 403: 
+• Lapua varaa 4 761,52 € vuodelle 2026 maksaakseen säätiön rahoituskuluja takaajana suoraan velkojille.
+• Säätiö pyytää, ettei kaupunki peri takautumisoikeuden (regressio) perusteella takaisin maksamiaan summia eikä viivästyskorkoja, ennen kuin säätiöllä on maksuvaraa. KH hyväksyy tämän.
+Kriittinen lainopillinen kulma:
+• Kuntalaki 129 §: kunnan takaus ei saa vaarantaa kunnan kykyä hoitaa lakisääteisiä tehtäviään, eikä kunta saa antaa takausta kilpailutilanteessa markkinoilla toimivan yksityisen yhteisön veloista.
+• Lisäksi regressio-oikeudesta luopuminen voi de facto merkitä epäsuoraa tukea säätiölle. Jos säätiö toimii markkinoilla, valtiontukisäännökset ja Kuntalaki 129 § voivat nousta esiin.
+→ Tässä ei pöytäkirjan perusteella ole selvästi lainvastaista, mutta kyseessä on juridisesti herkkä kohta, joka on hyvä nostaa opponoinnissa:
+• Onko säätiö markkinatoimija?
+• Onko tuen muoto (takaajan maksut + regressiosta luopuminen) arvioitu valtiontukisääntelyn ja Kuntalain 129 §:n valossa?
+• Kouluverkko, kyläkoulujen lakkauttaminen ja perusopetuslain riskit
+• Sivistyslautakunta 20.11.2025: käsitellään alakoulujen oppilasmääräennusteita, valtionosuuksien vähenemistä (n. 400 000 €/v) ja kouluverkon tiivistämistarvetta.
+• Pöytäkirjassa todetaan mm.: 
+• pienimmillä kouluilla (<35 oppilasta) vaarantuu opetussuunnitelman mukainen opetus
+• oppilasmäärä laskee n. 50 oppilasta/vuosi
+• alakoulujen toimintakate heikkenee.
+• Samassa yhteydessä valmistellaan koulujen lakkauttamispäätöksiä (Kauhajärvi, Männikön koulu) ja henkilöstön siirrot on kuvattu hallinnollisesti.
+Perusopetuslain näkökulma:
+• 6 §: opetus on järjestettävä niin, että koulumatkat ovat mahdollisimman turvallisia ja lyhyitä.
+• 32 §: kunnalla velvollisuus järjestää maksuton kuljetus tai majoitus, jos koulumatka on pitkä, vaikea tai vaarallinen.
+Kriittisesti:
+• Pöytäkirjoista ei näy konkreettisia vaikutusarvioita yksittäisten oppilaiden koulumatkojen pituudesta ja turvallisuudesta sulkemisten jälkeen – ainoastaan yleistasoinen kuvaus.
+• Oppilaiden kuulemisesta ja huoltajien osallistumisesta on mainintoja, mutta etäisyyksien, matka-aikojen ja kuljetusten kustannusvaikutusten tarkat laskelmat eivät näy pöytäkirjan tekstiosassa.
+→ Tässä on selvä opponointipiste:
+• Onko perusopetuslain 6 ja 32 §:n mukainen lähikouluperiaate ja koulumatkojen turvallisuus arvioitu riittävällä tarkkuudella ja tuotu päätöksentekijöille näkyvästi?
+• Jos vaikutusarviot on tehty liitteissä, niiden sisältöä kannattaa pyytää erikseen ja tarkistaa.
+• Sidonnaisuusilmoitukset – puutteet ympäristölautakunnan varajäsenillä
+• Tarkastuslautakunta 29.10.2025 § 59 toteaa, että sidonnaisuusilmoitukset puuttuvat vielä kolmelta ympäristölautakunnan varajäseneltä.
+• Asia viedään valtuustolle tiedoksi 10.11.2025 § 84.
+Kuntalaki 84 §: tietyt luottamushenkilöt ja viranhaltijat ovat velvollisia tekemään sidonnaisuusilmoituksen tarkastuslautakunnalle, joka valvoo velvollisuuden noudattamista.
+Kriittinen kulma:
+• Pöytäkirja osoittaa, että järjestelmä reagoi puutteisiin (tarkastuslautakunta huomaa ja kirjaa ne), mutta samaan aikaan se todentaa, että velvollisuutta ei ole kaikilta osin noudatettu.
+→ Tästä saa perustellun huomion luottamushenkilöiden hyvän hallinnon ja avoimuuden tasosta.
+• Avustukset ja kumppanuussopimukset tiukan talouden aikana
+KH 18.11.2025 myöntää tai esittää mm.:
+• MP-Viihde Oy:lle 19 500 € Vanhan Paukun Festivaalin kumppanuussopimukseen 2026.
+• Lapuan Virkiälle 5 000 € Nuorten Jukolan 2027 kumppanuutta varten.
+• Thermopolis Oy:n energian varastoinnin kehittämishankkeeseen 37 901 € kuntaosuus 2025–2027; tässä asiassa jääviys on hoidettu asianmukaisesti (kolme luottamushenkilöä poistuu kokouksesta yhteisöjäävin perusteella).
+Kriittinen näkökulma:
+• Samassa pöytäkirjakokonaisuudessa korostetaan erittäin tiukkaa taloustilannetta, velkaisuutta ja tarvetta sopeutustoimiin.
+• Kulttuuri- ja urheilutapahtumiin liittyvien avustusten ja kumppanuussopimusten hyöty–kustannus-suhdetta voi kyseenalaistaa: 
+• Onko avustuksille selkeät, läpinäkyvät kriteerit?
+• Miten paljon yksityisiä tai alueellisia hyötyjä vs. kuntatalouden rasite?
+• Thermopolis-hankkeessa esteellisyys on hoidettu esimerkillisesti – sitä ei kannata kritisoida, mutta kokonaisuutena voit nostaa esiin, paljonko ulkopuolisia hankkeita kunta kantaa talousriskillään.
+• Muita huomioita (ei suoranaisia “punaisia lippuja”)
+• Tarkastuslautakunta 19.11.2025 kuulee opetuspäällikköä ja Männikön koulun rehtoria – eli valvontaorganisaatio on hereillä kouluverkkomuutosten suhteen.
+• Esteellisyyksiä on merkitty (Thermopolis-asia), mikä kertoo siitä, että esteellisyysarviointia tehdään ainakin osassa tapauksia asianmukaisesti.
+• En löytänyt pöytäkirjoista viitteitä siitä, että joku olisi osallistunut oman lähipiirinsä yritystä tai yhdistystä koskevan avustuksen tai sopimuksen päätöksentekoon ilman esteellisyysmerkintää – eli “räikeää jääviyttä” ei näy asiakirjasta.
+Toimi näin (max 5 kohtaa)
+• Rakenna oppositiokysymykset kolmesta pääteemasta:
+a) Velkataso + investointiohjelma (uimahalli mukaan luettuna)
+b) Kouluverkon supistaminen ja perusopetuslain mukainen lähikouluperiaate/koulumatkojen turvallisuus
+c) Rengonharju-säätiön takaus + regressio-oikeudesta luopuminen.
+• Pyydä nähtäväksi kaikki asiaan liittyvät liitteet:
+• Kouluverkkoon liittyvät vaikutusarviot (matka-ajat, matkan turvallisuus, kuljetuskustannukset)
+• Uimahalli-hankkeen tarkennetut kustannuslaskelmat ja vaihtoehtotarkastelut
+• Rengonharju-säätiötä koskevat sopimukset ja aiemmat päätökset (erityisesti vuoden 2015 neuvottelut).
+• Viittaa kuntalakiin ja perusopetuslakiin nimenomaisesti opponoinnissa:
+• Kuntalaki 129 § (lainat ja takaukset, kunnan taloudellinen kantokyky, markkinatoimijat)
+• Kuntalaki 84 § (sidonnaisuusilmoitukset)
+• Perusopetuslaki 6 ja 32 § (lähikouluperiaate, koulukuljetus).
+• Nosta valtuustossa esiin sidonnaisuusilmoitusten puutteet:
+• Pyydä tarkastuslautakunnalta selvitys, milloin ympäristölautakunnan varajäsenten ilmoitukset saatiin kuntoon, ja miten jatkossa varmistetaan, ettei vastaavia viiveitä synny.
+• Vaadi läpinäkyvää linjausta avustuksille ja kumppanuussopimuksille:
+• Selkeät kriteerit, vaikutusarviot ja vertailu muihin menokohteisiin (esim. koulukiinteistöjen korjausvelka).
+Tarkistuslista
+• Fakta
+• Perustuu pelkästään nyt käytössä oleviin pöytäkirjoihin ja niissä olevaan tekstiin (ei liitteiden täyttä sisältöä).
+• Talous- ja velkaluvut sekä investointisummat on poimittu suoraan pöytäkirjoista.
+• Sidonnaisuus- ja esteellisyyskohtia koskeva tulkinta pohjautuu Kuntalakiin ja Kuntaliiton ohjeisiin.
+• Logiikka
+• Olen nostanut esiin vain kohdat, joissa on selvästi taloudellista riskiä, hallinnollista herkkyyttä tai lainopillinen “kulma”, jota voi käyttää opponointiin.
+• En ole väittänyt mitään yksiselitteisesti lainvastaiseksi, koska pelkät pöytäkirjatekstit eivät siihen riitä – sen sijaan olen osoittanut, mistä kohdista kannattaa pyytää lisäselvityksiä ja mihin pykäliin vedota.
+• Kieli
+• Kuvaus on neutraali ja asiapohjainen, nimet mainittu vain siltä osin kuin pöytäkirja ja laki tekevät heistä toimijoita (ei henkilökohtaista arvostelua).
+• Tämä ei ole virallinen oikeudellinen lausunto, vaan pohja keskustelulle, muistioille ja mahdollisille oikaisuvaatimuksille/kunnallisvalituksille. Jos haluat, voin seuraavaksi luonnostella erikseen esim. valtuustopuheenvuoron tai oikaisuvaatimustekstin näiden teemojen ympärille.

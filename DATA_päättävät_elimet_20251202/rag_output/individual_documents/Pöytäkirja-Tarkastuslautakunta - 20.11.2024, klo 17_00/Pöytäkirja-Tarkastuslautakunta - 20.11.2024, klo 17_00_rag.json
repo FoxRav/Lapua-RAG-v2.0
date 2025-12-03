@@ -1,0 +1,829 @@
+{
+  "source_file": "F:\\Projekti-Lapua\\Projekti2-20251123\\DATA_päättävät_elimet_20251123\\Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+  "source_name": "Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+  "total_chunks": 33,
+  "chunks": [
+    {
+      "chunk_id": 0,
+      "text": "Lapuan kaupunki\nTarkastuslautakunta\nPöytäkirja\n20.11.2024\nAika\n20.11.2024, klo 17:00 - 19:35\nPaikka\nKaupungintalo, kaupunginhallituksen kokoushuone",
+      "contextualized_text": "Lapuan kaupunki\nTarkastuslautakunta\nPöytäkirja\n20.11.2024\nAika\n20.11.2024, klo 17:00 - 19:35\nPaikka\nKaupungintalo, kaupunginhallituksen kokoushuone",
+      "metadata": {
+        "source_file": "F:\\Projekti-Lapua\\Projekti2-20251123\\DATA_päättävät_elimet_20251123\\Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_name": "Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_relative_path": "Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "chunk_index": 0,
+        "total_chunks_in_document": 33,
+        "doc_items": [
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": 1,
+      "text": "1 (\n11)\nLapuan kaupunki\nTarkastuslautakunta\nSaapuvilla olleet jäsenet\nMarkku Keskikallio, puheenjohtaja Hanna Peräaho, 1. varapuheenjohtaja Nina Aila Kari Nirha Jukka Tauriainen\nMuut saapuvilla olleet\nViivi Hautala, sihteeri Markku Turja, Kaupungingeodeetti § 52, saapui 17:09, poistui 18:01\nUlpu Viimaluoto, Kunnallistekniikan päällikkö § 53, saapui 18:02, poistui 18:52\nAllekirjoitukset\nMarkku Keskikallio Puheenjohtaja Viivi Hautala Sihteeri\nAsiakirja on sähköisesti allekirjoitettu asianhallintajärjestelmässä. Lapuan kaupunki 29.11.2024 klo 09:27. Allekirjoituksen oikeellisuuden voi todentaa kirjaamosta.\nPöytäkirjan tarkastus\nPöytäkirja on tarkastettu ja hyväksytty\n26.11.2024 26.11.2024\nHanna Peräaho Nina Aila\nPöytäkirjan nähtävänäolo Lapuan kaupungin verkkosivuilla 27.11.2024\nPöytäkirja\n20.11.2024\n10/2024\n2 (\n11)",
+      "contextualized_text": "§ 50 Kokouksen laillisuus ja päätösvaltaisuus § 51 Pöytäkirjan tarkastaminen § 52 Kaupungingeodeetin kuuleminen § 53 Kunnallistekniikan päällikön kuuleminen § 54 Vuoden 2023 arviointikertomus / kaupungin yleishallinnon ja lautakuntien selvitykset § 55 Muut asiat\n1 (\n11)\nLapuan kaupunki\nTarkastuslautakunta\nSaapuvilla olleet jäsenet\nMarkku Keskikallio, puheenjohtaja Hanna Peräaho, 1. varapuheenjohtaja Nina Aila Kari Nirha Jukka Tauriainen\nMuut saapuvilla olleet\nViivi Hautala, sihteeri Markku Turja, Kaupungingeodeetti § 52, saapui 17:09, poistui 18:01\nUlpu Viimaluoto, Kunnallistekniikan päällikkö § 53, saapui 18:02, poistui 18:52\nAllekirjoitukset\nMarkku Keskikallio Puheenjohtaja Viivi Hautala Sihteeri\nAsiakirja on sähköisesti allekirjoitettu asianhallintajärjestelmässä. Lapuan kaupunki 29.11.2024 klo 09:27. Allekirjoituksen oikeellisuuden voi todentaa kirjaamosta.\nPöytäkirjan tarkastus\nPöytäkirja on tarkastettu ja hyväksytty\n26.11.2024 26.11.2024\nHanna Peräaho Nina Aila\nPöytäkirjan nähtävänäolo Lapuan kaupungin verkkosivuilla 27.11.2024\nPöytäkirja\n20.11.2024\n10/2024\n2 (\n11)",
+      "metadata": {
+        "source_file": "F:\\Projekti-Lapua\\Projekti2-20251123\\DATA_päättävät_elimet_20251123\\Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_name": "Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_relative_path": "Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "chunk_index": 1,
+        "total_chunks_in_document": 33,
+        "doc_items": [
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": 2,
+      "text": "Tarkastuslautakunnan kokousmenettelyssä noudatetaan hallintosäännön määräyksiä. Kutsun antaa puheenjohtaja ja siinä on ilmoitettava kokouksen aika ja paikka sekä käsiteltävät asiat. Tarkastuslautakunnan kokous on päätösvaltainen, kun enemmän kuin puolet jäsenistä on saapuvilla. Asiasta päätetään puheenjohtajan selostuksen pohjalta.\nHallintosäännön mukaan lautakunnan kokouksissa tilintarkastajalla on läsnäolo- ja puheoikeus.\nKaupunginhallitus ei voi määrätä edustajaansa lautakunnan kokouksiin.",
+      "contextualized_text": "Kokouksen laillisuus ja päätösvaltaisuus\nTarkastuslautakunnan kokousmenettelyssä noudatetaan hallintosäännön määräyksiä. Kutsun antaa puheenjohtaja ja siinä on ilmoitettava kokouksen aika ja paikka sekä käsiteltävät asiat. Tarkastuslautakunnan kokous on päätösvaltainen, kun enemmän kuin puolet jäsenistä on saapuvilla. Asiasta päätetään puheenjohtajan selostuksen pohjalta.\nHallintosäännön mukaan lautakunnan kokouksissa tilintarkastajalla on läsnäolo- ja puheoikeus.\nKaupunginhallitus ei voi määrätä edustajaansa lautakunnan kokouksiin.",
+      "metadata": {
+        "source_file": "F:\\Projekti-Lapua\\Projekti2-20251123\\DATA_päättävät_elimet_20251123\\Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_name": "Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_relative_path": "Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "chunk_index": 2,
+        "total_chunks_in_document": 33,
+        "doc_items": [
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": 3,
+      "text": "Tarkastuslautakunnan kokous todetaan lailliseksi ja päätösvaltaiseksi.",
+      "contextualized_text": "Puheenjohtajan ehdotus:\nTarkastuslautakunnan kokous todetaan lailliseksi ja päätösvaltaiseksi.",
+      "metadata": {
+        "source_file": "F:\\Projekti-Lapua\\Projekti2-20251123\\DATA_päättävät_elimet_20251123\\Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_name": "Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_relative_path": "Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "chunk_index": 3,
+        "total_chunks_in_document": 33,
+        "doc_items": [
+          {
+            "label": "text",
+            "page": null
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": 4,
+      "text": "Todettiin kokous lailliseksi ja päätösvaltaiseksi.",
+      "contextualized_text": "Päätös\nTodettiin kokous lailliseksi ja päätösvaltaiseksi.",
+      "metadata": {
+        "source_file": "F:\\Projekti-Lapua\\Projekti2-20251123\\DATA_päättävät_elimet_20251123\\Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_name": "Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_relative_path": "Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "chunk_index": 4,
+        "total_chunks_in_document": 33,
+        "doc_items": [
+          {
+            "label": "text",
+            "page": null
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": 5,
+      "text": "Hallintosäännön mukaan pöytäkirjan kirjoittaa puheenjohtajan johdolla pöytäkirjanpitäjä. Pöytäkirjan allekirjoittaa puheenjohtaja ja varmentaa pöytäkirjanpitäjä.\nPöytäkirja tarkastetaan lautakunnan päättämällä tavalla.  Pöytäkirjan tarkastaminen tapahtuu sähköisellä allekirjotuksella.",
+      "contextualized_text": "Pöytäkirjan tarkastaminen\nHallintosäännön mukaan pöytäkirjan kirjoittaa puheenjohtajan johdolla pöytäkirjanpitäjä. Pöytäkirjan allekirjoittaa puheenjohtaja ja varmentaa pöytäkirjanpitäjä.\nPöytäkirja tarkastetaan lautakunnan päättämällä tavalla.  Pöytäkirjan tarkastaminen tapahtuu sähköisellä allekirjotuksella.",
+      "metadata": {
+        "source_file": "F:\\Projekti-Lapua\\Projekti2-20251123\\DATA_päättävät_elimet_20251123\\Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_name": "Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_relative_path": "Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "chunk_index": 5,
+        "total_chunks_in_document": 33,
+        "doc_items": [
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": 6,
+      "text": "Puheenjohtaja ehdottaa, että pöytäkirja tarkastetaan ja allekirjoitetaan sähköisesti. Pöytäkirjan tarkastajaksi valitaan tarkastuslautakunnan jäsenet",
+      "contextualized_text": "Puheenjohtajan ehdotus:\nPuheenjohtaja ehdottaa, että pöytäkirja tarkastetaan ja allekirjoitetaan sähköisesti. Pöytäkirjan tarkastajaksi valitaan tarkastuslautakunnan jäsenet",
+      "metadata": {
+        "source_file": "F:\\Projekti-Lapua\\Projekti2-20251123\\DATA_päättävät_elimet_20251123\\Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_name": "Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_relative_path": "Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "chunk_index": 6,
+        "total_chunks_in_document": 33,
+        "doc_items": [
+          {
+            "label": "text",
+            "page": null
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": 7,
+      "text": "Pöytäkirjan tarkastajiksi valittiin Hanna Peräaho ja Nina Aila.",
+      "contextualized_text": "Päätös\nPöytäkirjan tarkastajiksi valittiin Hanna Peräaho ja Nina Aila.",
+      "metadata": {
+        "source_file": "F:\\Projekti-Lapua\\Projekti2-20251123\\DATA_päättävät_elimet_20251123\\Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_name": "Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_relative_path": "Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "chunk_index": 7,
+        "total_chunks_in_document": 33,
+        "doc_items": [
+          {
+            "label": "text",
+            "page": null
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": 8,
+      "text": "LAPDno-2024-811\nTarkastuslautakunta on kutsunut kaupungingeodeetin keskustelemaan ajankohtaisista asioista.",
+      "contextualized_text": "Kaupungingeodeetin kuuleminen\nLAPDno-2024-811\nTarkastuslautakunta on kutsunut kaupungingeodeetin keskustelemaan ajankohtaisista asioista.",
+      "metadata": {
+        "source_file": "F:\\Projekti-Lapua\\Projekti2-20251123\\DATA_päättävät_elimet_20251123\\Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_name": "Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_relative_path": "Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "chunk_index": 8,
+        "total_chunks_in_document": 33,
+        "doc_items": [
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": 9,
+      "text": "Tarkastuslautakunta merkitsee saadun selvityksen tiedoksi.",
+      "contextualized_text": "Ehdotus\nTarkastuslautakunta merkitsee saadun selvityksen tiedoksi.",
+      "metadata": {
+        "source_file": "F:\\Projekti-Lapua\\Projekti2-20251123\\DATA_päättävät_elimet_20251123\\Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_name": "Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_relative_path": "Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "chunk_index": 9,
+        "total_chunks_in_document": 33,
+        "doc_items": [
+          {
+            "label": "text",
+            "page": null
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": 10,
+      "text": "Merkittiin saatu selvitys tiedoksi.",
+      "contextualized_text": "Päätös\nMerkittiin saatu selvitys tiedoksi.",
+      "metadata": {
+        "source_file": "F:\\Projekti-Lapua\\Projekti2-20251123\\DATA_päättävät_elimet_20251123\\Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_name": "Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_relative_path": "Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "chunk_index": 10,
+        "total_chunks_in_document": 33,
+        "doc_items": [
+          {
+            "label": "text",
+            "page": null
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": 11,
+      "text": "LAPDno-2024-812\nTarkastuslautakunta on kutsunut kunnallistekniikan päällikön keskustelemaan ajankohtaisista asioista.",
+      "contextualized_text": "Kunnallistekniikan päällikön kuuleminen\nLAPDno-2024-812\nTarkastuslautakunta on kutsunut kunnallistekniikan päällikön keskustelemaan ajankohtaisista asioista.",
+      "metadata": {
+        "source_file": "F:\\Projekti-Lapua\\Projekti2-20251123\\DATA_päättävät_elimet_20251123\\Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_name": "Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_relative_path": "Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "chunk_index": 11,
+        "total_chunks_in_document": 33,
+        "doc_items": [
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": 12,
+      "text": "Tarkastuslautakunta merkitsee saadun selvityksen tiedoksi.",
+      "contextualized_text": "Ehdotus\nTarkastuslautakunta merkitsee saadun selvityksen tiedoksi.",
+      "metadata": {
+        "source_file": "F:\\Projekti-Lapua\\Projekti2-20251123\\DATA_päättävät_elimet_20251123\\Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_name": "Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_relative_path": "Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "chunk_index": 12,
+        "total_chunks_in_document": 33,
+        "doc_items": [
+          {
+            "label": "text",
+            "page": null
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": 13,
+      "text": "Merkittiin saatu selvitys tiedoksi.",
+      "contextualized_text": "Päätös\nMerkittiin saatu selvitys tiedoksi.",
+      "metadata": {
+        "source_file": "F:\\Projekti-Lapua\\Projekti2-20251123\\DATA_päättävät_elimet_20251123\\Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_name": "Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_relative_path": "Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "chunk_index": 13,
+        "total_chunks_in_document": 33,
+        "doc_items": [
+          {
+            "label": "text",
+            "page": null
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": 14,
+      "text": "Tarkastuslautakunta, § 27,28.05.2024 Kaupunginvaltuusto, § 43,10.06.2024 Kaupunginhallitus, § 278,07.10.2024\nTarkastuslautakunta, § 54, 20.11.2024\n§ 54\nVuoden 2023 arviointikertomus / kaupungin yleishallinnon ja lautakuntien selvitykset\nLAPDno-2024-427",
+      "contextualized_text": "Lapuan kaupunki Tarkastuslautakunta\nTarkastuslautakunta, § 27,28.05.2024 Kaupunginvaltuusto, § 43,10.06.2024 Kaupunginhallitus, § 278,07.10.2024\nTarkastuslautakunta, § 54, 20.11.2024\n§ 54\nVuoden 2023 arviointikertomus / kaupungin yleishallinnon ja lautakuntien selvitykset\nLAPDno-2024-427",
+      "metadata": {
+        "source_file": "F:\\Projekti-Lapua\\Projekti2-20251123\\DATA_päättävät_elimet_20251123\\Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_name": "Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_relative_path": "Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "chunk_index": 14,
+        "total_chunks_in_document": 33,
+        "doc_items": [
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": 15,
+      "text": "Kuntalain mukaan tarkastuslautakunnan on valmisteltava valtuustoon päätettävät hallinnon ja talouden tarkastusta koskevat asiat sekä arvioitava, ovatko valtuuston asettamat toiminnalliset ja taloudelliset tavoitteet toteutuneet. Tarkastuslautakunnan suorittaman arvioinnin tulokset raportoidaan valtuustolle osoitetussa arviointikertomuksessa.",
+      "contextualized_text": "Tarkastuslautakunta, 28.05.2024, § 27\nKuntalain mukaan tarkastuslautakunnan on valmisteltava valtuustoon päätettävät hallinnon ja talouden tarkastusta koskevat asiat sekä arvioitava, ovatko valtuuston asettamat toiminnalliset ja taloudelliset tavoitteet toteutuneet. Tarkastuslautakunnan suorittaman arvioinnin tulokset raportoidaan valtuustolle osoitetussa arviointikertomuksessa.",
+      "metadata": {
+        "source_file": "F:\\Projekti-Lapua\\Projekti2-20251123\\DATA_päättävät_elimet_20251123\\Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_name": "Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_relative_path": "Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "chunk_index": 15,
+        "total_chunks_in_document": 33,
+        "doc_items": [
+          {
+            "label": "text",
+            "page": null
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": 16,
+      "text": "Puheenjohtaja ehdottaa, että tarkastuslautakunta esittää vuoden 2023 arviointikertomuksen valtuuston käsiteltäväksi.",
+      "contextualized_text": "Ehdotus\nPuheenjohtaja ehdottaa, että tarkastuslautakunta esittää vuoden 2023 arviointikertomuksen valtuuston käsiteltäväksi.",
+      "metadata": {
+        "source_file": "F:\\Projekti-Lapua\\Projekti2-20251123\\DATA_päättävät_elimet_20251123\\Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_name": "Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_relative_path": "Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "chunk_index": 16,
+        "total_chunks_in_document": 33,
+        "doc_items": [
+          {
+            "label": "text",
+            "page": null
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": 17,
+      "text": "Tarkastuslautakunta päätti, että arviointikertomusta ei erikseen allekirjoiteta.\nTarkastuslautakunta päätti esittää arviointikertomuksen valtuuston käsiteltäväksi ja vastaukset pyydetään 30.9.2024 mennessä.",
+      "contextualized_text": "Päätös\nTarkastuslautakunta päätti, että arviointikertomusta ei erikseen allekirjoiteta.\nTarkastuslautakunta päätti esittää arviointikertomuksen valtuuston käsiteltäväksi ja vastaukset pyydetään 30.9.2024 mennessä.",
+      "metadata": {
+        "source_file": "F:\\Projekti-Lapua\\Projekti2-20251123\\DATA_päättävät_elimet_20251123\\Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_name": "Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_relative_path": "Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "chunk_index": 17,
+        "total_chunks_in_document": 33,
+        "doc_items": [
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": 18,
+      "text": "Liitteet\n1 Lapuan kaupungin tarkastuslautakunnan arviointikertomus vuodelta 2023",
+      "contextualized_text": "Kaupunginvaltuusto, 10.06.2024, § 43\nLiitteet\n1 Lapuan kaupungin tarkastuslautakunnan arviointikertomus vuodelta 2023",
+      "metadata": {
+        "source_file": "F:\\Projekti-Lapua\\Projekti2-20251123\\DATA_päättävät_elimet_20251123\\Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_name": "Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_relative_path": "Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "chunk_index": 18,
+        "total_chunks_in_document": 33,
+        "doc_items": [
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": 19,
+      "text": "Tarkastuslautakunta esittää vuoden 2023 arviointikertomuksen kaupunginvaltuuston käsiteltäväksi.",
+      "contextualized_text": "Ehdotus\nTarkastuslautakunta esittää vuoden 2023 arviointikertomuksen kaupunginvaltuuston käsiteltäväksi.",
+      "metadata": {
+        "source_file": "F:\\Projekti-Lapua\\Projekti2-20251123\\DATA_päättävät_elimet_20251123\\Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_name": "Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_relative_path": "Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "chunk_index": 19,
+        "total_chunks_in_document": 33,
+        "doc_items": [
+          {
+            "label": "text",
+            "page": null
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": 20,
+      "text": "Tarkastuslautakunnan jäsen Jukka Tauriainen alusti asiaa.\nPuheenvuoron käyttivät kaupunginvaltuuston 1. vpj Jussi Vaahtoniemi sekä valtuutetut Esa Rintala, Ilpo Ulvinen, Kai Pöntinen, Helena Lahtinen ja Esko Yli-Karhu.\nKaupunginvaltuusto hyväksyi kaupunginhallituksen ehdotuksen keskustelun jälkeen.",
+      "contextualized_text": "Päätös\nTarkastuslautakunnan jäsen Jukka Tauriainen alusti asiaa.\nPuheenvuoron käyttivät kaupunginvaltuuston 1. vpj Jussi Vaahtoniemi sekä valtuutetut Esa Rintala, Ilpo Ulvinen, Kai Pöntinen, Helena Lahtinen ja Esko Yli-Karhu.\nKaupunginvaltuusto hyväksyi kaupunginhallituksen ehdotuksen keskustelun jälkeen.",
+      "metadata": {
+        "source_file": "F:\\Projekti-Lapua\\Projekti2-20251123\\DATA_päättävät_elimet_20251123\\Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_name": "Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_relative_path": "Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "chunk_index": 20,
+        "total_chunks_in_document": 33,
+        "doc_items": [
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": 21,
+      "text": "Valmistelijat / lisätiedot: Minna Kangasluoma minna.kangasluoma@lapua.fi Hallintopäällikkö\n- 1 Vuoden 2023 arviointikertomuksen kannanotot sekä kaupunginhallituksen ja lautakuntien vastaukset.pdf\n2 Lapuan kaupungin tarkastuslautakunnan arviointikertomus vuodelta 2023\nTarkastuslautakunta on esittänyt vuoden 2023 arviointikertomuksen, johon lautakunnat ja hallinnon toimiala ovat antaneet omat selvityksensä.\nKaupunginhallitus käsittelee vastaukset kokouksessaan, tuottaa vastauksista yhteenvedon tarkastuslautakunnalle ja seuraa toimenpiteiden kehitystä.\nVuoden 2023 arviointikertomuksen selvitykset hallinnon toimialalta ja lautakunnilta ovat liitteenä. Kaupunginhallitus käy ne läpi ja ottaa kantaa omalta osaltaan vastauksiin.",
+      "contextualized_text": "Kaupunginhallitus, 07.10.2024, § 278\nValmistelijat / lisätiedot: Minna Kangasluoma minna.kangasluoma@lapua.fi Hallintopäällikkö\n- 1 Vuoden 2023 arviointikertomuksen kannanotot sekä kaupunginhallituksen ja lautakuntien vastaukset.pdf\n2 Lapuan kaupungin tarkastuslautakunnan arviointikertomus vuodelta 2023\nTarkastuslautakunta on esittänyt vuoden 2023 arviointikertomuksen, johon lautakunnat ja hallinnon toimiala ovat antaneet omat selvityksensä.\nKaupunginhallitus käsittelee vastaukset kokouksessaan, tuottaa vastauksista yhteenvedon tarkastuslautakunnalle ja seuraa toimenpiteiden kehitystä.\nVuoden 2023 arviointikertomuksen selvitykset hallinnon toimialalta ja lautakunnilta ovat liitteenä. Kaupunginhallitus käy ne läpi ja ottaa kantaa omalta osaltaan vastauksiin.",
+      "metadata": {
+        "source_file": "F:\\Projekti-Lapua\\Projekti2-20251123\\DATA_päättävät_elimet_20251123\\Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_name": "Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_relative_path": "Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "chunk_index": 21,
+        "total_chunks_in_document": 33,
+        "doc_items": [
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "list_item",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": 22,
+      "text": "Lapuan kaupungin tarkastuslautakunta on jättänyt arviointikertomuksen vuodelta 2023 kaupunginvaltuustolle ja esittänyt, että valtuusto edellyttää kaupunginhallitukselta arviointikertomuksessa esitettyihin kannanottoihin ja havaintoihin lausunnot ja toimenpide-esityksen niin, että ne voidaan käsitellä hallituksessa 30.9.2024 mennessä. Koska tekninen lautakunta on käsitellyt arviointikertomuksen vastauksensa vasta 24.9.2024, eivät ne olleet kaupunginhallituksen käsiteltävissä 23.9.2024. Kaupunginjohtaja on esittänyt 18.9.2024 lisäaikapyynnön tarkastuslautakunnalle siten, että kaupunginhallitus käsittelee kaikki vastaukset kokouksessaan 7.10.2024.",
+      "contextualized_text": "Kaupunginhallitus, 07.10.2024, § 278\nLapuan kaupungin tarkastuslautakunta on jättänyt arviointikertomuksen vuodelta 2023 kaupunginvaltuustolle ja esittänyt, että valtuusto edellyttää kaupunginhallitukselta arviointikertomuksessa esitettyihin kannanottoihin ja havaintoihin lausunnot ja toimenpide-esityksen niin, että ne voidaan käsitellä hallituksessa 30.9.2024 mennessä. Koska tekninen lautakunta on käsitellyt arviointikertomuksen vastauksensa vasta 24.9.2024, eivät ne olleet kaupunginhallituksen käsiteltävissä 23.9.2024. Kaupunginjohtaja on esittänyt 18.9.2024 lisäaikapyynnön tarkastuslautakunnalle siten, että kaupunginhallitus käsittelee kaikki vastaukset kokouksessaan 7.10.2024.",
+      "metadata": {
+        "source_file": "F:\\Projekti-Lapua\\Projekti2-20251123\\DATA_päättävät_elimet_20251123\\Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_name": "Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_relative_path": "Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "chunk_index": 22,
+        "total_chunks_in_document": 33,
+        "doc_items": [
+          {
+            "label": "text",
+            "page": null
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": 23,
+      "text": "Esittelijä: Satu Kankare, Kaupunginjohtaja",
+      "contextualized_text": "Ehdotus\nEsittelijä: Satu Kankare, Kaupunginjohtaja",
+      "metadata": {
+        "source_file": "F:\\Projekti-Lapua\\Projekti2-20251123\\DATA_päättävät_elimet_20251123\\Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_name": "Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_relative_path": "Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "chunk_index": 23,
+        "total_chunks_in_document": 33,
+        "doc_items": [
+          {
+            "label": "text",
+            "page": null
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": 24,
+      "text": "Kaupunginhallitus päättää\n1.    hyväksyä selvitykset ja ottaa kantaa vastauksiin omalta osaltaan\n2.    esittää yhteenvedon tarkastuslautakunnalle.",
+      "contextualized_text": "Kaupunginjohtajan ehdotus:\nKaupunginhallitus päättää\n1.    hyväksyä selvitykset ja ottaa kantaa vastauksiin omalta osaltaan\n2.    esittää yhteenvedon tarkastuslautakunnalle.",
+      "metadata": {
+        "source_file": "F:\\Projekti-Lapua\\Projekti2-20251123\\DATA_päättävät_elimet_20251123\\Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_name": "Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_relative_path": "Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "chunk_index": 24,
+        "total_chunks_in_document": 33,
+        "doc_items": [
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "list_item",
+            "page": null
+          },
+          {
+            "label": "list_item",
+            "page": null
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": 25,
+      "text": "Kaupunginhallitus hyväksyi kaupunginjohtajan ehdotuksen keskustelun jälkeen.",
+      "contextualized_text": "Päätös\nKaupunginhallitus hyväksyi kaupunginjohtajan ehdotuksen keskustelun jälkeen.",
+      "metadata": {
+        "source_file": "F:\\Projekti-Lapua\\Projekti2-20251123\\DATA_päättävät_elimet_20251123\\Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_name": "Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_relative_path": "Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "chunk_index": 25,
+        "total_chunks_in_document": 33,
+        "doc_items": [
+          {
+            "label": "text",
+            "page": null
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": 26,
+      "text": "10/2024\n8 ( 11)\nLapuan kaupunki Tarkastuslautakunta\n1 Vuoden 2023 arviointikertomuksen kannanotot sekä kaupunginhallituksen ja lautakuntien vastaukset.pdf",
+      "contextualized_text": "Liitteet\n10/2024\n8 ( 11)\nLapuan kaupunki Tarkastuslautakunta\n1 Vuoden 2023 arviointikertomuksen kannanotot sekä kaupunginhallituksen ja lautakuntien vastaukset.pdf",
+      "metadata": {
+        "source_file": "F:\\Projekti-Lapua\\Projekti2-20251123\\DATA_päättävät_elimet_20251123\\Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_name": "Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_relative_path": "Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "chunk_index": 26,
+        "total_chunks_in_document": 33,
+        "doc_items": [
+          {
+            "label": "page_header",
+            "page": null
+          },
+          {
+            "label": "page_header",
+            "page": null
+          },
+          {
+            "label": "caption",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": 27,
+      "text": "Puheenjohtaja ehdottaa, että tarkastuslautakunta käy läpi hallintokuntien vastaukset ja esittää ne tiedoksi kaupunginvaltuustolle.",
+      "contextualized_text": "Ehdotus\nPuheenjohtaja ehdottaa, että tarkastuslautakunta käy läpi hallintokuntien vastaukset ja esittää ne tiedoksi kaupunginvaltuustolle.",
+      "metadata": {
+        "source_file": "F:\\Projekti-Lapua\\Projekti2-20251123\\DATA_päättävät_elimet_20251123\\Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_name": "Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_relative_path": "Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "chunk_index": 27,
+        "total_chunks_in_document": 33,
+        "doc_items": [
+          {
+            "label": "text",
+            "page": null
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": 28,
+      "text": "Tarkastuslautakunta merkitsi tiedoksi kaupungin yleishallinnon ja lautakuntien selvitykset vuoden 2023 arviointikertomuksesta. Tarkastuslautakunta päätti selvityksistä käydyn keskustelun jälkeen esittää selvitykset tiedoksi kaupunginvaltuustolle.",
+      "contextualized_text": "Päätös\nTarkastuslautakunta merkitsi tiedoksi kaupungin yleishallinnon ja lautakuntien selvitykset vuoden 2023 arviointikertomuksesta. Tarkastuslautakunta päätti selvityksistä käydyn keskustelun jälkeen esittää selvitykset tiedoksi kaupunginvaltuustolle.",
+      "metadata": {
+        "source_file": "F:\\Projekti-Lapua\\Projekti2-20251123\\DATA_päättävät_elimet_20251123\\Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_name": "Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_relative_path": "Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "chunk_index": 28,
+        "total_chunks_in_document": 33,
+        "doc_items": [
+          {
+            "label": "text",
+            "page": null
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": 29,
+      "text": "Käsitellään tarkastuslautakunnan jäsenten esille tuomat asiat.",
+      "contextualized_text": "Ehdotus\nKäsitellään tarkastuslautakunnan jäsenten esille tuomat asiat.",
+      "metadata": {
+        "source_file": "F:\\Projekti-Lapua\\Projekti2-20251123\\DATA_päättävät_elimet_20251123\\Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_name": "Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_relative_path": "Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "chunk_index": 29,
+        "total_chunks_in_document": 33,
+        "doc_items": [
+          {
+            "label": "text",
+            "page": null
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": 30,
+      "text": "Tarkastuslautakunnan seuraava kokous pidetään 11.12.2024.",
+      "contextualized_text": "Päätös\nTarkastuslautakunnan seuraava kokous pidetään 11.12.2024.",
+      "metadata": {
+        "source_file": "F:\\Projekti-Lapua\\Projekti2-20251123\\DATA_päättävät_elimet_20251123\\Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_name": "Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_relative_path": "Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "chunk_index": 30,
+        "total_chunks_in_document": 33,
+        "doc_items": [
+          {
+            "label": "text",
+            "page": null
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": 31,
+      "text": "Tarkastuslautakunta",
+      "contextualized_text": "Lapuan kaupunki\nTarkastuslautakunta",
+      "metadata": {
+        "source_file": "F:\\Projekti-Lapua\\Projekti2-20251123\\DATA_päättävät_elimet_20251123\\Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_name": "Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_relative_path": "Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "chunk_index": 31,
+        "total_chunks_in_document": 33,
+        "doc_items": [
+          {
+            "label": "text",
+            "page": null
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": 32,
+      "text": "§50, §51, §52, §53, §54, §55\nEdellä mainituista päätöksistä ei saa tehdä kuntalain 136 §:n mukaan oikaisuvaatimusta eikä kunnallisvalitusta, koska päätös koskee vain valmistelua tai täytäntöönpanoa.\nPöytäkirja\n20.11.2024\n10/2024\n11 ( 11)",
+      "contextualized_text": "Muutoksenhakukielto\n§50, §51, §52, §53, §54, §55\nEdellä mainituista päätöksistä ei saa tehdä kuntalain 136 §:n mukaan oikaisuvaatimusta eikä kunnallisvalitusta, koska päätös koskee vain valmistelua tai täytäntöönpanoa.\nPöytäkirja\n20.11.2024\n10/2024\n11 ( 11)",
+      "metadata": {
+        "source_file": "F:\\Projekti-Lapua\\Projekti2-20251123\\DATA_päättävät_elimet_20251123\\Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_name": "Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "source_relative_path": "Tarkastuslautakunta\\2024\\Pöytäkirja-Tarkastuslautakunta - 20.11.2024, klo 17_00.pdf",
+        "chunk_index": 32,
+        "total_chunks_in_document": 33,
+        "doc_items": [
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "text",
+            "page": null
+          },
+          {
+            "label": "page_header",
+            "page": null
+          }
+        ]
+      }
+    }
+  ],
+  "document_metadata": {
+    "title": null,
+    "pages": 11
+  }
+}

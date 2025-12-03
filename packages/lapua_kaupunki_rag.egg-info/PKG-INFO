@@ -1,0 +1,39 @@
+Metadata-Version: 2.4
+Name: lapua-kaupunki-rag
+Version: 0.1.0
+Summary: Lapuan kaupungin pöytäkirjoihin perustuva RAG-järjestelmä (Docling + BGE-M3 + Qdrant + agentit).
+Author-email: Lapua RAG <info@example.com>
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: pydantic>=2.8.0
+Requires-Dist: pydantic-settings>=2.4.0
+Requires-Dist: docling>=2.0.0
+Requires-Dist: numpy>=1.26.0
+Requires-Dist: qdrant-client>=1.11.0
+Requires-Dist: fastapi>=0.115.0
+Requires-Dist: uvicorn[standard]>=0.30.0
+Requires-Dist: httpx>=0.27.0
+Requires-Dist: networkx>=3.2.0
+Requires-Dist: python-dotenv>=1.0.0
+Requires-Dist: groq>=0.11.0
+Provides-Extra: embeddings
+Requires-Dist: flagembedding>=1.2.10; extra == "embeddings"
+Requires-Dist: scipy>=1.11.0; extra == "embeddings"
+
+## Lapua Kaupunki RAG
+
+Tämä projekti rakentaa Lapuan kaupungin pöytäkirjoihin perustuvan RAG-järjestelmän:
+
+- **Docling-ingestio**: PDF-pöytäkirjat → strukturoitu data ja chunkit
+- **Hybridihaku**: dense + sparse -embeddingit (BGE-M3) Qdrantin päällä
+- **GraphRAG-kerros**: graafipohjainen syvähaku pykälä- ja hanke-entiteeteillä
+- **Agenttikerros**: kyselyagentti, joka suunnittelee haun ja koostaa vastauksen lähdeviitteillä
+
+Nykyinen data sijaitsee kansiossa:
+
+- `DATA_päättävät_elimet_20251202/` (PDF:t ja vanha `rag_output`)
+
+Uusi ingestio ja indeksointi käyttävät jatkossa `data/`-hakemistoa tämän repon juuressa.
+
+

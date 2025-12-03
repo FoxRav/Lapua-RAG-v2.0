@@ -1,0 +1,3 @@
+agents
+docling_pipeline
+rag_core
