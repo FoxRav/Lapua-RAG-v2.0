@@ -1,6 +1,6 @@
 ## Käyttöohje – Lapuan Kaupunki RAG
 
-Tämä dokumentti kertoo, miten palvelua käytetään sekä kehittäjänä että loppukäyttäjänä.
+Tämä dokumentti kertoo, miten palvelua käytetään sekä kehittäjänä että loppukäyttäjänä. Palvelu on yksityishenkilön kehittämä kokeellinen hakutyökalu Lapuan kaupungin julkisiin pöytäkirjoihin; se ei ole kaupungin virallinen palvelu, eikä sitä ole tarkoitettu päätöksenteon, viranomaistyön tai oikeudellisen arvioinnin tueksi. Kaikki johtopäätökset tulee aina tarkistaa alkuperäisistä pöytäkirjoista ja virallisista kanavista.
 
 ### 1. Mitä palvelu tekee?
 

@@ -2,6 +2,8 @@ https://lapua-rag-v2-0.vercel.app/
 
 ## Lapuan Kaupunki RAG
 
+Kokeellinen harrasteprojekti, joka tarjoaa RAG-pohjaisen haun Lapuan kaupungin julkisista pöytäkirjoista. Palvelu ei ole Lapuan kaupungin virallinen palvelu eikä sitä ole tarkoitettu päätöksenteon tueksi tai oikeudelliseksi neuvoksi; tulokset tulee aina varmistaa alkuperäisistä pöytäkirjoista ja virallisista lähteistä.
+
 Docling-pohjainen RAG-hakupalvelu, jossa Qdrant-vektorihaku ja Groq-LLM analysoivat Lapuan kaupungin pöytäkirjoja (valtuusto, hallitus, lautakunnat).
 
 ### Kokonaisuus lyhyesti

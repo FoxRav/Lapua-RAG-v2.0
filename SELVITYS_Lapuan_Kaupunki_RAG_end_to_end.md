@@ -12,7 +12,7 @@ Lapuan kaupunki tekee päätöksiä valtuustossa, hallituksessa ja eri lautakunn
 - miten uimahallihanke on edennyt
 - miten kaupungin talous on kehittynyt vuoden aikana.
 
-Tämä palvelu lukee pöytäkirjat automaattisesti ja rakentaa niistä "älykkään hakukoneen". Kun kirjoitat kysymyksen (esim. *"Simpsiönvuori Oy takaus"*), järjestelmä:
+Tämä palvelu on yksityishenkilön harrasteprojekti, joka lukee pöytäkirjat automaattisesti ja rakentaa niistä "älykkään hakukoneen". Se ei ole Lapuan kaupungin virallinen palvelu eikä sitä ole tarkoitettu päätöksenteon, viranomaiskäytön tai oikeudellisen arvioinnin tueksi. Kun kirjoitat kysymyksen (esim. *"Simpsiönvuori Oy takaus"*), järjestelmä:
 
 1. etsii kaikista pöytäkirjoista ne pykälät, joissa puhutaan Simpsiönvuoresta ja lainoista
 2. kokoaa ne yhteen
