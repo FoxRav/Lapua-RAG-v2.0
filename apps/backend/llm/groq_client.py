@@ -12,8 +12,17 @@ load_dotenv()
 
 GROQ_MODEL_ID: str = os.getenv("GROQ_MODEL_ID", "openai/gpt-oss-120b")
 
-# Groq client reads GROQ_API_KEY from environment/.env by default
-_client = Groq()
+# Lazily initialise Groq client so that missing/invalid credentials do not
+# estä API-palvelimen käynnistymistä. Virheet näkyvät vasta kyselyvaiheessa.
+_client: Groq | None = None
+
+
+def _get_client() -> Groq:
+    """Return a singleton Groq client, initialising it on first use."""
+    global _client
+    if _client is None:
+        _client = Groq()  # GROQ_API_KEY luetaan ympäristöstä
+    return _client
 
 
 def build_context_block(chunks: List[dict]) -> str:
@@ -40,7 +49,8 @@ def ask_groq(system_prompt: str, question: str, chunks: List[dict], max_tokens: 
         f"Vastaa suomeksi, viittaa pykäliin ja päivämääriin.\n\n"
         f"{context}"
     )
-    resp = _client.chat.completions.create(
+    client = _get_client()
+    resp = client.chat.completions.create(
         model=GROQ_MODEL_ID,
         messages=[
             {"role": "system", "content": system_prompt},
