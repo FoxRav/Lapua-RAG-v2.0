@@ -21,3 +21,9 @@ Thumbs.db
 Face-ilmoitus.md
 DOMAIN_lapuarag.org.md
 
+# Large files / deployment artifacts
+qdrant-storage.zip
+qdrant-storage/
+*.snapshot
+root@*
+
