@@ -1,6 +1,6 @@
 # Lapuan Kaupunki RAG
 
-🌐 **Live:** https://www.lapuarag.org | https://lapuarag.org (API)
+🌐 **Live:** https://www.lapuarag.org
 
 Kokeellinen harrasteprojekti, joka tarjoaa RAG-pohjaisen haun Lapuan kaupungin julkisista pöytäkirjoista. Palvelu ei ole Lapuan kaupungin virallinen palvelu eikä sitä ole tarkoitettu päätöksenteon tueksi tai oikeudelliseksi neuvoksi; tulokset tulee aina varmistaa alkuperäisistä pöytäkirjoista ja virallisista lähteistä.
 
