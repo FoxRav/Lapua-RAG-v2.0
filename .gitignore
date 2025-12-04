@@ -7,6 +7,7 @@ __pycache__/
 
 # Environment / secrets
 .env
+.env.*
 
 # Node / Next.js
 node_modules/
@@ -18,13 +19,19 @@ yarn-error.log*
 .DS_Store
 Thumbs.db
 
+# Private docs (not for public repo)
 Face-ilmoitus.md
 DOMAIN_lapuarag.org.md
 
-# Large files / deployment artifacts
-qdrant-storage.zip
+# Large data files (do not commit)
+DATA_*/
+data/
 qdrant-storage/
+qdrant-storage.zip
 *.snapshot
-root@*
 lapua_chunks-*
+root@*
+
+# Misc
+LLM-inferenssi-groq-cloud
 
