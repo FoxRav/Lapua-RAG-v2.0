@@ -40,7 +40,7 @@ def build_context_block(chunks: List[dict]) -> str:
     return "\n\n".join(parts)
 
 
-def ask_groq(system_prompt: str, question: str, chunks: List[dict], max_tokens: int = 700) -> str:
+def ask_groq(system_prompt: str, question: str, chunks: List[dict], max_tokens: int = 1500) -> str:
     """Call Groq chat completion API with given question and context chunks."""
     context = build_context_block(chunks)
     user_content = (

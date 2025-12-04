@@ -26,6 +26,12 @@ class ParsedFilenameMeta:
 
 PYKALA_PATTERN = re.compile(r"^§\s*(\d+)\b")
 
+# Heuristic token-based chunking parameters.
+# We approximate 1 token ≈ 1 word; this is sufficient to keep LLM prompts
+# reasonably small while still preserving enough context.
+MAX_TOKENS_PER_CHUNK = 700
+CHUNK_OVERLAP_TOKENS = 150
+
 
 def _parse_filename(md_path: Path) -> Optional[ParsedFilenameMeta]:
     """
@@ -108,6 +114,36 @@ def _split_into_pykala_chunks(text: str) -> List[Tuple[str, Optional[str]]]:
     return chunks
 
 
+def _split_long_text_into_token_chunks(text: str) -> List[str]:
+    """
+    Split long text into overlapping token chunks.
+
+    Tokens are approximated by whitespace-separated words. This is enough
+    to keep individual chunks within the desired LLM context window while
+    avoiding a heavy tokenizer dependency at this stage of the pipeline.
+    """
+    words = text.split()
+    if not words:
+        return []
+
+    if len(words) <= MAX_TOKENS_PER_CHUNK:
+        return [text]
+
+    chunks: list[str] = []
+    step = max(1, MAX_TOKENS_PER_CHUNK - CHUNK_OVERLAP_TOKENS)
+
+    for start in range(0, len(words), step):
+        end = start + MAX_TOKENS_PER_CHUNK
+        segment_words = words[start:end]
+        if not segment_words:
+            break
+        chunks.append(" ".join(segment_words))
+        if end >= len(words):
+            break
+
+    return chunks
+
+
 def _detect_flags(text: str) -> Tuple[bool, bool]:
     """Return (simpsio_flag, talous_flag) based on simple keyword heuristics."""
     lower = text.lower()
@@ -175,28 +211,36 @@ def create_chunks_from_markdown(md_path: Path, base_index: int = 0) -> List[Chun
     pykala_chunks = _split_into_pykala_chunks(text)
 
     records: list[ChunkRecord] = []
-    for offset, (pykala_nro, chunk_text) in enumerate(pykala_chunks):
+    running_index = base_index
+
+    for pykala_nro, chunk_text in pykala_chunks:
         if not chunk_text:
             continue
 
-        simpsio_flag, talous_flag = _detect_flags(chunk_text)
-        teemat = _assign_themes(chunk_text)
+        sub_chunks = _split_long_text_into_token_chunks(chunk_text)
+        for sub_text in sub_chunks:
+            if not sub_text:
+                continue
 
-        record = ChunkRecord(
-            doc_id=meta.doc_id,
-            toimielin=meta.toimielin,
-            poytakirja_pvm=meta.meeting_date,
-            pykala_nro=pykala_nro,
-            otsikko=None,
-            sivu=None,
-            teemat=teemat,
-            asiasanat=[],
-            simpsio_flag=simpsio_flag,
-            talous_flag=talous_flag,
-            chunk_index=base_index + offset,
-            chunk_text=chunk_text,
-        )
-        records.append(record)
+            simpsio_flag, talous_flag = _detect_flags(sub_text)
+            teemat = _assign_themes(sub_text)
+
+            record = ChunkRecord(
+                doc_id=meta.doc_id,
+                toimielin=meta.toimielin,
+                poytakirja_pvm=meta.meeting_date,
+                pykala_nro=pykala_nro,
+                otsikko=None,
+                sivu=None,
+                teemat=teemat,
+                asiasanat=[],
+                simpsio_flag=simpsio_flag,
+                talous_flag=talous_flag,
+                chunk_index=running_index,
+                chunk_text=sub_text,
+            )
+            records.append(record)
+            running_index += 1
 
     return records
 

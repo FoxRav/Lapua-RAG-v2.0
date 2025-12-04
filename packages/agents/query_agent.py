@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import logging
 from dataclasses import dataclass
-from datetime import date
+from datetime import date, datetime
 from typing import List, Optional
 
 from pydantic import BaseModel, Field
@@ -18,6 +18,40 @@ from rag_core.retrieval import SearchResult, hybrid_search
 from apps.backend.llm.groq_client import ask_groq
 
 _log = logging.getLogger(__name__)
+
+
+def _recency_boost(pvm_str: str | None, max_boost: float = 1.3, decay_years: float = 2.0) -> float:
+    """
+    Calculate a recency boost factor based on document date.
+    
+    Newer documents get higher boost (up to max_boost).
+    Documents older than decay_years get boost of 1.0 (no change).
+    
+    Args:
+        pvm_str: Date string in format "YYYY-MM-DD"
+        max_boost: Maximum boost for very recent documents (e.g., 1.3 = 30% boost)
+        decay_years: How many years back until boost becomes 1.0
+    
+    Returns:
+        Boost factor between 1.0 and max_boost
+    """
+    if not pvm_str:
+        return 1.0
+    try:
+        doc_date = datetime.strptime(pvm_str[:10], "%Y-%m-%d").date()
+    except (ValueError, TypeError):
+        return 1.0
+    
+    today = date.today()
+    days_old = (today - doc_date).days
+    years_old = days_old / 365.0
+    
+    if years_old >= decay_years:
+        return 1.0
+    
+    # Linear interpolation: 0 years old = max_boost, decay_years old = 1.0
+    boost = max_boost - (max_boost - 1.0) * (years_old / decay_years)
+    return max(1.0, boost)
 
 
 class LapuaQueryFilters(BaseModel):
@@ -135,11 +169,26 @@ class LapuaQueryAgent:
         return plan
 
     def retrieve(self, plan: LapuaQueryPlan) -> List[SearchResult]:
-        """Execute retrieval according to the plan."""
+        """Execute retrieval according to the plan, with recency boost."""
         qdrant_filter = plan.filters.to_qdrant_filter()
-        results = hybrid_search(plan.original_question, k=plan.k, filters=qdrant_filter)
-        _log.info("Retrieved %d chunks for question", len(results))
-        return results
+        # Fetch more results to allow re-ranking
+        results = hybrid_search(plan.original_question, k=plan.k + 5, filters=qdrant_filter)
+        
+        # Apply recency boost and re-sort
+        boosted_results: list[tuple[float, SearchResult]] = []
+        for res in results:
+            pvm = res.payload.get("poytakirja_pvm") if res.payload else None
+            pvm_str = str(pvm) if pvm else None
+            boost = _recency_boost(pvm_str, max_boost=1.25, decay_years=2.0)
+            boosted_score = res.score * boost
+            boosted_results.append((boosted_score, res))
+        
+        # Sort by boosted score (descending) and take top k
+        boosted_results.sort(key=lambda x: x[0], reverse=True)
+        final_results = [res for _, res in boosted_results[:plan.k]]
+        
+        _log.info("Retrieved %d chunks (with recency boost) for question", len(final_results))
+        return final_results
 
     def answer(self, plan: LapuaQueryPlan, results: List[SearchResult]) -> LapuaAnswer:
         """Build a textual answer based on retrieved chunks using Groq LLM."""
@@ -151,9 +200,9 @@ class LapuaQueryAgent:
                 model=None,
             )
 
-        top_chunks: list[ChunkRecord] = []
-        sources: list[SourceRef] = []
-
+        # Group chunks by pykälä to avoid duplicates
+        pykala_map: dict[str, dict] = {}  # key: "doc_id|pykala_nro"
+        
         for res in results[: plan.k]:
             payload_dict = dict(res.payload or {})
             try:
@@ -161,7 +210,32 @@ class LapuaQueryAgent:
             except Exception:
                 continue
 
-            top_chunks.append(chunk)
+            # Create unique key for this pykälä
+            pykala_key = f"{chunk.doc_id}|{chunk.pykala_nro or 'unknown'}"
+            
+            if pykala_key not in pykala_map:
+                # First chunk from this pykälä
+                pykala_map[pykala_key] = {
+                    "chunk": chunk,
+                    "score": res.score,
+                    "texts": [chunk.chunk_text],
+                }
+            else:
+                # Additional chunk from same pykälä - merge text
+                existing = pykala_map[pykala_key]
+                if chunk.chunk_text not in existing["texts"]:
+                    existing["texts"].append(chunk.chunk_text)
+                # Keep highest score
+                existing["score"] = max(existing["score"], res.score)
+
+        # Build deduplicated sources and merged chunk dicts
+        sources: list[SourceRef] = []
+        chunk_dicts: list[dict] = []
+        
+        for pykala_key, data in pykala_map.items():
+            chunk = data["chunk"]
+            merged_text = "\n\n".join(data["texts"])
+            
             sources.append(
                 SourceRef(
                     doc_id=chunk.doc_id,
@@ -169,37 +243,35 @@ class LapuaQueryAgent:
                     poytakirja_pvm=str(chunk.poytakirja_pvm),
                     pykala_nro=chunk.pykala_nro,
                     otsikko=chunk.otsikko,
-                    score=res.score,
+                    score=data["score"],
                 )
             )
-
-        # Prepare chunk dicts for LLM client
-        chunk_dicts: list[dict] = []
-        for src, chunk in zip(sources, top_chunks):
             chunk_dicts.append(
                 {
-                    "doc_id": src.doc_id,
-                    "toimielin": src.toimielin,
-                    "poytakirja_pvm": src.poytakirja_pvm,
-                    "pykala_nro": src.pykala_nro,
+                    "doc_id": chunk.doc_id,
+                    "toimielin": chunk.toimielin,
+                    "poytakirja_pvm": str(chunk.poytakirja_pvm),
+                    "pykala_nro": chunk.pykala_nro,
                     "sivu": chunk.sivu,
-                    "chunk_text": chunk.chunk_text,
+                    "chunk_text": merged_text,
                 }
             )
+        
+        _log.info("Merged %d chunks into %d unique pykälät", len(results[:plan.k]), len(sources))
 
         system_prompt = (
-            "Olet Lapuan kaupungin pöytäkirjoihin erikoistunut juridinen ja taloudellinen analyysiapu. "
-            "Vastaat selkeään ja helposti luettavaan muotoon JAETTUNA seuraaviin osiin:"
-            "\n\n"
-            "1) 'Lyhyt yhteenveto' – 2–4 virkettä tärkeimmästä kokonaiskuvasta.\n"
-            "2) 'Keskeiset päätökset' – luettelona, jossa jokainen kohta muodossa:\n"
-            "   - Toimielin, päivämäärä, pykälänumero – 1–3 virkkeen kuvaus päätöksen sisällöstä.\n"
-            "3) 'Huomiot ja rajaukset' – jos konteksti ei riitä kaikkiin kysymyksen osiin, kerro tässä "
-            "mitä ei voi päätellä.\n\n"
-            "ÄLÄ käytä taulukkoja, monimutkaista markdown-rakennetta tai liian pitkiä kappaleita – "
-            "käytä otsikoita ja lyhyitä luettelokohtia. Viittaa aina päätöksen tehneeseen toimielimeen, "
-            "päivämäärään ja pykälänumeroon kun ne ovat tiedossa. Älä keksi asioita, jos konteksti ei riitä, "
-            "mutta VASTAA AINA edes lyhyesti – älä jätä vastausta tyhjäksi."
+            "Olet Lapuan kaupungin pöytäkirjoihin erikoistunut avustaja.\n\n"
+            "MUOTO:\n"
+            "**Lyhyt yhteenveto**\n"
+            "2-3 virkettä tärkeimmästä.\n\n"
+            "**Keskeiset päätökset**\n"
+            "- **Toimielin, pp.kk.vvvv, § X** – Mitä päätettiin (yksi kappale per pykälä).\n\n"
+            "SÄÄNNÖT:\n"
+            "- EI TAULUKOITA\n"
+            "- Käytä luetteloita ja lihavoituja otsikoita\n"
+            "- JOKAINEN PYKÄLÄ VAIN KERRAN – yhdistä saman pykälän tiedot yhteen kohtaan\n"
+            "- Älä toista samaa asiaa useaan kertaan\n"
+            "- Viittaa toimielimeen, päivämäärään ja pykälään"
         )
         answer_text = ask_groq(system_prompt, plan.original_question, chunk_dicts)
 

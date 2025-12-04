@@ -21,7 +21,7 @@ type AnswerResponse = {
 const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL ?? "http://127.0.0.1:8000";
 
 export default function HomePage() {
-  const [question, setQuestion] = useState<string>("Simpsiönvuori Oy takaus");
+  const [question, setQuestion] = useState<string>("Mikä on ennuste talouden toteutumasta 2025?");
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
   const [answer, setAnswer] = useState<AnswerResponse | null>(null);
@@ -63,8 +63,8 @@ export default function HomePage() {
       <section className="panel panel-main">
         <h1 className="panel-title">Lapuan päätösten kysely</h1>
         <p className="panel-description">
-          Kysy Simpsiönvuoresta, taloudesta tai muista päätöksistä. Agentti hakee parhaiten vastaavat
-          pykälät ja muodostaa yhteenvedon.
+          Kysy Lapuan kaupungin päätöksistä – taloudesta, investoinneista, kouluista tai muista aiheista.
+          Tekoäly hakee relevantit pykälät ja muodostaa yhteenvedon.
         </p>
         <form className="query-form" onSubmit={handleSubmit}>
           <label className="field">
@@ -74,7 +74,7 @@ export default function HomePage() {
               value={question}
               onChange={(e) => setQuestion(e.target.value)}
               rows={4}
-              placeholder="Mitä päätöksiä Simpsiönvuori Oy:n takauksista ja lainoista on tehty?"
+              placeholder="Esim: Männikön koulu, Simpsiönvuori takaus, uimahallin budjetti..."
             />
           </label>
 

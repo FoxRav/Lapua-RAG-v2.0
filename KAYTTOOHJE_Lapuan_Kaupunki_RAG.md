@@ -1,76 +1,131 @@
-## Käyttöohje – Lapuan Kaupunki RAG
+# Käyttöohje – Lapuan Kaupunki RAG
 
-Tämä dokumentti kertoo, miten palvelua käytetään sekä kehittäjänä että loppukäyttäjänä. Palvelu on yksityishenkilön kehittämä kokeellinen hakutyökalu Lapuan kaupungin julkisiin pöytäkirjoihin; se ei ole kaupungin virallinen palvelu, eikä sitä ole tarkoitettu päätöksenteon, viranomaistyön tai oikeudellisen arvioinnin tueksi. Kaikki johtopäätökset tulee aina tarkistaa alkuperäisistä pöytäkirjoista ja virallisista kanavista.
+**Live-palvelu:** https://www.lapuarag.org
 
-### 1. Mitä palvelu tekee?
+---
 
-- Lukee Lapuan kaupungin pöytäkirjoja (valtuusto, hallitus, lautakunnat) Doclingin avulla.
-- Pilkkoo tekstin pykälä- ja asiakohtaisiksi chunkeiksi ja indeksoi ne Qdrantiin (vektorihaku).
-- Kysymysten yhteydessä:
-  - hakee semanttisesti parhaiten vastaavat pykälät
-  - antaa ne Groq‑LLM:lle (openai/gpt-oss-120b)
-  - palauttaa jäsennellyn yhteenvedon sekä listan lähdepykälistä.
+## ⚠️ Tärkeä huomautus
 
-### 2. Loppukäyttäjän näkökulma (frontend)
+Tämä palvelu on **yksityishenkilön kehittämä kokeellinen hakutyökalu** Lapuan kaupungin julkisiin pöytäkirjoihin. Se **ei ole kaupungin virallinen palvelu**, eikä sitä ole tarkoitettu:
+- Päätöksenteon tueksi
+- Viranomaistyöhön
+- Oikeudellisen arvioinnin pohjaksi
 
-1. Avaa selain: `http://localhost:3000`
-2. Kirjoita kysymys:
-   - Esimerkki: *"Simpsiönvuori Oy takaus"*
-   - Toinen esimerkki: *"Miten vuoden 2025 talousarvion toteutuma kehittyi syyskuuhun mennessä?"*
-3. Paina **Hae**.
-4. Näet oikealla:
-   - **Lyhyt yhteenveto** (LLM tiivistää tärkeimmät asiat).
-   - **Keskeiset päätökset** luettelona (toimielin, päivämäärä, pykälä, kuvaus).
-   - **Huomiot ja rajaukset**, jos konteksti ei riitä vastaamaan kaikkeen.
-5. Alareunassa näet listan **lähdepykälistä**, joiden perusteella vastaus muodostettiin.
+**Kaikki johtopäätökset tulee aina tarkistaa alkuperäisistä pöytäkirjoista ja virallisista kanavista.**
 
-Palvelu ei vielä linkitä suoraan PDF:iin, mutta `doc_id` ja pykälän tiedot riittävät löytämään oikean pöytäkirjan `DATA_päättävät_elimet_20251202/`-kansiosta.
+---
 
-### 3. Kehittäjän workflow
+## 1. Mitä palvelu tekee?
 
-1. **Käynnistä taustapalvelut**
-   - Docker/Qdrant (yksi kontti): `lapua-qdrant` portissa 6333.
-   - FastAPI-backend: `uvicorn apps.backend.main:app --reload --port 8000`
-   - Frontend: `npm run dev` `apps/frontend`‑kansiossa.
+Palvelu lukee Lapuan kaupungin pöytäkirjoja ja vastaa kysymyksiin tekoälyn avulla:
 
-2. **Päivitä data**
-   - Kopioi uudet pöytäkirja‑PDF:t `DATA_päättävät_elimet_YYYYMMDD/`‑rakenteeseen.
-   - Aja:
+1. **Hakee** pykälät, jotka liittyvät kysymykseesi
+2. **Painottaa** uudempia päätöksiä (2025 > 2024 > 2023)
+3. **Tiivistää** löydökset selkeäksi vastaukseksi
+4. **Näyttää** lähteet, joista vastaus on koottu
 
-     ```bash
-     python -m docling_pipeline.cli parse-all
-     python -c "from rag_core.chunking import run_all; run_all()"
-     python -c "from rag_core.indexing import index_all_chunks; index_all_chunks()"
-     ```
+### Mistä data koostuu?
 
-3. **Testaa haku suoraan Pythonista**
+| Toimielin | Aikaväli |
+|-----------|----------|
+| Kaupunginvaltuusto | 2024-2025 |
+| Kaupunginhallitus | 2024-2025 |
+| Sivistyslautakunta | 2024-2025 |
+| Tekninen lautakunta | 2024-2025 |
+| Ympäristölautakunta | 2021-2025 |
 
-   ```bash
-   python -c "from agents.query_agent import LapuaQueryAgent; \
-   agent = LapuaQueryAgent(); \
-   plan = agent.plan('Simpsiönvuori Oy takaus'); \
-   res = agent.retrieve(plan); \
-   ans = agent.answer(plan, res); \
-   print(ans.answer)"
-   ```
+**Yhteensä:** ~1098 pykälää indeksoitu
 
-### 4. Ympäristömuuttujat ja konfiguraatio
+---
 
-- `.env` (juuressa):
+## 2. Käyttöohjeet
 
-  ```env
-  GROQ_API_KEY=OMA_GROQ_APIKEY
-  GROQ_MODEL_ID=openai/gpt-oss-120b
-  ```
+### Peruskäyttö
 
-- Qdrant:
-  - Oletus: `http://localhost:6333`
-  - Kokoelma: `lapua_chunks`
+1. Mene osoitteeseen **https://www.lapuarag.org**
+2. Kirjoita kysymys tekstikenttään, esim:
+   - *"Simpsiönvuori Oy takaus"*
+   - *"Männikön koulu"*
+   - *"Talousarvio 2025"*
+   - *"Uimahalli"*
+3. Paina **Hae**
+4. Odota 5-15 sekuntia
 
-### 5. Tunnetut rajoitukset
+### Vastauksen lukeminen
 
-- Data kattaa tällä hetkellä vain `DATA_päättävät_elimet_20251202/`‑kansion pöytäkirjat.
-- Päätöstekstit voivat olla pitkiä; LLM tekee parhaansa, mutta kaikkea ei aina voi tiivistää täydellisesti.
-- Aikafiltteröinti (päivämäärärajaukset) ei ole vielä näkyvissä frontendissä – se voidaan lisätä myöhemmin.
+Vastaus sisältää:
 
+- **Lyhyt yhteenveto** – 2-3 virkettä olennaisimmasta
+- **Keskeiset päätökset** – luettelo muodossa:
+  - **Toimielin, pp.kk.vvvv, § X** – Mitä päätettiin
+- **Lähdepykälät** – alkuperäiset asiakirjat listattuna
 
+### Vinkkejä hyviin kysymyksiin
+
+✅ **Hyvä:** "Mitä Männikön koulusta on päätetty?"
+✅ **Hyvä:** "Simpsiönvuori Oy:n takaukset 2025"
+✅ **Hyvä:** "Kaupungin talousarvion muutokset"
+
+❌ **Huono:** "Kerro kaikki" (liian laaja)
+❌ **Huono:** "Kuka on pormestari?" (ei päätösasia)
+
+---
+
+## 3. Vastauksen tulkinta
+
+### Score-arvo
+
+Jokaisen lähdepykälän vieressä näkyy **score** (0.0-1.0):
+- **0.55+** = Erittäin osuva
+- **0.45-0.55** = Melko osuva
+- **< 0.45** = Heikosti osuva
+
+### Recency boost
+
+Järjestelmä painottaa **uudempia päätöksiä**:
+- 2025 päätökset saavat +25% painotuksen
+- 2024 päätökset saavat +12% painotuksen
+- Vanhemmat päätökset eivät saa lisäpainotusta
+
+Tämä tarkoittaa, että jos sama asia on käsitelty 2023 ja 2025, uudempi näkyy ylempänä.
+
+---
+
+## 4. Rajoitukset
+
+1. **Ei reaaliaikaista dataa** – Uusimmat pöytäkirjat eivät päivity automaattisesti
+2. **Ei PDF-linkkejä** – Alkuperäisiä PDF:iä ei voi avata suoraan
+3. **LLM voi tulkita väärin** – Tarkista aina lähdepykälistä
+4. **Vain julkiset pöytäkirjat** – Salaiset/suljetut asiat eivät ole mukana
+
+---
+
+## 5. Tekninen tausta
+
+| Komponentti | Teknologia |
+|-------------|------------|
+| Frontend | Next.js 14 (Vercel) |
+| Backend | FastAPI (Hetzner VPS) |
+| Vektorihaku | Qdrant + BGE-M3 |
+| LLM | Groq Cloud (gpt-oss-120b) |
+
+### API (kehittäjille)
+
+```bash
+# Terveystarkistus
+curl https://lapuarag.org/health
+
+# Kysely
+curl -X POST https://lapuarag.org/query \
+  -H "Content-Type: application/json" \
+  -d '{"question":"Simpsiönvuori takaus"}'
+```
+
+---
+
+## 6. Yhteystiedot
+
+Palvelu on harrasteprojekti. Palaute ja kysymykset:
+- GitHub: https://github.com/FoxRav/Lapua-RAG-v2.0
+
+**Muista:** Palvelu ei korvaa virallisia lähteitä. Tarkista aina päätökset alkuperäisistä pöytäkirjoista!

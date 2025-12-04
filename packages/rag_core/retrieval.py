@@ -44,17 +44,19 @@ def hybrid_search(
 
     _log.info("Running hybrid search in collection '%s'", COLLECTION_NAME)
 
-    hits = client.search(
+    # qdrant-client 1.13+ query_points API
+    response = client.query_points(
         collection_name=COLLECTION_NAME,
-        query_vector=("dense", dense_vec),
+        query=dense_vec,
+        using="dense",
         query_filter=filters,
         limit=k,
         with_payload=True,
     )
 
     results: list[SearchResult] = []
-    for hit in hits:
-        results.append(SearchResult(score=hit.score, payload=hit.payload or {}))
+    for point in response.points:
+        results.append(SearchResult(score=point.score, payload=point.payload or {}))
     return results
 
 
