@@ -4,6 +4,24 @@
 
 Kokeellinen harrasteprojekti, joka tarjoaa RAG-pohjaisen haun Lapuan kaupungin julkisista pöytäkirjoista. Palvelu ei ole Lapuan kaupungin virallinen palvelu eikä sitä ole tarkoitettu päätöksenteon tueksi tai oikeudelliseksi neuvoksi; tulokset tulee aina varmistaa alkuperäisistä pöytäkirjoista ja virallisista lähteistä.
 
+---
+
+## ⚠️ KRIITTISET SÄÄNNÖT
+
+### ÄLKÄÄ KOSKAAN:
+1. **KEKSIKÖ DATAA** - Kaikki talousluvut, henkilönimet, päivämäärät ja pykälänumerot TÄYTYY olla todennettavissa alkuperäisistä lähteistä
+2. **ARVIOIKO LUKUJA** - Jos tietoa ei löydy, se merkitään puuttuvaksi, EI arvata
+3. **KÄYTTÄKÖ "MOCK DATA"** - Kaikki testidatakin tulee olla todellista
+
+### TIETOJEN LÄHTEET (hyväksytyt):
+- Pöytäkirjat (alkuperäinen lähde)
+- YTJ/tietopalvelu.ytj.fi (Y-tunnukset)
+- Asiakastieto.fi / Finder.fi (talousluvut - maksulliset)
+- Yritysten viralliset verkkosivut
+- Vuosikertomukset (PDF)
+
+---
+
 ## Arkkitehtuuri
 
 ```
@@ -32,6 +50,8 @@ Kokeellinen harrasteprojekti, joka tarjoaa RAG-pohjaisen haun Lapuan kaupungin j
 | **LLM** | openai/gpt-oss-120b | Groq Cloud |
 | **Reverse Proxy** | Caddy (HTTPS) | Hetzner VPS |
 
+---
+
 ## RAG Pipeline
 
 1. **Docling-ingestio**: PDF-pöytäkirjat → Markdown + JSON
@@ -41,15 +61,50 @@ Kokeellinen harrasteprojekti, joka tarjoaa RAG-pohjaisen haun Lapuan kaupungin j
 5. **Haku**: Dense-haku + recency boost (uudemmat +25%)
 6. **LLM**: Groq gpt-oss-120b tiivistää vastauksen
 
-## Parametrit
+## Parametrit (Hallusinaation minimointi)
 
 | Parametri | Arvo | Kuvaus |
 |-----------|------|--------|
+| `temperature` | **0.01** | Lähes deterministinen, minimoi hallusinaatio |
+| `top_p` | **0.5** | Tiukka, vähemmän variaatiota |
 | `k` | 10-20 | Haettavien chunkkien määrä |
 | `max_tokens` | 1500 | LLM-vastauksen max pituus |
-| `temperature` | 0.2 | LLM:n "luovuus" (matala = deterministinen) |
 | `recency_boost` | 1.25x | Tuoreiden (< 2v) päätösten painotus |
-| `chunk_size` | ~700 tokenia | Chunkkien koko indeksoinnissa |
+
+---
+
+## Evaluointiprosessi
+
+### 1. Kysymysten ajo (250 kpl)
+```bash
+python scripts/run_evaluation.py --output evaluation_results/run_YYYYMMDD.json
+```
+
+### 2. Auto-evaluointi (GPT arvioi vastaukset)
+```bash
+python scripts/auto_evaluate.py evaluation_results/run_YYYYMMDD.json --api-key "GROQ_API_KEY" --delay 2
+```
+
+### 3. Tulosten yhteenveto
+```bash
+python scripts/summary_results.py evaluation_results/run_YYYYMMDD_enriched.json
+```
+
+### 4. Vertailu PÖYTÄKIRJOIHIN (tärkein!)
+Vastauksia TÄYTYY verrata alkuperäisiin pöytäkirjoihin:
+- Ovatko pykälänumerot oikein?
+- Ovatko päivämäärät oikein?
+- Onko sisältö lähteissä?
+
+### Tavoitemetriikat
+| Metriikka | Tavoite | Kuvaus |
+|-----------|---------|--------|
+| Faithfulness | **>90%** | Vastaus perustuu lähteisiin |
+| Hallucination | **<10%** | Ei keksittyä tietoa |
+| Relevance | >80% | Vastaa kysymykseen |
+| Completeness | >70% | Kattaa kysytyn asian |
+
+---
 
 ## Kehitysympäristö
 
@@ -78,19 +133,43 @@ GROQ_API_KEY=gsk_xxxxx
 GROQ_MODEL_ID=openai/gpt-oss-120b
 EOF
 
-# 5. Indeksoi data (vain kerran)
-python -m docling_pipeline.cli parse-all
-python -c "from rag_core.chunking import run_all; run_all()"
-python -c "from rag_core.indexing import index_all_chunks; index_all_chunks()"
-
-# 6. Käynnistä backend
+# 5. Käynnistä backend
 uvicorn apps.backend.main:app --reload --port 8000
-
-# 7. Käynnistä frontend
-cd apps/frontend
-npm install
-npm run dev
 ```
+
+---
+
+## Tuotantoympäristö (Hetzner)
+
+### Palvelun hallinta
+```bash
+# Palvelun tila
+systemctl status lapuarag-backend
+
+# Uudelleenkäynnistys (päivityksen jälkeen)
+systemctl restart lapuarag-backend
+
+# Lokit
+journalctl -u lapuarag-backend -f
+
+# Qdrant
+docker ps | grep qdrant
+```
+
+### Päivitysprosessi
+```bash
+# 1. OMALLA KONEELLA: Commit ja push
+git add -A
+git commit -m "description"
+git push
+
+# 2. PALVELIMELLA (SSH):
+cd /root/Lapua-RAG-v2.0
+git pull
+systemctl restart lapuarag-backend
+```
+
+---
 
 ## API Endpoints
 
@@ -100,21 +179,29 @@ npm run dev
 | `/query` | POST | RAG-kysely (`{"question": "..."}`) |
 | `/admin/reindex` | POST | Uudelleenindeksointi |
 
-## Tuotantoympäristö (Hetzner)
+---
 
-```bash
-# Backend-palvelu
-systemctl status lapuarag-backend
+## Tiedostorakenne
 
-# Qdrant-kontti
-docker ps | grep qdrant
-
-# Lokit
-journalctl -u lapuarag-backend -f
-
-# Caddy (HTTPS)
-systemctl status caddy
 ```
+├── apps/
+│   ├── backend/          # FastAPI backend
+│   │   ├── llm/          # Groq client (temperature, prompt)
+│   │   └── main.py
+│   └── frontend/         # Next.js frontend
+├── packages/
+│   └── agents/           # Query agent (system prompt)
+├── scripts/
+│   ├── run_evaluation.py # Aja 250 kysymystä
+│   ├── auto_evaluate.py  # GPT-arviointi
+│   └── summary_results.py # Yhteenveto
+├── evaluation_results/   # Evaluointitulokset (JSON)
+├── data/
+│   └── companies_database.json  # Yritysten VAHVISTETUT tiedot
+└── kysymykset.md         # 250 testikysymystä
+```
+
+---
 
 ## Kustannukset
 
@@ -124,6 +211,8 @@ systemctl status caddy
 | Hetzner VPS (CAX11) | ~4 €/kk |
 | Groq Cloud (LLM) | ~0.15-0.75 $/M tokenia |
 | Domain (lapuarag.org) | ~10 €/v |
+
+---
 
 ## Lisenssi
 
