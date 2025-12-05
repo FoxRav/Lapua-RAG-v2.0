@@ -56,9 +56,9 @@ def ask_groq(system_prompt: str, question: str, chunks: List[dict], max_tokens: 
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_content},
         ],
-        temperature=0.05,  # Minimoi hallusinaatio
+        temperature=0.01,  # Erittäin matala = lähes deterministinen, minimoi hallusinaatio
         max_completion_tokens=max_tokens,
-        top_p=0.9,
+        top_p=0.5,  # Laskettu myös top_p tiukemmaksi
         reasoning_effort="medium",
         stream=False,
     )

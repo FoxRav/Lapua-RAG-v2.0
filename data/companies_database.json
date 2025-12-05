@@ -125,7 +125,9 @@
       "category": "urakoitsija",
       "role": "Infrarakentaminen, tienrakennus",
       "notes": "Suomen suurimpia infra-alan yrityksiä",
-      "sources": ["YTJ"],
+      "sources": [
+        "YTJ"
+      ],
       "last_updated": "2025-12-05"
     },
     {
@@ -165,7 +167,9 @@
       "category": "jätehuolto",
       "role": "Jätehuoltopalvelut",
       "notes": "Seudullinen jätehuoltoyhtiö, usean kunnan omistama",
-      "sources": ["YTJ"],
+      "sources": [
+        "YTJ"
+      ],
       "last_updated": "2025-12-05"
     },
     {
@@ -185,7 +189,9 @@
       "category": "konsultti",
       "role": "Suunnittelu- ja konsultointipalvelut",
       "notes": "Kansainvälinen insinööritoimisto",
-      "sources": ["YTJ"],
+      "sources": [
+        "YTJ"
+      ],
       "last_updated": "2025-12-05"
     },
     {
@@ -215,7 +221,9 @@
       "category": "urakoitsija",
       "role": "Talotekniikka, LVI, sähkö",
       "notes": "Suomen suurimpia talotekniikkayrityksiä",
-      "sources": ["YTJ"],
+      "sources": [
+        "YTJ"
+      ],
       "last_updated": "2025-12-05"
     },
     {
@@ -245,7 +253,9 @@
       "category": "urakoitsija",
       "role": "Rakentaminen",
       "notes": "Kansainvälinen rakennusyhtiö",
-      "sources": ["YTJ"],
+      "sources": [
+        "YTJ"
+      ],
       "last_updated": "2025-12-05"
     },
     {
@@ -255,7 +265,9 @@
       "category": "urakoitsija",
       "role": "Infrarakentaminen",
       "notes": "Pörssilistattu infrayhtiö",
-      "sources": ["YTJ"],
+      "sources": [
+        "YTJ"
+      ],
       "last_updated": "2025-12-05"
     },
     {
@@ -315,7 +327,9 @@
       "category": "energiayhtiö",
       "role": "Sähkönjakeluverkko",
       "notes": "Suomen suurimpia sähköverkkoyhtiöitä",
-      "sources": ["YTJ"],
+      "sources": [
+        "YTJ"
+      ],
       "last_updated": "2025-12-05"
     },
     {
@@ -325,7 +339,9 @@
       "category": "energiayhtiö",
       "role": "Sähkönjakeluverkko",
       "notes": "Elenia-konsernin verkkoyhtiö",
-      "sources": ["YTJ"],
+      "sources": [
+        "YTJ"
+      ],
       "last_updated": "2025-12-05"
     },
     {
@@ -392,4 +408,3 @@
     "yritys": "Muu yritys"
   }
 }
-
