@@ -18,7 +18,7 @@ Lapuan kaupunki tekee päätöksiä valtuustossa, hallituksessa ja eri lautakunn
 
 ### Miten se toimii?
 
-Kun kirjoitat kysymyksen (esim. *"Männikön koulu"*), järjestelmä:
+Kun kirjoitat tarkan kysymyksen (esim. *"Mitä Männikön koulun lakkauttamisesta on päätetty?"*), järjestelmä:
 
 1. **Etsii** kaikista pöytäkirjoista ne pykälät, joissa puhutaan aiheesta
 2. **Painottaa** uudempia päätöksiä (2025 > 2024 > 2023)

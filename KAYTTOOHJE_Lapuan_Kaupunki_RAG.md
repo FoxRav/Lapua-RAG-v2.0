@@ -46,13 +46,15 @@ Palvelu lukee Lapuan kaupungin pöytäkirjoja ja vastaa kysymyksiin tekoälyn av
 ### Peruskäyttö
 
 1. Mene osoitteeseen **https://www.lapuarag.org**
-2. Kirjoita kysymys tekstikenttään, esim:
-   - *"Simpsiönvuori Oy takaus"*
-   - *"Männikön koulu"*
-   - *"Talousarvio 2025"*
-   - *"Uimahalli"*
+2. Kirjoita **tarkka kysymys** tekstikenttään, esim:
+   - *"Mitä Simpsiönvuori Oy:n takauksista on päätetty vuonna 2024?"*
+   - *"Milloin Männikön koulun lakkauttamisesta on keskusteltu ja mitä päätettiin?"*
+   - *"Miten Lapuan kaupungin talousarvio 2025 hyväksyttiin?"*
+   - *"Mitä Thermopoliksen uimahallista on päätetty?"*
 3. Paina **Hae**
 4. Odota 5-15 sekuntia
+
+**Muista:** Tarkka kysymys = tarkka vastaus. Garbage in → Garbage out!
 
 ### Vastauksen lukeminen
 
@@ -65,10 +67,11 @@ Vastaus sisältää:
 
 ### Vinkkejä hyviin kysymyksiin
 
-✅ **Hyvä:** "Mitä Männikön koulusta on päätetty?"
-✅ **Hyvä:** "Simpsiönvuori Oy:n takaukset 2025"
-✅ **Hyvä:** "Kaupungin talousarvion muutokset"
+✅ **Hyvä:** "Mitä Männikön koulun lakkauttamisesta on päätetty ja milloin?"
+✅ **Hyvä:** "Mitä Simpsiönvuori Oy:n takauksista ja lainoista päätettiin 2024-2025?"
+✅ **Hyvä:** "Miten kaupungin talousarvion 2025 hyväksyminen eteni?"
 
+❌ **Huono:** "Männikön koulu" (liian lyhyt, epätarkka)
 ❌ **Huono:** "Kerro kaikki" (liian laaja)
 ❌ **Huono:** "Kuka on pormestari?" (ei päätösasia)
 
