@@ -1,0 +1,3927 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.8.0",
+  "name": "P\u00f6yt\u00e4kirja-Tarkastuslautakunta - 08.01.2025, klo 17_00",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 7607632315835499729,
+    "filename": "P\u00f6yt\u00e4kirja-Tarkastuslautakunta - 08.01.2025, klo 17_00.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/pictures/1"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/pictures/2"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/pictures/3"
+      },
+      {
+        "$ref": "#/texts/47"
+      },
+      {
+        "$ref": "#/texts/48"
+      },
+      {
+        "$ref": "#/texts/49"
+      },
+      {
+        "$ref": "#/texts/50"
+      },
+      {
+        "$ref": "#/texts/51"
+      },
+      {
+        "$ref": "#/texts/52"
+      },
+      {
+        "$ref": "#/texts/53"
+      },
+      {
+        "$ref": "#/texts/54"
+      },
+      {
+        "$ref": "#/texts/55"
+      },
+      {
+        "$ref": "#/texts/56"
+      },
+      {
+        "$ref": "#/texts/57"
+      },
+      {
+        "$ref": "#/texts/58"
+      },
+      {
+        "$ref": "#/pictures/4"
+      },
+      {
+        "$ref": "#/texts/60"
+      },
+      {
+        "$ref": "#/texts/61"
+      },
+      {
+        "$ref": "#/texts/62"
+      },
+      {
+        "$ref": "#/texts/63"
+      },
+      {
+        "$ref": "#/texts/64"
+      },
+      {
+        "$ref": "#/texts/65"
+      },
+      {
+        "$ref": "#/texts/66"
+      },
+      {
+        "$ref": "#/texts/67"
+      },
+      {
+        "$ref": "#/texts/68"
+      },
+      {
+        "$ref": "#/texts/69"
+      },
+      {
+        "$ref": "#/texts/70"
+      },
+      {
+        "$ref": "#/pictures/5"
+      },
+      {
+        "$ref": "#/texts/72"
+      },
+      {
+        "$ref": "#/texts/73"
+      },
+      {
+        "$ref": "#/texts/74"
+      },
+      {
+        "$ref": "#/texts/75"
+      },
+      {
+        "$ref": "#/texts/76"
+      },
+      {
+        "$ref": "#/texts/77"
+      },
+      {
+        "$ref": "#/texts/78"
+      },
+      {
+        "$ref": "#/texts/79"
+      },
+      {
+        "$ref": "#/texts/80"
+      },
+      {
+        "$ref": "#/texts/81"
+      },
+      {
+        "$ref": "#/texts/82"
+      },
+      {
+        "$ref": "#/pictures/6"
+      },
+      {
+        "$ref": "#/texts/84"
+      },
+      {
+        "$ref": "#/texts/85"
+      },
+      {
+        "$ref": "#/texts/86"
+      },
+      {
+        "$ref": "#/texts/87"
+      },
+      {
+        "$ref": "#/texts/88"
+      },
+      {
+        "$ref": "#/texts/89"
+      },
+      {
+        "$ref": "#/texts/90"
+      },
+      {
+        "$ref": "#/texts/91"
+      },
+      {
+        "$ref": "#/texts/92"
+      },
+      {
+        "$ref": "#/texts/93"
+      },
+      {
+        "$ref": "#/pictures/7"
+      },
+      {
+        "$ref": "#/tables/0"
+      },
+      {
+        "$ref": "#/texts/94"
+      },
+      {
+        "$ref": "#/texts/95"
+      },
+      {
+        "$ref": "#/texts/96"
+      },
+      {
+        "$ref": "#/texts/97"
+      },
+      {
+        "$ref": "#/texts/98"
+      },
+      {
+        "$ref": "#/texts/99"
+      },
+      {
+        "$ref": "#/pictures/8"
+      },
+      {
+        "$ref": "#/texts/100"
+      },
+      {
+        "$ref": "#/texts/101"
+      },
+      {
+        "$ref": "#/texts/102"
+      },
+      {
+        "$ref": "#/texts/103"
+      },
+      {
+        "$ref": "#/texts/104"
+      },
+      {
+        "$ref": "#/texts/105"
+      },
+      {
+        "$ref": "#/texts/106"
+      },
+      {
+        "$ref": "#/texts/107"
+      },
+      {
+        "$ref": "#/texts/108"
+      },
+      {
+        "$ref": "#/texts/109"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 130.838,
+            "t": 817.731,
+            "r": 226.791,
+            "b": 807.738,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "Lapuan kaupunki",
+      "text": "Lapuan kaupunki"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 130.838,
+            "t": 802.956,
+            "r": 235.362,
+            "b": 792.963,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "Tarkastuslautakunta",
+      "text": "Tarkastuslautakunta"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 346.125,
+            "t": 817.731,
+            "r": 402.623,
+            "b": 807.738,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "P\u00f6yt\u00e4kirja",
+      "text": "P\u00f6yt\u00e4kirja"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 346.125,
+            "t": 802.956,
+            "r": 402.249,
+            "b": 792.963,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "08.01.2025",
+      "text": "08.01.2025"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 56.7,
+            "t": 700.206,
+            "r": 385.074,
+            "b": 667.188,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            89
+          ]
+        }
+      ],
+      "orig": "Aika 08.01.2025, klo 17:00 - 19:28 Paikka Kaupungintalo, kaupunginhallituksen kokoushuone",
+      "text": "Aika 08.01.2025, klo 17:00 - 19:28 Paikka Kaupungintalo, kaupunginhallituksen kokoushuone"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 56.7,
+            "t": 653.931,
+            "r": 138.139,
+            "b": 643.938,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "K\u00e4sitellyt asiat",
+      "text": "K\u00e4sitellyt asiat",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 56.7,
+            "t": 630.419,
+            "r": 394.348,
+            "b": 502.863,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            214
+          ]
+        }
+      ],
+      "orig": "\u00a7 1 Kokouksen laillisuus ja p\u00e4\u00e4t\u00f6svaltaisuus \u00a7 2 P\u00f6yt\u00e4kirjan tarkastaminen \u00a7 3 Ruoka- ja puhtauspalveluiden ajankohtaiset asiat \u00a7 4 Kaupunginjohtajan kuuleminen \u00a7 5 Sidonnaisuusilmoituksien k\u00e4sittely \u00a7 6 Muut asiat",
+      "text": "\u00a7 1 Kokouksen laillisuus ja p\u00e4\u00e4t\u00f6svaltaisuus \u00a7 2 P\u00f6yt\u00e4kirjan tarkastaminen \u00a7 3 Ruoka- ja puhtauspalveluiden ajankohtaiset asiat \u00a7 4 Kaupunginjohtajan kuuleminen \u00a7 5 Sidonnaisuusilmoituksien k\u00e4sittely \u00a7 6 Muut asiat",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 451.388,
+            "t": 817.731,
+            "r": 486.844,
+            "b": 807.738,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "1/2025",
+      "text": "1/2025"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 508.2,
+            "t": 817.731,
+            "r": 520.609,
+            "b": 807.738,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "1 (",
+      "text": "1 ("
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 520.65,
+            "t": 817.731,
+            "r": 530.202,
+            "b": 807.738,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "9)",
+      "text": "9)"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 130.838,
+            "t": 817.731,
+            "r": 226.791,
+            "b": 807.738,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "Lapuan kaupunki",
+      "text": "Lapuan kaupunki"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 130.838,
+            "t": 802.956,
+            "r": 235.362,
+            "b": 792.963,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "Tarkastuslautakunta",
+      "text": "Tarkastuslautakunta"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.7,
+            "t": 700.206,
+            "r": 297.009,
+            "b": 632.163,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            80
+          ]
+        }
+      ],
+      "orig": "Saapuvilla olleet j\u00e4senet Markku Keskikallio, puheenjohtaja Nina Aila Kari Nirha",
+      "text": "Saapuvilla olleet j\u00e4senet Markku Keskikallio, puheenjohtaja Nina Aila Kari Nirha"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 121.913,
+            "t": 671.181,
+            "r": 315.611,
+            "b": 617.65,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            52
+          ]
+        }
+      ],
+      "orig": "Hanna Per\u00e4aho, 1. varapuheenjohtaja Jukka Tauriainen",
+      "text": "Hanna Per\u00e4aho, 1. varapuheenjohtaja Jukka Tauriainen"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 121.913,
+            "t": 590.106,
+            "r": 564.137,
+            "b": 522.063,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            301
+          ]
+        }
+      ],
+      "orig": "Essi Koivisto, sihteeri Tuija Hahtokari, ruokapalvelup\u00e4\u00e4llikk\u00f6, saapui 17:24, poistui 17:41 Susanna Halla-aho, siivousp\u00e4\u00e4llikk\u00f6, saapui 17:43, poistui 18:03 Satu Kankare, kaupunginjohtaja, saapui 18:10, poistui 19:05 Leena Luomanen, ruoka- ja puhtauspalveluiden palvelup\u00e4\u00e4llikk\u00f6, saapui 17:03, poistui",
+      "text": "Essi Koivisto, sihteeri Tuija Hahtokari, ruokapalvelup\u00e4\u00e4llikk\u00f6, saapui 17:24, poistui 17:41 Susanna Halla-aho, siivousp\u00e4\u00e4llikk\u00f6, saapui 17:43, poistui 18:03 Satu Kankare, kaupunginjohtaja, saapui 18:10, poistui 19:05 Leena Luomanen, ruoka- ja puhtauspalveluiden palvelup\u00e4\u00e4llikk\u00f6, saapui 17:03, poistui"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.7,
+            "t": 604.619,
+            "r": 169.003,
+            "b": 507.55,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "Muut saapuvilla olleet 17:22",
+      "text": "Muut saapuvilla olleet 17:22"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.7,
+            "t": 494.519,
+            "r": 132.283,
+            "b": 484.525,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "Allekirjoitukset",
+      "text": "Allekirjoitukset"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 121.913,
+            "t": 431.819,
+            "r": 406.868,
+            "b": 407.313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            55
+          ]
+        }
+      ],
+      "orig": "Markku Keskikallio Puheenjohtaja Essi Koivisto Sihteeri",
+      "text": "Markku Keskikallio Puheenjohtaja Essi Koivisto Sihteeri"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.7,
+            "t": 377.948,
+            "r": 547.072,
+            "b": 355.603,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            165
+          ]
+        }
+      ],
+      "orig": "Asiakirja on s\u00e4hk\u00f6isesti allekirjoitettu asianhallintaj\u00e4rjestelm\u00e4ss\u00e4. Lapuan kaupunki 09.01.2025 klo 23:24. Allekirjoituksen oikeellisuuden voi todentaa kirjaamosta.",
+      "text": "Asiakirja on s\u00e4hk\u00f6isesti allekirjoitettu asianhallintaj\u00e4rjestelm\u00e4ss\u00e4. Lapuan kaupunki 09.01.2025 klo 23:24. Allekirjoituksen oikeellisuuden voi todentaa kirjaamosta."
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.7,
+            "t": 334.844,
+            "r": 164.454,
+            "b": 324.85,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "P\u00f6yt\u00e4kirjan tarkastus",
+      "text": "P\u00f6yt\u00e4kirjan tarkastus"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 121.913,
+            "t": 320.331,
+            "r": 316.182,
+            "b": 310.33799999999997,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            39
+          ]
+        }
+      ],
+      "orig": "P\u00f6yt\u00e4kirja on tarkastettu ja hyv\u00e4ksytty",
+      "text": "P\u00f6yt\u00e4kirja on tarkastettu ja hyv\u00e4ksytty"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 121.913,
+            "t": 293.93100000000004,
+            "r": 400.562,
+            "b": 283.938,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "13.01.2025 13.01.2025",
+      "text": "13.01.2025 13.01.2025"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 121.913,
+            "t": 231.231,
+            "r": 423.976,
+            "b": 221.23800000000006,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "Kari Nirha Hanna Per\u00e4aho",
+      "text": "Kari Nirha Hanna Per\u00e4aho"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.7,
+            "t": 180.38099999999997,
+            "r": 341.915,
+            "b": 155.875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            66
+          ]
+        }
+      ],
+      "orig": "P\u00f6yt\u00e4kirjan n\u00e4ht\u00e4v\u00e4n\u00e4olo Lapuan kaupungin verkkosivuilla 13.1.2025",
+      "text": "P\u00f6yt\u00e4kirjan n\u00e4ht\u00e4v\u00e4n\u00e4olo Lapuan kaupungin verkkosivuilla 13.1.2025"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 346.125,
+            "t": 817.731,
+            "r": 402.623,
+            "b": 807.738,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "P\u00f6yt\u00e4kirja",
+      "text": "P\u00f6yt\u00e4kirja"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 346.125,
+            "t": 802.956,
+            "r": 402.249,
+            "b": 792.963,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "08.01.2025",
+      "text": "08.01.2025"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 451.388,
+            "t": 817.731,
+            "r": 486.844,
+            "b": 807.738,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "1/2025",
+      "text": "1/2025"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 508.2,
+            "t": 817.731,
+            "r": 520.609,
+            "b": 807.738,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "2 (",
+      "text": "2 ("
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 520.65,
+            "t": 817.731,
+            "r": 530.202,
+            "b": 807.738,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "9)",
+      "text": "9)"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 346.125,
+            "t": 817.731,
+            "r": 402.623,
+            "b": 792.963,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "P\u00f6yt\u00e4kirja 08.01.2025",
+      "text": "P\u00f6yt\u00e4kirja 08.01.2025"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 451.388,
+            "t": 817.731,
+            "r": 486.844,
+            "b": 807.738,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "1/2025",
+      "text": "1/2025"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 508.2,
+            "t": 817.731,
+            "r": 530.202,
+            "b": 807.738,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "3 ( 9)",
+      "text": "3 ( 9)"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 130.838,
+            "t": 817.731,
+            "r": 235.362,
+            "b": 792.963,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "Lapuan kaupunki Tarkastuslautakunta",
+      "text": "Lapuan kaupunki Tarkastuslautakunta",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.7,
+            "t": 699.981,
+            "r": 71.171,
+            "b": 689.988,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "\u00a7 1",
+      "text": "\u00a7 1",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.7,
+            "t": 684.981,
+            "r": 278.538,
+            "b": 674.988,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            40
+          ]
+        }
+      ],
+      "orig": "Kokouksen laillisuus ja p\u00e4\u00e4t\u00f6svaltaisuus",
+      "text": "Kokouksen laillisuus ja p\u00e4\u00e4t\u00f6svaltaisuus",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 121.913,
+            "t": 646.994,
+            "r": 565.291,
+            "b": 578.95,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            333
+          ]
+        }
+      ],
+      "orig": "Tarkastuslautakunnan kokousmenettelyss\u00e4 noudatetaan hallintos\u00e4\u00e4nn\u00f6n m\u00e4\u00e4r\u00e4yksi\u00e4. Kutsun antaa puheenjohtaja ja siin\u00e4 on ilmoitettava kokouksen aika ja paikka sek\u00e4 k\u00e4sitelt\u00e4v\u00e4t asiat. Tarkastuslautakunnan kokous on p\u00e4\u00e4t\u00f6svaltainen, kun enemm\u00e4n kuin puolet j\u00e4senist\u00e4 on saapuvilla. Asiasta p\u00e4\u00e4tet\u00e4\u00e4n puheenjohtajan selostuksen pohjalta.",
+      "text": "Tarkastuslautakunnan kokousmenettelyss\u00e4 noudatetaan hallintos\u00e4\u00e4nn\u00f6n m\u00e4\u00e4r\u00e4yksi\u00e4. Kutsun antaa puheenjohtaja ja siin\u00e4 on ilmoitettava kokouksen aika ja paikka sek\u00e4 k\u00e4sitelt\u00e4v\u00e4t asiat. Tarkastuslautakunnan kokous on p\u00e4\u00e4t\u00f6svaltainen, kun enemm\u00e4n kuin puolet j\u00e4senist\u00e4 on saapuvilla. Asiasta p\u00e4\u00e4tet\u00e4\u00e4n puheenjohtajan selostuksen pohjalta."
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 121.913,
+            "t": 566.931,
+            "r": 546.986,
+            "b": 542.425,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            93
+          ]
+        }
+      ],
+      "orig": "Hallintos\u00e4\u00e4nn\u00f6n mukaan lautakunnan kokouksissa tilintarkastajalla on l\u00e4sn\u00e4olo- ja puheoikeus.",
+      "text": "Hallintos\u00e4\u00e4nn\u00f6n mukaan lautakunnan kokouksissa tilintarkastajalla on l\u00e4sn\u00e4olo- ja puheoikeus."
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 121.913,
+            "t": 530.406,
+            "r": 491.477,
+            "b": 520.413,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            69
+          ]
+        }
+      ],
+      "orig": "Kaupunginhallitus ei voi m\u00e4\u00e4r\u00e4t\u00e4 edustajaansa lautakunnan kokouksiin.",
+      "text": "Kaupunginhallitus ei voi m\u00e4\u00e4r\u00e4t\u00e4 edustajaansa lautakunnan kokouksiin."
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 121.913,
+            "t": 485.144,
+            "r": 166.489,
+            "b": 475.15,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "Ehdotus",
+      "text": "Ehdotus",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 121.913,
+            "t": 458.256,
+            "r": 263.201,
+            "b": 448.263,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "orig": "Puheenjohtajan ehdotus:",
+      "text": "Puheenjohtajan ehdotus:",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 121.913,
+            "t": 435.981,
+            "r": 483.182,
+            "b": 425.988,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            70
+          ]
+        }
+      ],
+      "orig": "Tarkastuslautakunnan kokous todetaan lailliseksi ja p\u00e4\u00e4t\u00f6svaltaiseksi.",
+      "text": "Tarkastuslautakunnan kokous todetaan lailliseksi ja p\u00e4\u00e4t\u00f6svaltaiseksi."
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 121.913,
+            "t": 383.706,
+            "r": 159.116,
+            "b": 373.713,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "P\u00e4\u00e4t\u00f6s",
+      "text": "P\u00e4\u00e4t\u00f6s",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 121.913,
+            "t": 368.931,
+            "r": 359.891,
+            "b": 358.938,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            50
+          ]
+        }
+      ],
+      "orig": "Todettiin kokous lailliseksi ja p\u00e4\u00e4t\u00f6svaltaiseksi.",
+      "text": "Todettiin kokous lailliseksi ja p\u00e4\u00e4t\u00f6svaltaiseksi."
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 346.125,
+            "t": 817.731,
+            "r": 402.623,
+            "b": 792.963,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "P\u00f6yt\u00e4kirja 08.01.2025",
+      "text": "P\u00f6yt\u00e4kirja 08.01.2025"
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 451.388,
+            "t": 817.731,
+            "r": 486.844,
+            "b": 807.738,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "1/2025",
+      "text": "1/2025"
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 508.2,
+            "t": 817.731,
+            "r": 530.202,
+            "b": 807.738,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "4 ( 9)",
+      "text": "4 ( 9)"
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 130.838,
+            "t": 817.731,
+            "r": 235.362,
+            "b": 792.963,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "Lapuan kaupunki Tarkastuslautakunta",
+      "text": "Lapuan kaupunki Tarkastuslautakunta",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.7,
+            "t": 699.981,
+            "r": 71.171,
+            "b": 689.988,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "\u00a7 2",
+      "text": "\u00a7 2",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.7,
+            "t": 684.981,
+            "r": 205.053,
+            "b": 674.988,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            25
+          ]
+        }
+      ],
+      "orig": "P\u00f6yt\u00e4kirjan tarkastaminen",
+      "text": "P\u00f6yt\u00e4kirjan tarkastaminen",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 121.913,
+            "t": 646.994,
+            "r": 489.961,
+            "b": 607.975,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            161
+          ]
+        }
+      ],
+      "orig": "Hallintos\u00e4\u00e4nn\u00f6n mukaan p\u00f6yt\u00e4kirjan kirjoittaa puheenjohtajan johdolla p\u00f6yt\u00e4kirjanpit\u00e4j\u00e4. P\u00f6yt\u00e4kirjan allekirjoittaa puheenjohtaja ja varmentaa p\u00f6yt\u00e4kirjanpit\u00e4j\u00e4.",
+      "text": "Hallintos\u00e4\u00e4nn\u00f6n mukaan p\u00f6yt\u00e4kirjan kirjoittaa puheenjohtajan johdolla p\u00f6yt\u00e4kirjanpit\u00e4j\u00e4. P\u00f6yt\u00e4kirjan allekirjoittaa puheenjohtaja ja varmentaa p\u00f6yt\u00e4kirjanpit\u00e4j\u00e4."
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 121.913,
+            "t": 595.956,
+            "r": 553.106,
+            "b": 571.45,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            123
+          ]
+        }
+      ],
+      "orig": "P\u00f6yt\u00e4kirja tarkastetaan lautakunnan p\u00e4\u00e4tt\u00e4m\u00e4ll\u00e4 tavalla.\u00a0\u00a0P\u00f6yt\u00e4kirjan tarkastaminen tapahtuu s\u00e4hk\u00f6isell\u00e4 allekirjotuksella.",
+      "text": "P\u00f6yt\u00e4kirja tarkastetaan lautakunnan p\u00e4\u00e4tt\u00e4m\u00e4ll\u00e4 tavalla.\u00a0\u00a0P\u00f6yt\u00e4kirjan tarkastaminen tapahtuu s\u00e4hk\u00f6isell\u00e4 allekirjotuksella."
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 121.913,
+            "t": 536.181,
+            "r": 166.489,
+            "b": 526.188,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "Ehdotus",
+      "text": "Ehdotus",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 121.913,
+            "t": 509.294,
+            "r": 260.344,
+            "b": 499.3,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "orig": "Puheenjohtajan ehdotus:",
+      "text": "Puheenjohtajan ehdotus:",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 121.913,
+            "t": 487.019,
+            "r": 544.744,
+            "b": 462.513,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            149
+          ]
+        }
+      ],
+      "orig": "Puheenjohtaja ehdottaa, ett\u00e4 p\u00f6yt\u00e4kirja tarkastetaan ja allekirjoitetaan s\u00e4hk\u00f6isesti. P\u00f6yt\u00e4kirjan tarkastajaksi valitaan tarkastuslautakunnan j\u00e4senet",
+      "text": "Puheenjohtaja ehdottaa, ett\u00e4 p\u00f6yt\u00e4kirja tarkastetaan ja allekirjoitetaan s\u00e4hk\u00f6isesti. P\u00f6yt\u00e4kirjan tarkastajaksi valitaan tarkastuslautakunnan j\u00e4senet"
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 121.913,
+            "t": 434.744,
+            "r": 159.116,
+            "b": 424.75,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "P\u00e4\u00e4t\u00f6s",
+      "text": "P\u00e4\u00e4t\u00f6s",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 121.913,
+            "t": 419.969,
+            "r": 434.529,
+            "b": 409.975,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            64
+          ]
+        }
+      ],
+      "orig": "P\u00f6yt\u00e4kirjan tarkastajiksi valittiin Kari Nirha ja Hanna Per\u00e4aho.",
+      "text": "P\u00f6yt\u00e4kirjan tarkastajiksi valittiin Kari Nirha ja Hanna Per\u00e4aho."
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 346.125,
+            "t": 817.731,
+            "r": 402.623,
+            "b": 792.963,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "P\u00f6yt\u00e4kirja 08.01.2025",
+      "text": "P\u00f6yt\u00e4kirja 08.01.2025"
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 451.388,
+            "t": 817.731,
+            "r": 486.844,
+            "b": 807.738,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "1/2025",
+      "text": "1/2025"
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 508.2,
+            "t": 817.731,
+            "r": 530.202,
+            "b": 807.738,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "5 ( 9)",
+      "text": "5 ( 9)"
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "caption",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 130.838,
+            "t": 817.731,
+            "r": 235.362,
+            "b": 792.963,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "Lapuan kaupunki Tarkastuslautakunta",
+      "text": "Lapuan kaupunki Tarkastuslautakunta"
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 56.7,
+            "t": 699.981,
+            "r": 71.171,
+            "b": 689.988,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "\u00a7 3",
+      "text": "\u00a7 3",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 56.7,
+            "t": 684.981,
+            "r": 329.135,
+            "b": 674.988,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            48
+          ]
+        }
+      ],
+      "orig": "Ruoka- ja puhtauspalveluiden ajankohtaiset asiat",
+      "text": "Ruoka- ja puhtauspalveluiden ajankohtaiset asiat",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 56.7,
+            "t": 658.881,
+            "r": 148.435,
+            "b": 648.888,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "LAPDno-2024-974",
+      "text": "LAPDno-2024-974"
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 121.913,
+            "t": 621.156,
+            "r": 565.214,
+            "b": 582.138,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            245
+          ]
+        }
+      ],
+      "orig": "Tarkastuslautakunta on kutsunut ruoka- ja puhtauspalveluiden palvelup\u00e4\u00e4llikk\u00f6 Leena Luomasen, ruokapalvelup\u00e4\u00e4llikk\u00f6 Tuija Hahtokarin ja siivousp\u00e4\u00e4llikk\u00f6 Susanna Hallaahon kertomaan kaupungin ruoka- ja puhtauspalveluiden ajankohtaisista asioista.",
+      "text": "Tarkastuslautakunta on kutsunut ruoka- ja puhtauspalveluiden palvelup\u00e4\u00e4llikk\u00f6 Leena Luomasen, ruokapalvelup\u00e4\u00e4llikk\u00f6 Tuija Hahtokarin ja siivousp\u00e4\u00e4llikk\u00f6 Susanna Hallaahon kertomaan kaupungin ruoka- ja puhtauspalveluiden ajankohtaisista asioista."
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 121.913,
+            "t": 546.869,
+            "r": 166.489,
+            "b": 536.875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "Ehdotus",
+      "text": "Ehdotus",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 121.913,
+            "t": 520.206,
+            "r": 531.79,
+            "b": 495.7,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            86
+          ]
+        }
+      ],
+      "orig": "Puheenjohtaja ehdottaa, ett\u00e4 tarkastuslautakunta merkitsee saadun selvityksen tiedoksi",
+      "text": "Puheenjohtaja ehdottaa, ett\u00e4 tarkastuslautakunta merkitsee saadun selvityksen tiedoksi"
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 121.913,
+            "t": 482.444,
+            "r": 159.116,
+            "b": 472.45,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "P\u00e4\u00e4t\u00f6s",
+      "text": "P\u00e4\u00e4t\u00f6s",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 121.913,
+            "t": 467.669,
+            "r": 425.124,
+            "b": 457.675,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            58
+          ]
+        }
+      ],
+      "orig": "Tarkastuslautakunta merkitsee saadun selvityksen tiedoksi.",
+      "text": "Tarkastuslautakunta merkitsee saadun selvityksen tiedoksi."
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 346.125,
+            "t": 817.731,
+            "r": 402.623,
+            "b": 792.963,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "P\u00f6yt\u00e4kirja 08.01.2025",
+      "text": "P\u00f6yt\u00e4kirja 08.01.2025"
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 451.388,
+            "t": 817.731,
+            "r": 486.844,
+            "b": 807.738,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "1/2025",
+      "text": "1/2025"
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 508.2,
+            "t": 817.731,
+            "r": 530.202,
+            "b": 807.738,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "6 ( 9)",
+      "text": "6 ( 9)"
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/pictures/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "caption",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 130.838,
+            "t": 817.731,
+            "r": 235.362,
+            "b": 792.963,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "Lapuan kaupunki Tarkastuslautakunta",
+      "text": "Lapuan kaupunki Tarkastuslautakunta"
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 56.7,
+            "t": 699.981,
+            "r": 71.171,
+            "b": 689.988,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "\u00a7 4",
+      "text": "\u00a7 4",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 56.7,
+            "t": 684.981,
+            "r": 231.028,
+            "b": 674.988,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "Kaupunginjohtajan kuuleminen",
+      "text": "Kaupunginjohtajan kuuleminen",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 56.7,
+            "t": 658.881,
+            "r": 148.435,
+            "b": 648.888,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "LAPDno-2024-975",
+      "text": "LAPDno-2024-975"
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 121.913,
+            "t": 621.156,
+            "r": 528.922,
+            "b": 596.65,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            142
+          ]
+        }
+      ],
+      "orig": "Tarkastuslautakunta on kutsunut kaupunginjohtaja Satu Kankareen kertomaan kaupungin ajankohtaisista asioista ja konsernivalvonnan tilanteesta.",
+      "text": "Tarkastuslautakunta on kutsunut kaupunginjohtaja Satu Kankareen kertomaan kaupungin ajankohtaisista asioista ja konsernivalvonnan tilanteesta."
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 121.913,
+            "t": 583.394,
+            "r": 166.489,
+            "b": 573.4,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "Ehdotus",
+      "text": "Ehdotus",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 121.913,
+            "t": 556.731,
+            "r": 531.79,
+            "b": 532.225,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            87
+          ]
+        }
+      ],
+      "orig": "Puheenjohtaja ehdottaa, ett\u00e4 tarkastuslautakunta merkitsee saadun selvityksen tiedoksi.",
+      "text": "Puheenjohtaja ehdottaa, ett\u00e4 tarkastuslautakunta merkitsee saadun selvityksen tiedoksi."
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 121.913,
+            "t": 518.969,
+            "r": 159.116,
+            "b": 508.975,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "P\u00e4\u00e4t\u00f6s",
+      "text": "P\u00e4\u00e4t\u00f6s",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/79",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 121.913,
+            "t": 504.194,
+            "r": 282.352,
+            "b": 494.2,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            33
+          ]
+        }
+      ],
+      "orig": "Merkittiin saatu esitys tiedoksi.",
+      "text": "Merkittiin saatu esitys tiedoksi."
+    },
+    {
+      "self_ref": "#/texts/80",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 346.125,
+            "t": 817.731,
+            "r": 402.623,
+            "b": 792.963,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "P\u00f6yt\u00e4kirja 08.01.2025",
+      "text": "P\u00f6yt\u00e4kirja 08.01.2025"
+    },
+    {
+      "self_ref": "#/texts/81",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 451.388,
+            "t": 817.731,
+            "r": 486.844,
+            "b": 807.738,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "1/2025",
+      "text": "1/2025"
+    },
+    {
+      "self_ref": "#/texts/82",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 508.2,
+            "t": 817.731,
+            "r": 530.202,
+            "b": 807.738,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "7 ( 9)",
+      "text": "7 ( 9)"
+    },
+    {
+      "self_ref": "#/texts/83",
+      "parent": {
+        "$ref": "#/pictures/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "caption",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 130.838,
+            "t": 817.731,
+            "r": 235.362,
+            "b": 792.963,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "Lapuan kaupunki Tarkastuslautakunta",
+      "text": "Lapuan kaupunki Tarkastuslautakunta"
+    },
+    {
+      "self_ref": "#/texts/84",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 56.7,
+            "t": 699.981,
+            "r": 71.171,
+            "b": 689.988,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "\u00a7 5",
+      "text": "\u00a7 5",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/85",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 56.7,
+            "t": 684.981,
+            "r": 249.366,
+            "b": 674.988,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            34
+          ]
+        }
+      ],
+      "orig": "Sidonnaisuusilmoituksien k\u00e4sittely",
+      "text": "Sidonnaisuusilmoituksien k\u00e4sittely",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/86",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 56.7,
+            "t": 658.881,
+            "r": 148.435,
+            "b": 648.888,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "LAPDno-2024-976",
+      "text": "LAPDno-2024-976"
+    },
+    {
+      "self_ref": "#/texts/87",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 121.913,
+            "t": 621.156,
+            "r": 559.72,
+            "b": 553.113,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            343
+          ]
+        }
+      ],
+      "orig": "Kuntalain 84 \u00a7 mukaan kunnan luottamushenkil\u00f6n ja viranhaltijan on teht\u00e4v\u00e4 sidonnaisuusilmoitus johtoteht\u00e4vist\u00e4\u00e4n sek\u00e4 luottamusteht\u00e4vist\u00e4\u00e4n elinkeinotoimintaa harjoittavissa yrityksiss\u00e4 sek\u00e4 muissa yhteis\u00f6iss\u00e4, merkitt\u00e4v\u00e4st\u00e4 varallisuudesta sek\u00e4 muistakin sidonnaisuuksista, joilla voi olla merkityst\u00e4 luottamusja virkateht\u00e4vien hoitamisessa.",
+      "text": "Kuntalain 84 \u00a7 mukaan kunnan luottamushenkil\u00f6n ja viranhaltijan on teht\u00e4v\u00e4 sidonnaisuusilmoitus johtoteht\u00e4vist\u00e4\u00e4n sek\u00e4 luottamusteht\u00e4vist\u00e4\u00e4n elinkeinotoimintaa harjoittavissa yrityksiss\u00e4 sek\u00e4 muissa yhteis\u00f6iss\u00e4, merkitt\u00e4v\u00e4st\u00e4 varallisuudesta sek\u00e4 muistakin sidonnaisuuksista, joilla voi olla merkityst\u00e4 luottamusja virkateht\u00e4vien hoitamisessa."
+    },
+    {
+      "self_ref": "#/texts/88",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 121.913,
+            "t": 541.094,
+            "r": 558.677,
+            "b": 444.025,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            501
+          ]
+        }
+      ],
+      "orig": "Velvollisuus ilmoittaa sidonnaisuuksista koskee kunnanhallituksen ja maank\u00e4ytt\u00f6- ja rakennuslaissa (132/1999) tarkoitettuja teht\u00e4vi\u00e4 hoitavan toimielimen j\u00e4seni\u00e4, valtuuston ja lautakunnan puheenjohtajaa ja varapuheenjohtajaa, kunnanjohtajaa, pormestaria ja apulaispormestaria sek\u00e4 kunnanhallituksen ja lautakunnan esittelij\u00e4\u00e4. Ilmoitus on teht\u00e4v\u00e4 kahden kuukauden kuluessa siit\u00e4, kun henkil\u00f6 on teht\u00e4v\u00e4\u00e4ns\u00e4 valittu. Henkil\u00f6n on my\u00f6s ilmoitettava viivytyksett\u00e4 sidonnaisuuksissa tapahtuneet muutokset.",
+      "text": "Velvollisuus ilmoittaa sidonnaisuuksista koskee kunnanhallituksen ja maank\u00e4ytt\u00f6- ja rakennuslaissa (132/1999) tarkoitettuja teht\u00e4vi\u00e4 hoitavan toimielimen j\u00e4seni\u00e4, valtuuston ja lautakunnan puheenjohtajaa ja varapuheenjohtajaa, kunnanjohtajaa, pormestaria ja apulaispormestaria sek\u00e4 kunnanhallituksen ja lautakunnan esittelij\u00e4\u00e4. Ilmoitus on teht\u00e4v\u00e4 kahden kuukauden kuluessa siit\u00e4, kun henkil\u00f6 on teht\u00e4v\u00e4\u00e4ns\u00e4 valittu. Henkil\u00f6n on my\u00f6s ilmoitettava viivytyksett\u00e4 sidonnaisuuksissa tapahtuneet muutokset."
+    },
+    {
+      "self_ref": "#/texts/89",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 121.913,
+            "t": 432.006,
+            "r": 531.713,
+            "b": 378.475,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            295
+          ]
+        }
+      ],
+      "orig": "Sidonnaisuusilmoitus tehd\u00e4\u00e4n tarkastuslautakunnalle, joka valvoo ilmoitusvelvollisuuden noudattamista ja saattaa ilmoitukset valtuuston tiedoksi. Ilmoitusvelvollisuuden piirin kuuluvan luottamustoimen tai teht\u00e4v\u00e4n p\u00e4\u00e4ttyess\u00e4 henkil\u00f6\u00e4 koskevat tiedot on poistettava rekisterist\u00e4 ja tietoverkosta.",
+      "text": "Sidonnaisuusilmoitus tehd\u00e4\u00e4n tarkastuslautakunnalle, joka valvoo ilmoitusvelvollisuuden noudattamista ja saattaa ilmoitukset valtuuston tiedoksi. Ilmoitusvelvollisuuden piirin kuuluvan luottamustoimen tai teht\u00e4v\u00e4n p\u00e4\u00e4ttyess\u00e4 henkil\u00f6\u00e4 koskevat tiedot on poistettava rekisterist\u00e4 ja tietoverkosta."
+    },
+    {
+      "self_ref": "#/texts/90",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 121.913,
+            "t": 365.219,
+            "r": 166.489,
+            "b": 355.225,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "Ehdotus",
+      "text": "Ehdotus",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/91",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 121.913,
+            "t": 338.556,
+            "r": 566.478,
+            "b": 314.04999999999995,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            154
+          ]
+        }
+      ],
+      "orig": "Puheenjohtaja ehdottaa, ett\u00e4 tarkastuslautakunta hyv\u00e4ksyy saadut sidonnaisuusilmoitukset, saattaa ne valtuuston tiedoksi ja p\u00e4\u00e4tt\u00e4\u00e4 julkaista ilmoitukset.",
+      "text": "Puheenjohtaja ehdottaa, ett\u00e4 tarkastuslautakunta hyv\u00e4ksyy saadut sidonnaisuusilmoitukset, saattaa ne valtuuston tiedoksi ja p\u00e4\u00e4tt\u00e4\u00e4 julkaista ilmoitukset."
+    },
+    {
+      "self_ref": "#/texts/92",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 121.913,
+            "t": 300.794,
+            "r": 159.116,
+            "b": 290.79999999999995,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "P\u00e4\u00e4t\u00f6s",
+      "text": "P\u00e4\u00e4t\u00f6s",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/93",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 121.913,
+            "t": 286.019,
+            "r": 537.932,
+            "b": 261.5129999999999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            116
+          ]
+        }
+      ],
+      "orig": "P\u00e4\u00e4tettiin hyv\u00e4ksy\u00e4 saadut sidonnaisuusilmoitukset (2 kpl), saattaa ne valtuuston tiedoksi ja julkaista ilmoitukset.",
+      "text": "P\u00e4\u00e4tettiin hyv\u00e4ksy\u00e4 saadut sidonnaisuusilmoitukset (2 kpl), saattaa ne valtuuston tiedoksi ja julkaista ilmoitukset."
+    },
+    {
+      "self_ref": "#/texts/94",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 56.7,
+            "t": 699.981,
+            "r": 71.171,
+            "b": 689.988,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "\u00a7 6",
+      "text": "\u00a7 6",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/95",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 56.7,
+            "t": 684.981,
+            "r": 115.978,
+            "b": 674.988,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "Muut asiat",
+      "text": "Muut asiat",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/96",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 121.913,
+            "t": 650.144,
+            "r": 166.489,
+            "b": 640.15,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "Ehdotus",
+      "text": "Ehdotus",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/97",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 121.913,
+            "t": 623.481,
+            "r": 437.825,
+            "b": 613.488,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            62
+          ]
+        }
+      ],
+      "orig": "K\u00e4sitell\u00e4\u00e4n tarkastuslautakunnan j\u00e4senten esille tuomat asiat.",
+      "text": "K\u00e4sitell\u00e4\u00e4n tarkastuslautakunnan j\u00e4senten esille tuomat asiat."
+    },
+    {
+      "self_ref": "#/texts/98",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 121.913,
+            "t": 600.231,
+            "r": 159.116,
+            "b": 590.238,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "P\u00e4\u00e4t\u00f6s",
+      "text": "P\u00e4\u00e4t\u00f6s",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/99",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 121.913,
+            "t": 585.456,
+            "r": 422.476,
+            "b": 575.463,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            55
+          ]
+        }
+      ],
+      "orig": "Tarkastuslautakunnan seuraava kokous pidet\u00e4\u00e4n 5.2.2025.",
+      "text": "Tarkastuslautakunnan seuraava kokous pidet\u00e4\u00e4n 5.2.2025."
+    },
+    {
+      "self_ref": "#/texts/100",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 130.838,
+            "t": 817.731,
+            "r": 226.791,
+            "b": 807.738,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "Lapuan kaupunki",
+      "text": "Lapuan kaupunki",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/101",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 130.838,
+            "t": 802.956,
+            "r": 235.362,
+            "b": 792.963,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "Tarkastuslautakunta",
+      "text": "Tarkastuslautakunta"
+    },
+    {
+      "self_ref": "#/texts/102",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 56.7,
+            "t": 699.981,
+            "r": 178.518,
+            "b": 689.988,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "Muutoksenhakukielto",
+      "text": "Muutoksenhakukielto",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/103",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 121.913,
+            "t": 685.206,
+            "r": 221.382,
+            "b": 675.213,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "\u00a71, \u00a72, \u00a73, \u00a74, \u00a75, \u00a76",
+      "text": "\u00a71, \u00a72, \u00a73, \u00a74, \u00a75, \u00a76"
+    },
+    {
+      "self_ref": "#/texts/104",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 56.7,
+            "t": 661.956,
+            "r": 178.518,
+            "b": 651.963,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "Muutoksenhakukielto",
+      "text": "Muutoksenhakukielto",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/105",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 121.913,
+            "t": 647.181,
+            "r": 544.69,
+            "b": 608.163,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            169
+          ]
+        }
+      ],
+      "orig": "Edell\u00e4 mainituista p\u00e4\u00e4t\u00f6ksist\u00e4 ei saa tehd\u00e4 kuntalain 136 \u00a7:n mukaan oikaisuvaatimusta eik\u00e4 kunnallisvalitusta, koska p\u00e4\u00e4t\u00f6s koskee vain valmistelua tai t\u00e4yt\u00e4nt\u00f6\u00f6npanoa.",
+      "text": "Edell\u00e4 mainituista p\u00e4\u00e4t\u00f6ksist\u00e4 ei saa tehd\u00e4 kuntalain 136 \u00a7:n mukaan oikaisuvaatimusta eik\u00e4 kunnallisvalitusta, koska p\u00e4\u00e4t\u00f6s koskee vain valmistelua tai t\u00e4yt\u00e4nt\u00f6\u00f6npanoa."
+    },
+    {
+      "self_ref": "#/texts/106",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 346.125,
+            "t": 817.731,
+            "r": 402.623,
+            "b": 807.738,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "P\u00f6yt\u00e4kirja",
+      "text": "P\u00f6yt\u00e4kirja"
+    },
+    {
+      "self_ref": "#/texts/107",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 346.125,
+            "t": 802.956,
+            "r": 402.249,
+            "b": 792.963,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "08.01.2025",
+      "text": "08.01.2025"
+    },
+    {
+      "self_ref": "#/texts/108",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 451.388,
+            "t": 817.731,
+            "r": 486.844,
+            "b": 807.738,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "1/2025",
+      "text": "1/2025"
+    },
+    {
+      "self_ref": "#/texts/109",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 508.2,
+            "t": 817.731,
+            "r": 530.202,
+            "b": 807.738,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "9 ( 9)",
+      "text": "9 ( 9)"
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 57.27895736694336,
+            "t": 818.9946212768555,
+            "r": 127.03558349609375,
+            "b": 738.2288436889648,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 57.25149154663086,
+            "t": 819.0294570922852,
+            "r": 126.97736358642578,
+            "b": 738.0947265625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/32"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.59169006347656,
+            "t": 819.3741855621338,
+            "r": 234.87979125976562,
+            "b": 738.2802963256836,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/46"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.752044677734375,
+            "t": 819.3791389465332,
+            "r": 235.08905029296875,
+            "b": 737.8974838256836,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/59"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 56.58273696899414,
+            "t": 819.4147186279297,
+            "r": 234.86566162109375,
+            "b": 738.275634765625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/71"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 56.55446243286133,
+            "t": 819.4255752563477,
+            "r": 234.8173065185547,
+            "b": 738.2258071899414,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/83"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 56.47917175292969,
+            "t": 819.4879722595215,
+            "r": 234.77496337890625,
+            "b": 738.3000183105469,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 57.22819137573242,
+            "t": 819.0506610870361,
+            "r": 127.18763732910156,
+            "b": 738.1532440185547,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 57.125003814697266,
+            "t": 819.1438217163086,
+            "r": 127.07867431640625,
+            "b": 738.0374221801758,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [
+    {
+      "self_ref": "#/tables/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "table",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 56.10906982421875,
+            "t": 820.393367767334,
+            "r": 566.65283203125,
+            "b": 710.5997009277344,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "data": {
+        "table_cells": [
+          {
+            "bbox": {
+              "l": 130.838,
+              "t": 24.144000000000005,
+              "r": 235.362,
+              "b": 48.912000000000035,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Lapuan kaupunki Tarkastuslautakunta",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 346.125,
+              "t": 24.144000000000005,
+              "r": 402.623,
+              "b": 48.912000000000035,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "P\u00f6yt\u00e4kirja 08.01.2025",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 451.388,
+              "t": 24.144000000000005,
+              "r": 486.844,
+              "b": 34.136999999999944,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "1/2025",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 508.2,
+              "t": 24.144000000000005,
+              "r": 530.202,
+              "b": 34.136999999999944,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 3,
+            "end_col_offset_idx": 4,
+            "text": "8 ( 9)",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          }
+        ],
+        "num_rows": 1,
+        "num_cols": 4,
+        "grid": [
+          [
+            {
+              "bbox": {
+                "l": 130.838,
+                "t": 24.144000000000005,
+                "r": 235.362,
+                "b": 48.912000000000035,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Lapuan kaupunki Tarkastuslautakunta",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 346.125,
+                "t": 24.144000000000005,
+                "r": 402.623,
+                "b": 48.912000000000035,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "P\u00f6yt\u00e4kirja 08.01.2025",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 451.388,
+                "t": 24.144000000000005,
+                "r": 486.844,
+                "b": 34.136999999999944,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "1/2025",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 508.2,
+                "t": 24.144000000000005,
+                "r": 530.202,
+                "b": 34.136999999999944,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "8 ( 9)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ]
+        ]
+      },
+      "annotations": []
+    }
+  ],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.2750244140625,
+        "height": 841.875
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.2750244140625,
+        "height": 841.875
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 595.2750244140625,
+        "height": 841.875
+      },
+      "page_no": 3
+    },
+    "4": {
+      "size": {
+        "width": 595.2750244140625,
+        "height": 841.875
+      },
+      "page_no": 4
+    },
+    "5": {
+      "size": {
+        "width": 595.2750244140625,
+        "height": 841.875
+      },
+      "page_no": 5
+    },
+    "6": {
+      "size": {
+        "width": 595.2750244140625,
+        "height": 841.875
+      },
+      "page_no": 6
+    },
+    "7": {
+      "size": {
+        "width": 595.2750244140625,
+        "height": 841.875
+      },
+      "page_no": 7
+    },
+    "8": {
+      "size": {
+        "width": 595.2750244140625,
+        "height": 841.875
+      },
+      "page_no": 8
+    },
+    "9": {
+      "size": {
+        "width": 595.2750244140625,
+        "height": 841.875
+      },
+      "page_no": 9
+    }
+  }
+}

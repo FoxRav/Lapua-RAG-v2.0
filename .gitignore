@@ -25,7 +25,13 @@ DOMAIN_lapuarag.org.md
 
 # Large data files (do not commit)
 DATA_*/
-data/
+
+# Data folder - allow JSON databases but not large files
+!data/
+!data/*.json
+data/*.jsonl
+data/*.csv
+data/*.parquet
 qdrant-storage/
 qdrant-storage.zip
 *.snapshot

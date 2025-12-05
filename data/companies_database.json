@@ -1,0 +1,395 @@
+{
+  "metadata": {
+    "description": "Lapuan kaupungin pöytäkirjoissa mainitut yhtiöt ja yritykset",
+    "created": "2025-12-05",
+    "source": "Pöytäkirja-analyysi + julkiset yritysrekisterit"
+  },
+  "companies": [
+    {
+      "name": "Simpsiönvuori Oy",
+      "y_tunnus": "0600421-3",
+      "mentions": 198,
+      "category": "kaupungin_omistama",
+      "role": "Simpsiön hiihtokeskuksen ja vapaa-ajan alueen kehittäminen",
+      "notes": "Kaupunki myöntänyt takauksia, merkittävä investointikohde",
+      "address": {
+        "street": "Simpsiörinteentie 37",
+        "postal_code": "62100",
+        "city": "Lapua"
+      },
+      "contact": {
+        "phone": "0442462788",
+        "website": "www.simpsoo.fi",
+        "email": "juliamarit.koykka@gmail.com"
+      },
+      "industry": {
+        "code": "77390",
+        "description": "Muiden koneiden ja laitteiden vuokraus ja leasing"
+      },
+      "financials": {
+        "2024": {
+          "revenue": 879000,
+          "revenue_change_pct": 0.0,
+          "operating_result": -281000,
+          "operating_margin_pct": -31.7,
+          "equity_ratio_pct": -1,
+          "employees": 10
+        },
+        "2023": {
+          "revenue": 879000,
+          "revenue_change_pct": 6.0,
+          "operating_result": 41000,
+          "operating_margin_pct": 4.7,
+          "employees": 5
+        },
+        "2022": {
+          "revenue": 829000,
+          "revenue_change_pct": 1.2,
+          "operating_result": 122000,
+          "operating_margin_pct": 14.6,
+          "employees": 5
+        }
+      },
+      "key_persons": [
+        {
+          "name": "Sami Antero Kuula",
+          "role": "Vastuuhenkilö",
+          "appointed": "19.02.2025"
+        },
+        {
+          "name": "Marko Juhani Ämmälä",
+          "role": "Hallituksen puheenjohtaja",
+          "appointed": "09.01.2021"
+        },
+        {
+          "name": "Hanna Kaarina Hottinkoski",
+          "role": "Hallituksen jäsen",
+          "appointed": "01.01.2015"
+        },
+        {
+          "name": "Jesse Artero Johannes Mäyrä",
+          "role": "Hallituksen jäsen",
+          "appointed": "01.10.2021"
+        }
+      ],
+      "sources": [
+        "https://www.asiakastieto.fi/yritykset/fi/simpsionvuori-oy/06004213/taloustiedot",
+        "https://www.finder.fi/Tuntematon/Simpsi%C3%B6nvuori+Oy/Lapua/yhteystiedot/830194"
+      ],
+      "last_updated": "2025-12-05"
+    },
+    {
+      "name": "Lapuan Kotiasunnot Oy",
+      "y_tunnus": null,
+      "mentions": 160,
+      "category": "kaupungin_omistama",
+      "role": "Kaupungin vuokra-asuntoyhtiö",
+      "notes": "Omistaa vuokra-asuntoja Lapualla",
+      "sources": [],
+      "last_updated": null
+    },
+    {
+      "name": "Thermopolis Oy",
+      "y_tunnus": null,
+      "mentions": 134,
+      "category": "kaupungin_omistama",
+      "role": "Kylpylä- ja uimahallitoiminta",
+      "notes": "Uimahallihanke keskeinen investointi",
+      "sources": [],
+      "last_updated": null
+    },
+    {
+      "name": "Lapuan Jätevesi Oy",
+      "y_tunnus": null,
+      "mentions": 86,
+      "category": "kaupungin_omistama",
+      "role": "Jätevesihuolto",
+      "notes": "Infrastruktuuriyhtiö",
+      "sources": [],
+      "last_updated": null
+    },
+    {
+      "name": "Koskienergia Oy",
+      "y_tunnus": null,
+      "mentions": 74,
+      "category": "energiayhtiö",
+      "role": "Sähköntuotanto ja -jakelu",
+      "notes": "Alueellinen energiayhtiö",
+      "sources": [],
+      "last_updated": null
+    },
+    {
+      "name": "Destia Oy",
+      "y_tunnus": "0801376-1",
+      "mentions": 62,
+      "category": "urakoitsija",
+      "role": "Infrarakentaminen, tienrakennus",
+      "notes": "Suomen suurimpia infra-alan yrityksiä",
+      "sources": ["YTJ"],
+      "last_updated": "2025-12-05"
+    },
+    {
+      "name": "Invest Lapua Oy",
+      "y_tunnus": null,
+      "mentions": 58,
+      "category": "kaupungin_omistama",
+      "role": "Elinkeinoyhtiö, yritystonttien myynti",
+      "notes": "Kaupungin elinkeinopolitiikan työkalu",
+      "sources": [],
+      "last_updated": null
+    },
+    {
+      "name": "Lappavesi Oy",
+      "y_tunnus": null,
+      "mentions": 35,
+      "category": "vesihuolto",
+      "role": "Vesihuolto, talousveden jakelu",
+      "notes": "Seudullinen vesihuoltoyhtiö",
+      "sources": [],
+      "last_updated": null
+    },
+    {
+      "name": "Lapuan Energia Oy",
+      "y_tunnus": null,
+      "mentions": 25,
+      "category": "energiayhtiö",
+      "role": "Paikallinen energiayhtiö",
+      "notes": "",
+      "sources": [],
+      "last_updated": null
+    },
+    {
+      "name": "Lakeuden Etappi Oy",
+      "y_tunnus": "0871066-5",
+      "mentions": 22,
+      "category": "jätehuolto",
+      "role": "Jätehuoltopalvelut",
+      "notes": "Seudullinen jätehuoltoyhtiö, usean kunnan omistama",
+      "sources": ["YTJ"],
+      "last_updated": "2025-12-05"
+    },
+    {
+      "name": "Seinäjoen Työterveys Oy",
+      "y_tunnus": null,
+      "mentions": 20,
+      "category": "palveluntuottaja",
+      "role": "Työterveyspalvelut",
+      "notes": "Kaupungin henkilöstön työterveyshuolto",
+      "sources": [],
+      "last_updated": null
+    },
+    {
+      "name": "Ramboll Finland Oy",
+      "y_tunnus": "0101197-5",
+      "mentions": 18,
+      "category": "konsultti",
+      "role": "Suunnittelu- ja konsultointipalvelut",
+      "notes": "Kansainvälinen insinööritoimisto",
+      "sources": ["YTJ"],
+      "last_updated": "2025-12-05"
+    },
+    {
+      "name": "Foodwest Oy",
+      "y_tunnus": null,
+      "mentions": 17,
+      "category": "elinkeinoyhtiö",
+      "role": "Elintarvikealan kehittäminen",
+      "notes": "",
+      "sources": [],
+      "last_updated": null
+    },
+    {
+      "name": "Lounea Palvelut Oy",
+      "y_tunnus": null,
+      "mentions": 16,
+      "category": "palveluntuottaja",
+      "role": "IT-palvelut",
+      "notes": "Tietotekniikkapalvelut kaupungille",
+      "sources": [],
+      "last_updated": null
+    },
+    {
+      "name": "Are Oy",
+      "y_tunnus": "0149025-5",
+      "mentions": 16,
+      "category": "urakoitsija",
+      "role": "Talotekniikka, LVI, sähkö",
+      "notes": "Suomen suurimpia talotekniikkayrityksiä",
+      "sources": ["YTJ"],
+      "last_updated": "2025-12-05"
+    },
+    {
+      "name": "Infrarakenne Oy",
+      "y_tunnus": null,
+      "mentions": 32,
+      "category": "urakoitsija",
+      "role": "Infrarakentaminen",
+      "notes": "",
+      "sources": [],
+      "last_updated": null
+    },
+    {
+      "name": "Sakela Rakennus Oy",
+      "y_tunnus": null,
+      "mentions": 5,
+      "category": "urakoitsija",
+      "role": "Rakennusurakointi",
+      "notes": "",
+      "sources": [],
+      "last_updated": null
+    },
+    {
+      "name": "Skanska Oy",
+      "y_tunnus": "0855579-3",
+      "mentions": 2,
+      "category": "urakoitsija",
+      "role": "Rakentaminen",
+      "notes": "Kansainvälinen rakennusyhtiö",
+      "sources": ["YTJ"],
+      "last_updated": "2025-12-05"
+    },
+    {
+      "name": "Kreate Oy",
+      "y_tunnus": "2352938-7",
+      "mentions": 2,
+      "category": "urakoitsija",
+      "role": "Infrarakentaminen",
+      "notes": "Pörssilistattu infrayhtiö",
+      "sources": ["YTJ"],
+      "last_updated": "2025-12-05"
+    },
+    {
+      "name": "Seinäjoen Kiintorakenne Oy",
+      "y_tunnus": null,
+      "mentions": 2,
+      "category": "urakoitsija",
+      "role": "Rakennusurakointi",
+      "notes": "Paikallinen rakennusyritys",
+      "sources": [],
+      "last_updated": null
+    },
+    {
+      "name": "Oteran Oy",
+      "y_tunnus": null,
+      "mentions": 2,
+      "category": "urakoitsija",
+      "role": "Urakointi",
+      "notes": "",
+      "sources": [],
+      "last_updated": null
+    },
+    {
+      "name": "Team Penttilä Oy",
+      "y_tunnus": null,
+      "mentions": 5,
+      "category": "urakoitsija",
+      "role": "Urakointi",
+      "notes": "",
+      "sources": [],
+      "last_updated": null
+    },
+    {
+      "name": "Hajato Oy",
+      "y_tunnus": null,
+      "mentions": 5,
+      "category": "urakoitsija",
+      "role": "Urakointi",
+      "notes": "",
+      "sources": [],
+      "last_updated": null
+    },
+    {
+      "name": "Emineo Oy",
+      "y_tunnus": null,
+      "mentions": 3,
+      "category": "urakoitsija",
+      "role": "Urakointi",
+      "notes": "",
+      "sources": [],
+      "last_updated": null
+    },
+    {
+      "name": "Elenia Oy",
+      "y_tunnus": "2445423-4",
+      "mentions": 18,
+      "category": "energiayhtiö",
+      "role": "Sähkönjakeluverkko",
+      "notes": "Suomen suurimpia sähköverkkoyhtiöitä",
+      "sources": ["YTJ"],
+      "last_updated": "2025-12-05"
+    },
+    {
+      "name": "Elenia Verkko Oyj",
+      "y_tunnus": "2928893-3",
+      "mentions": 12,
+      "category": "energiayhtiö",
+      "role": "Sähkönjakeluverkko",
+      "notes": "Elenia-konsernin verkkoyhtiö",
+      "sources": ["YTJ"],
+      "last_updated": "2025-12-05"
+    },
+    {
+      "name": "Sähkö Sipa Oy",
+      "y_tunnus": null,
+      "mentions": 8,
+      "category": "urakoitsija",
+      "role": "Sähköurakointi",
+      "notes": "",
+      "sources": [],
+      "last_updated": null
+    },
+    {
+      "name": "Textilservice Oy",
+      "y_tunnus": null,
+      "mentions": 20,
+      "category": "palveluntuottaja",
+      "role": "Tekstiilipalvelut, pyykkihuolto",
+      "notes": "",
+      "sources": [],
+      "last_updated": null
+    },
+    {
+      "name": "Visit Seinäjoki Region Oy",
+      "y_tunnus": null,
+      "mentions": 2,
+      "category": "matkailuyhtiö",
+      "role": "Alueellinen matkailumarkkinointi",
+      "notes": "Seudullinen matkailun edistämisyhtiö",
+      "sources": [],
+      "last_updated": null
+    },
+    {
+      "name": "Suomen Emoyhtiö Oy",
+      "y_tunnus": null,
+      "mentions": 44,
+      "category": "yritys",
+      "role": "Maanvuokraus, liiketoiminta",
+      "notes": "Merkittäviä maanvuokrasopimuksia kaupungin kanssa",
+      "sources": [],
+      "last_updated": null
+    },
+    {
+      "name": "Lapuan Yrittäjähotelli Oy",
+      "y_tunnus": null,
+      "mentions": 13,
+      "category": "kaupungin_omistama",
+      "role": "Yrityskiinteistöt, toimitilat",
+      "notes": "",
+      "sources": [],
+      "last_updated": null
+    }
+  ],
+  "categories": {
+    "kaupungin_omistama": "Lapuan kaupungin kokonaan tai osittain omistama yhtiö",
+    "urakoitsija": "Rakentamis- tai infraurakoitsija",
+    "palveluntuottaja": "Palveluja kaupungille tuottava yritys",
+    "energiayhtiö": "Energia-alan yhtiö",
+    "vesihuolto": "Vesihuoltoyhtiö",
+    "jätehuolto": "Jätehuoltoyhtiö",
+    "konsultti": "Suunnittelu- ja konsultointiyhtiö",
+    "elinkeinoyhtiö": "Elinkeinon edistämisyhtiö",
+    "matkailuyhtiö": "Matkailun edistämisyhtiö",
+    "yritys": "Muu yritys"
+  }
+}
+

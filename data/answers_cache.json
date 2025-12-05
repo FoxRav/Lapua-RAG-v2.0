@@ -1,0 +1,11 @@
+{
+  "metadata": {
+    "description": "RAG-vastausten välimuisti - optimoi LLM-inferenssikustannuksia",
+    "created": "2025-12-05",
+    "version": "1.0",
+    "similarity_threshold": 0.92,
+    "cache_expiry_days": 30
+  },
+  "cached_answers": []
+}
+
