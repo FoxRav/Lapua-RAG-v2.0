@@ -6,22 +6,6 @@ Kokeellinen harrasteprojekti, joka tarjoaa RAG-pohjaisen haun Lapuan kaupungin j
 
 ---
 
-## ⚠️ KRIITTISET SÄÄNNÖT
-
-### ÄLKÄÄ KOSKAAN:
-1. **KEKSIKÖ DATAA** - Kaikki talousluvut, henkilönimet, päivämäärät ja pykälänumerot TÄYTYY olla todennettavissa alkuperäisistä lähteistä
-2. **ARVIOIKO LUKUJA** - Jos tietoa ei löydy, se merkitään puuttuvaksi, EI arvata
-3. **KÄYTTÄKÖ "MOCK DATA"** - Kaikki testidatakin tulee olla todellista
-
-### TIETOJEN LÄHTEET (hyväksytyt):
-- Pöytäkirjat (alkuperäinen lähde)
-- YTJ/tietopalvelu.ytj.fi (Y-tunnukset)
-- Asiakastieto.fi / Finder.fi (talousluvut - maksulliset)
-- Yritysten viralliset verkkosivut
-- Vuosikertomukset (PDF)
-
----
-
 ## Arkkitehtuuri
 
 ```
