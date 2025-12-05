@@ -9,7 +9,24 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
 from agents.query_agent import LapuaAnswer, LapuaQueryAgent, LapuaQueryFilters
-from apps.backend.cache.answer_cache import log_user_question
+
+# Try to import question logging - handle various import paths
+_logging_enabled = False
+def log_user_question(q: str) -> None:
+    """Stub function if logging not available."""
+    pass
+
+try:
+    from apps.backend.cache.answer_cache import log_user_question as _log_q
+    log_user_question = _log_q
+    _logging_enabled = True
+except ImportError:
+    try:
+        from cache.answer_cache import log_user_question as _log_q
+        log_user_question = _log_q
+        _logging_enabled = True
+    except ImportError:
+        pass  # Use stub function
 
 _log = logging.getLogger(__name__)
 
