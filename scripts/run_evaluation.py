@@ -36,7 +36,7 @@ class EvaluationResult(TypedDict):
 
 
 API_BASE_URL = "https://lapuarag.org"
-QUESTIONS_FILE = Path(__file__).parent.parent / "kysymykset.md"
+DEFAULT_QUESTIONS_FILE = Path(__file__).parent.parent / "kysymykset.md"
 DEFAULT_OUTPUT_DIR = Path(__file__).parent.parent / "evaluation_results"
 
 
@@ -211,6 +211,13 @@ def _print_summary(results: list[EvaluationResult]) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser(description="Run RAG evaluation")
     parser.add_argument(
+        "--questions",
+        "-q",
+        type=Path,
+        default=DEFAULT_QUESTIONS_FILE,
+        help="Questions Markdown file path",
+    )
+    parser.add_argument(
         "--output",
         "-o",
         type=Path,
@@ -242,8 +249,8 @@ def main() -> None:
         output_path = DEFAULT_OUTPUT_DIR / f"run_{timestamp}.json"
     
     # Parse questions
-    questions = parse_questions(QUESTIONS_FILE)
-    print(f"Loaded {len(questions)} questions from {QUESTIONS_FILE}")
+    questions = parse_questions(args.questions)
+    print(f"Loaded {len(questions)} questions from {args.questions}")
     
     # Apply limit if specified
     if args.limit:

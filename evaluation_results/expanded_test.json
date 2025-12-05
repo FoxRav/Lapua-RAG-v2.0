@@ -1,0 +1,602 @@
+{
+  "metadata": {
+    "run_date": "2025-12-05T11:50:08.288698",
+    "api_url": "https://lapuarag.org",
+    "total_questions": 5,
+    "completed": 5,
+    "errors": 0
+  },
+  "results": [
+    {
+      "id": 1,
+      "topic": "Uimahalli-projekti",
+      "question": "Mikä on uimahallihankkeen kokonaiskustannusarvio?",
+      "answer": "**Lyhyt yhteenveto**  \nUimahallihankkeen kokonaiskustannusarvio on noin 14 miljoonaa euroa, johon on lisättynä 600 000 euroa valtionavustusta.  Kaikkien urakkatarjousten yhteenlaskettu arvo on 13 891 550 euroa, ja teknisen lautakunnan investointiesityksessä kokonaisinvestointi on esitetty 9 miljoonan euron summana.\n\n**Keskeiset päätökset**  \n- **Kaupunginhallitus, 26.05.2025, § 181** – Uimahallin rakentamiseen on varattu yhteensä 14 000 000 € määräraha vuosille 2025‑2027 sekä 600 000 € Opetus‑ ja kulttuuriministeriön avustusta.  \n- **Kaupunginhallitus, 26.05.2025, § 181",
+      "sources": [
+        {
+          "doc_id": "Tekninen lautakunta_2025-10-14",
+          "toimielin": "Tekninen lautakunta",
+          "poytakirja_pvm": "2025-10-14",
+          "pykala_nro": "§ 145",
+          "otsikko": null,
+          "score": 0.6286235
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-05-26",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-05-26",
+          "pykala_nro": "§ 181",
+          "otsikko": null,
+          "score": 0.60611963
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-05-26",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-05-26",
+          "pykala_nro": "§ 179",
+          "otsikko": null,
+          "score": 0.60073555
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-05-26",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-05-26",
+          "pykala_nro": "§ 178",
+          "otsikko": null,
+          "score": 0.60028315
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-05-26",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-05-26",
+          "pykala_nro": "§ 182",
+          "otsikko": null,
+          "score": 0.59397924
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2024-12-16",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2024-12-16",
+          "pykala_nro": "§ 371",
+          "otsikko": null,
+          "score": 0.6200455
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-05-26",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-05-26",
+          "pykala_nro": "§ 180",
+          "otsikko": null,
+          "score": 0.5874966
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-05-26",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-05-26",
+          "pykala_nro": "§ 183",
+          "otsikko": null,
+          "score": 0.5781642
+        },
+        {
+          "doc_id": "Tekninen lautakunta_2025-06-17",
+          "toimielin": "Tekninen lautakunta",
+          "poytakirja_pvm": "2025-06-17",
+          "pykala_nro": "§ 99",
+          "otsikko": null,
+          "score": 0.54990315
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-02-03",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-02-03",
+          "pykala_nro": "§ 33",
+          "otsikko": null,
+          "score": 0.5693474
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-02-17",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-02-17",
+          "pykala_nro": "§ 8",
+          "otsikko": null,
+          "score": 0.5645088
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-02-03",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-02-03",
+          "pykala_nro": "§ 29",
+          "otsikko": null,
+          "score": 0.5637793
+        }
+      ],
+      "response_time_ms": 5454,
+      "timestamp": "2025-12-05T11:49:40.116269",
+      "error": null
+    },
+    {
+      "id": 2,
+      "topic": "Uimahalli-projekti",
+      "question": "Mitä uimahallin suunnittelutoimikunnassa on päätetty?",
+      "answer": "**Lyhyt yhteenveto**  \nUimahallin suunnittelutoimikunta käsitteli 15.5.2025 kaikki urakkatarjoukset ja päätti suositella tekniselle lautakunnalle sekä kaupunginhallitukselle kunkin urakan voittajaa. Suunnittelutoimikunta valitsi vesikäsittelyurakan, ilmanvaihtourakan, putkiurakan, sähköurakan, rakennusautomaatiourakan ja rakennusurakan alhaisimpien hintojen perusteella.\n\n**Keskeiset päätökset**  \n- **Kaupunginhallitus, 26.05.2025, § 179** – Suunnittelutoimikunta suosittelee vedenkäsittelyurakoitsijaksi Pool4you Oy:n (1 221 750 €).  \n- **Kaupunginhallitus, 26.05.2025, § 180** – Suunnittelutoimikunta suosittelee ilmanvaihtourakoitsijaksi Are Oy:n (857 800 €).  \n- **Kaupunginhallitus, 26.05.2025, § 181** – Suunnittelutoimikunta suosittelee putkiurakoitsijaksi LVI‑asiantuntija, Suomi Oy:n (837 000 €).  \n- **Kaupunginhallitus, 26.05.2025, § 182** – Suunnittelutoimikunta suosittelee sähköurakoitsijaksi Sähkö Sipa Oy:n (697 000 €).  \n- **Kaupunginhallitus, 26.05.2025, § 183** – Suunnittelutoimikunta suosittelee rakennusautomaatiourakoitsijaksi Rau‑Service Oy:n (94 000 €).  \n- **Kaupunginhallitus, 26.05.2025, § 178** – Suunnittelutoimikunta suosittelee rakennusurakoitsijaksi Sakela Rakennus Oy:n (10 184 000 €).  ",
+      "sources": [
+        {
+          "doc_id": "Kaupunginhallitus_2025-05-26",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-05-26",
+          "pykala_nro": "§ 179",
+          "otsikko": null,
+          "score": 0.6033663
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-05-26",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-05-26",
+          "pykala_nro": "§ 180",
+          "otsikko": null,
+          "score": 0.5986749
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-05-26",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-05-26",
+          "pykala_nro": "§ 181",
+          "otsikko": null,
+          "score": 0.59635365
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-05-26",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-05-26",
+          "pykala_nro": "§ 182",
+          "otsikko": null,
+          "score": 0.59248936
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-05-26",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-05-26",
+          "pykala_nro": "§ 178",
+          "otsikko": null,
+          "score": 0.589986
+        },
+        {
+          "doc_id": "Tekninen lautakunta_2025-10-14",
+          "toimielin": "Tekninen lautakunta",
+          "poytakirja_pvm": "2025-10-14",
+          "pykala_nro": "§ 145",
+          "otsikko": null,
+          "score": 0.5619979
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-05-26",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-05-26",
+          "pykala_nro": "§ 183",
+          "otsikko": null,
+          "score": 0.5813944
+        },
+        {
+          "doc_id": "Tekninen lautakunta_2025-06-17",
+          "toimielin": "Tekninen lautakunta",
+          "poytakirja_pvm": "2025-06-17",
+          "pykala_nro": "§ 101",
+          "otsikko": null,
+          "score": 0.5775347
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-06-09",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-06-09",
+          "pykala_nro": "§ 222",
+          "otsikko": null,
+          "score": 0.56630516
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2024-12-16",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2024-12-16",
+          "pykala_nro": "§ 371",
+          "otsikko": null,
+          "score": 0.5879244
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-02-03",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-02-03",
+          "pykala_nro": "§ 33",
+          "otsikko": null,
+          "score": 0.5754106
+        },
+        {
+          "doc_id": "Hyvinvointilautakunta_2025-09-15",
+          "toimielin": "Hyvinvointilautakunta",
+          "poytakirja_pvm": "2025-09-15",
+          "pykala_nro": "§ 109",
+          "otsikko": null,
+          "score": 0.5316361
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-11-03",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-11-03",
+          "pykala_nro": "§ 377",
+          "otsikko": null,
+          "score": 0.52339554
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-02-17",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-02-17",
+          "pykala_nro": "§ 14",
+          "otsikko": null,
+          "score": 0.55602884
+        }
+      ],
+      "response_time_ms": 4396,
+      "timestamp": "2025-12-05T11:49:46.522021",
+      "error": null
+    },
+    {
+      "id": 3,
+      "topic": "Uimahalli-projekti",
+      "question": "Mitkä ovat uimahallin rahoitusvaihtoehdot?",
+      "answer": "**Lyhyt yhteenveto**  \nUimahallin rahoitus koostuu pääasiallisesti kunnan omasta investointimäärärahasta (14 000 000 € vuosille 2025‑2027) sekä Opetus‑ ja kulttuuriministeriön myöntämästä 600 000 € avustuksesta. Rahoituksen toteuttamiseen käytetään myös teknisen lautakunnan esittämiä investointisuunnitelmia, joista osa on varattu erikseen eri urakoille (rakennus, putki‑, ilmanvaihto‑, sähkö‑, vedenkäsittely‑ ja automaatiourakat).  \n\n**Keskeiset päätökset**  \n- **Kaupunginhallitus, 26.05.2025, § 181** – Uimahallin rakentamiseen on varattu yhteensä 14 000 000 € määräraha vuosille 2025‑2027 ja hankkeelle on myönnetty Opetus‑ ja kulttuuriministeriön 600 000 € avustus.  \n- **Kaupunginhallitus, 26.05.2025, § 180** – Uimahallin ilmanvaihtourakan (857 800 €) rahoitus sisältyy kunnan 14 000 000 € investointimäärärahaan.  \n- **Kaupunginhallitus, 26.05.2025, § 178** – Uimahallin rakennusurakan (10 184 000 €) rahoitus toteutetaan kunnan 14 000 000 € määrärahan puitteissa.  \n- **Kaupunginhallitus, 26.05.2025, § 182** – Uimahallin sähköurakan (697 000 €) rahoitus sisältyy kunnan 14 000 000 € investointimäärärahaan.  \n- **Kaupunginhallitus, 26.05.2025, § 179** – Uimahallin vedenkäsittelyurakan (1 221 750 €) rahoitus on katettu kunnan 14 000 000 € määrärahalla.  \n- **Kaupunginhallitus, 26.05.2025, § 183** – Uimahallin rakennusautomaatiourakan (94 000 €) rahoitus sisältyy kunnan 14 000 000 € investointimäärärahaan.  \n- **Tekninen lautakunta, 14.10.2025, § 145** – Uimahalliin liittyvät investoinnit on eritelty: 2026‑2028 investointien yhteensä –9 000 000 € (‑6 000 000 € 2026, ‑3 000 000 € 2027, 0 € 2028).  \n- **Kaupunginhallitus, 16.12.2024, § 371** – Hyväksytti uuden uimahallin pääpiirustukset ja vahvisti, että rakennushankkeelle on varattu 14 000 000 € määräraha sekä 600 000 € valtionavustus.  \n\nNämä päätökset osoittavat, että uimahallin rahoitus perustuu kunnan omiin investointimäärärahoihin, valtionavustukseen sekä tarkasti kohdennettuun urakkarahoitukseen eri rakennus- ja teknisten järjestelmien osalta.",
+      "sources": [
+        {
+          "doc_id": "Tekninen lautakunta_2025-10-14",
+          "toimielin": "Tekninen lautakunta",
+          "poytakirja_pvm": "2025-10-14",
+          "pykala_nro": "§ 145",
+          "otsikko": null,
+          "score": 0.5893301
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-05-26",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-05-26",
+          "pykala_nro": "§ 181",
+          "otsikko": null,
+          "score": 0.5837431
+        },
+        {
+          "doc_id": "Hyvinvointilautakunta_2025-10-07",
+          "toimielin": "Hyvinvointilautakunta",
+          "poytakirja_pvm": "2025-10-07",
+          "pykala_nro": "§ 119",
+          "otsikko": null,
+          "score": 0.5612571
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-05-26",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-05-26",
+          "pykala_nro": "§ 180",
+          "otsikko": null,
+          "score": 0.58118
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-05-26",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-05-26",
+          "pykala_nro": "§ 178",
+          "otsikko": null,
+          "score": 0.57877177
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-05-26",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-05-26",
+          "pykala_nro": "§ 182",
+          "otsikko": null,
+          "score": 0.5766061
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-05-26",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-05-26",
+          "pykala_nro": "§ 179",
+          "otsikko": null,
+          "score": 0.5747088
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-05-26",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-05-26",
+          "pykala_nro": "§ 183",
+          "otsikko": null,
+          "score": 0.57430923
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2024-12-16",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2024-12-16",
+          "pykala_nro": "§ 371",
+          "otsikko": null,
+          "score": 0.5874798
+        },
+        {
+          "doc_id": "Hyvinvointilautakunta_2025-09-15",
+          "toimielin": "Hyvinvointilautakunta",
+          "poytakirja_pvm": "2025-09-15",
+          "pykala_nro": "§ 109",
+          "otsikko": null,
+          "score": 0.5366439
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-02-17",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-02-17",
+          "pykala_nro": "§ 8",
+          "otsikko": null,
+          "score": 0.56597376
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-02-17",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-02-17",
+          "pykala_nro": "§ 14",
+          "otsikko": null,
+          "score": 0.55207384
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-02-03",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-02-03",
+          "pykala_nro": "§ 33",
+          "otsikko": null,
+          "score": 0.5504393
+        }
+      ],
+      "response_time_ms": 5628,
+      "timestamp": "2025-12-05T11:49:54.159099",
+      "error": null
+    },
+    {
+      "id": 4,
+      "topic": "Uimahalli-projekti",
+      "question": "Mikä on uimahallihankkeen aikataulu?",
+      "answer": "**Lyhyt yhteenveto**  \nUimahallihankkeen aikataulu alkaa urakkatarjouspyyntöjen julkaisemisella 6 4 2025, jonka jälkeen tarjousten jättöaika päättyi 12 5 2025 klo 10.00 (alkuperäisesti 15 5 2025 klo 10.00). Selonottoneuvottelut pidettiin 13‑15 5 2025, ja urakoitsijat valittiin kaupunginhallituksen päätöksillä 26 5 2025. Pääpiirustukset on hyväksytty jo 3 12 2024, ja hankkeelle on varattu määräraha vuosille 2025‑2027.  \n\n**Keskeiset päätökset**  \n- **Kaupunginhallitus, 26.05.2025, § 178** – Valittiin uimahallin rakennusurakoitsijaksi Sakela Rakennus Oy (tarjouspäätös perustui 12.5.2025 klo 10.00 päättyneeseen tarjouskilpailuun).  \n- **Kaupunginhallitus, 26.05.2025, § 179** – Valittiin uimahallin vedenkäsittelyurakoitsijaksi Pool4you Oy (samassa tarjousaikataulussa).  \n- **Kaupunginhallitus, 26.05.2025, § 180** – Valittiin uimahallin ilmanvaihtourakoitsijaksi Are Oy (tarjouskilpailu päättyi 12.5.2025 klo 10.00).  \n- **Kaupunginhallitus, 26.05.2025, § 181** – Valittiin uimahallin putkiurakoitsijaksi LVI‑asiantuntija Suomi Oy (samassa aikataulussa).  \n- **Kaupunginhallitus, 26.05.2025, § 182** – Valittiin uimahallin sähköurakoitsijaksi Sähkö Sipa Oy (samassa aikataulussa).  \n- **Kaupunginhallitus, 26.05.2025, § 183** – Valittiin uimahallin rakennusautomaatiourakoitsijaksi Rau‑Service Oy (samassa aikataulussa).  \n- **Tekninen lautakunta, 11.12.2024, § 169** – Hyväksytti uimahallin pääpiirustukset, jotka mahdollistivat hankkeen jatkumisen rakennusluvan hakemiseen.  \n- **Tekninen lautakunta, 20.05.2025, § 76‑81** – Julkisti urakkatarjouspyynnöt 6 4 2025, määritteli tarjousten jättöajan (alkuperäinen 15 5 2025 klo 10.00, korjattu 12 5 2025 klo 10.00) ja aikataulun selonottoneuvotteluille 13‑15 5 2025.  \n\nNämä päätökset ja aikataulut muodostavat uimahallihankkeen keskeisen toteutusaikata",
+      "sources": [
+        {
+          "doc_id": "Kaupunginhallitus_2025-05-26",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-05-26",
+          "pykala_nro": "§ 178",
+          "otsikko": null,
+          "score": 0.60148627
+        },
+        {
+          "doc_id": "Tekninen lautakunta_2025-06-17",
+          "toimielin": "Tekninen lautakunta",
+          "poytakirja_pvm": "2025-06-17",
+          "pykala_nro": "§ 99",
+          "otsikko": null,
+          "score": 0.5941969
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-05-26",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-05-26",
+          "pykala_nro": "§ 179",
+          "otsikko": null,
+          "score": 0.5962333
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-05-26",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-05-26",
+          "pykala_nro": "§ 181",
+          "otsikko": null,
+          "score": 0.5960463
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-05-26",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-05-26",
+          "pykala_nro": "§ 180",
+          "otsikko": null,
+          "score": 0.5917357
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-05-26",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-05-26",
+          "pykala_nro": "§ 182",
+          "otsikko": null,
+          "score": 0.5887352
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-02-03",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-02-03",
+          "pykala_nro": "§ 33",
+          "otsikko": null,
+          "score": 0.60101223
+        },
+        {
+          "doc_id": "Tekninen lautakunta_2025-10-14",
+          "toimielin": "Tekninen lautakunta",
+          "poytakirja_pvm": "2025-10-14",
+          "pykala_nro": "§ 145",
+          "otsikko": null,
+          "score": 0.54931533
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2024-12-16",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2024-12-16",
+          "pykala_nro": "§ 371",
+          "otsikko": null,
+          "score": 0.5986893
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-05-26",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-05-26",
+          "pykala_nro": "§ 183",
+          "otsikko": null,
+          "score": 0.5652909
+        },
+        {
+          "doc_id": "Hyvinvointilautakunta_2025-10-07",
+          "toimielin": "Hyvinvointilautakunta",
+          "poytakirja_pvm": "2025-10-07",
+          "pykala_nro": "§ 119",
+          "otsikko": null,
+          "score": 0.5365669
+        },
+        {
+          "doc_id": "Hyvinvointilautakunta_2025-09-15",
+          "toimielin": "Hyvinvointilautakunta",
+          "poytakirja_pvm": "2025-09-15",
+          "pykala_nro": "§ 109",
+          "otsikko": null,
+          "score": 0.53015256
+        },
+        {
+          "doc_id": "Tekninen lautakunta_2025-06-17",
+          "toimielin": "Tekninen lautakunta",
+          "poytakirja_pvm": "2025-06-17",
+          "pykala_nro": "§ 101",
+          "otsikko": null,
+          "score": 0.536405
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-06-09",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-06-09",
+          "pykala_nro": "§ 222",
+          "otsikko": null,
+          "score": 0.5283823
+        }
+      ],
+      "response_time_ms": 5359,
+      "timestamp": "2025-12-05T11:50:01.519093",
+      "error": null
+    },
+    {
+      "id": 5,
+      "topic": "Uimahalli-projekti",
+      "question": "Ketkä kuuluvat uimahallin suunnittelutoimikuntaan?",
+      "answer": "**Lyhyt yhteenveto**  \nLähteissä mainitaan, että Uimahallin suunnittelutoimikunta on käsitellyt tarjouskilpailun tuloksia (15.5.2025) ja hyväksynyt pääpiirustukset (3.12.2024), mutta missään annetussa asiakirjassa ei ole lueteltu sen jäseniä. Siksi suunnittelutoimikunnan kokoonpanoa ei voida määritellä näiden lähteiden perusteella.  \n\n**Keskeiset päätökset**  \n- **Uimahallin suunnittelutoimikunta, 15.5.2025, § 181** – Päätti esittää putkiurakoitsijaksi LVI‑asiantuntija, Suomi Oy:n.  \n- **Uimahallin suunnittelutoimikunta, 15.5.2025, § 178** – Päätti esittää rakennusurakoitsijaksi Sakela Rakennus Oy:n.  \n- **Uimahallin suunnittelutoimikunta, 15.5.2025, § 179** – Päätti esittää vedenkäsittelyurakoitsijaksi Pool4you Oy:n.  \n- **Uimahallin suunnittelutoimikunta, 15.5.2025, § 180** – Päätti esittää ilmanvaihtourakoitsijaksi Are Oy:n.  \n- **Uimahallin suunnittelutoimikunta, 15.5.2025, § 182** – Päätti esittää sähköurakoitsijaksi Sähkö Sipa Oy:n.  \n- **Uimahallin suunnittelutoimikunta, 15.5.2025, § 183** – Päätti esittää rakennusautomaatiourakoitsijaksi Rau‑Service Oy:n.  \n- **Uimahallin suunnittelutoimikunta, 3.12.2024, § 371** – Hyväksyi uuden uimahallin pääpiirustukset.  \n\n**Huomautus**  \nTätä tietoa ei löydy annetuista lähteistä: kuka tarkalleen kuuluu Uimahallin suunnittelutoimikuntaan.",
+      "sources": [
+        {
+          "doc_id": "Kaupunginhallitus_2025-06-09",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-06-09",
+          "pykala_nro": "§ 222",
+          "otsikko": null,
+          "score": 0.55464995
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-05-26",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-05-26",
+          "pykala_nro": "§ 181",
+          "otsikko": null,
+          "score": 0.5546943
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-05-26",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-05-26",
+          "pykala_nro": "§ 178",
+          "otsikko": null,
+          "score": 0.54917693
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-05-26",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-05-26",
+          "pykala_nro": "§ 179",
+          "otsikko": null,
+          "score": 0.54802084
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-05-26",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-05-26",
+          "pykala_nro": "§ 180",
+          "otsikko": null,
+          "score": 0.54747236
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-05-26",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-05-26",
+          "pykala_nro": "§ 182",
+          "otsikko": null,
+          "score": 0.5452019
+        },
+        {
+          "doc_id": "Tekninen lautakunta_2025-10-14",
+          "toimielin": "Tekninen lautakunta",
+          "poytakirja_pvm": "2025-10-14",
+          "pykala_nro": "§ 145",
+          "otsikko": null,
+          "score": 0.5208426
+        },
+        {
+          "doc_id": "Tekninen lautakunta_2025-06-17",
+          "toimielin": "Tekninen lautakunta",
+          "poytakirja_pvm": "2025-06-17",
+          "pykala_nro": "§ 101",
+          "otsikko": null,
+          "score": 0.52327883
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-05-26",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-05-26",
+          "pykala_nro": "§ 183",
+          "otsikko": null,
+          "score": 0.52239126
+        },
+        {
+          "doc_id": "Hyvinvointilautakunta_2025-09-15",
+          "toimielin": "Hyvinvointilautakunta",
+          "poytakirja_pvm": "2025-09-15",
+          "pykala_nro": "§ 109",
+          "otsikko": null,
+          "score": 0.49350047
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-02-03",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-02-03",
+          "pykala_nro": "§ 33",
+          "otsikko": null,
+          "score": 0.5264907
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-06-23",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-06-23",
+          "pykala_nro": "§ 256",
+          "otsikko": null,
+          "score": 0.50463486
+        },
+        {
+          "doc_id": "Tekninen lautakunta_2025-06-17",
+          "toimielin": "Tekninen lautakunta",
+          "poytakirja_pvm": "2025-06-17",
+          "pykala_nro": "§ 99",
+          "otsikko": null,
+          "score": 0.50489277
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2024-12-16",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2024-12-16",
+          "pykala_nro": "§ 371",
+          "otsikko": null,
+          "score": 0.529546
+        }
+      ],
+      "response_time_ms": 4755,
+      "timestamp": "2025-12-05T11:50:08.288698",
+      "error": null
+    }
+  ]
+}

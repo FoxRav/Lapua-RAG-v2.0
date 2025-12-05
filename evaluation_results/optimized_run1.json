@@ -1,0 +1,969 @@
+{
+  "metadata": {
+    "run_date": "2025-12-05T11:38:26.753426",
+    "api_url": "https://lapuarag.org",
+    "total_questions": 10,
+    "completed": 10,
+    "errors": 0
+  },
+  "results": [
+    {
+      "id": 1,
+      "topic": "Talousarvio ja taloussuunnitelma",
+      "question": "Mikä on Lapuan kaupungin vuoden 2025 talousarvion alijäämäennuste?",
+      "answer": "**Lyhyt yhteenveto**  \nLapuan kaupungin vuoden 2025 talousarvion alijäämäennuste on noin 1,8 miljoonaa euroa. Tämä luku on esitetty sekä kaupunginhallituksen että kaupunginvaltuuston päätöksissä alijäämän koosta.  \n\n**Keskeiset päätökset**  \n- **Kaupunginhallitus, 03.11.2025, § 372** – Talousarvion 2025 ennakoitu alijäämä on 1,8 milj. euroa.  \n- **Kaupunginvaltuusto, 09.12.2024, § 85** – Vuoden 2025 talousarvio on muodostumassa 1,8 milj. euroiseksi alijäämäksi.",
+      "sources": [
+        {
+          "doc_id": "Kaupunginhallitus_2025-11-03",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-11-03",
+          "pykala_nro": "§ 372",
+          "otsikko": null,
+          "score": 0.69885564
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-11-10",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-11-10",
+          "pykala_nro": "§ 77",
+          "otsikko": null,
+          "score": 0.66115934
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-09-01",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-09-01",
+          "pykala_nro": "§ 69",
+          "otsikko": null,
+          "score": 0.66057926
+        },
+        {
+          "doc_id": "Ympäristölautakunta_2025-09-23",
+          "toimielin": "Ympäristölautakunta",
+          "poytakirja_pvm": "2025-09-23",
+          "pykala_nro": "§ 50",
+          "otsikko": null,
+          "score": 0.64549845
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2024-12-09",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2024-12-09",
+          "pykala_nro": "§ 85",
+          "otsikko": null,
+          "score": 0.6871872
+        },
+        {
+          "doc_id": "Sivistyslautakunta_2025-08-19",
+          "toimielin": "Sivistyslautakunta",
+          "poytakirja_pvm": "2025-08-19",
+          "pykala_nro": "§ 100",
+          "otsikko": null,
+          "score": 0.6380587
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-02-17",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-02-17",
+          "pykala_nro": "§ 8",
+          "otsikko": null,
+          "score": 0.6709235
+        },
+        {
+          "doc_id": "Tarkastuslautakunta_2025-05-08",
+          "toimielin": "Tarkastuslautakunta",
+          "poytakirja_pvm": "2025-05-08",
+          "pykala_nro": "§ 32",
+          "otsikko": null,
+          "score": 0.65364134
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-05-19",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-05-19",
+          "pykala_nro": "§ 35",
+          "otsikko": null,
+          "score": 0.6486095
+        },
+        {
+          "doc_id": "Sivistyslautakunta_2025-01-15",
+          "toimielin": "Sivistyslautakunta",
+          "poytakirja_pvm": "2025-01-15",
+          "pykala_nro": "§ 7",
+          "otsikko": null,
+          "score": 0.6468846
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2024-12-16",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2024-12-16",
+          "pykala_nro": "§ 371",
+          "otsikko": null,
+          "score": 0.649519
+        },
+        {
+          "doc_id": "Hyvinvointilautakunta_2025-01-22",
+          "toimielin": "Hyvinvointilautakunta",
+          "poytakirja_pvm": "2025-01-22",
+          "pykala_nro": "§ 7",
+          "otsikko": null,
+          "score": 0.64145505
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-02-03",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-02-03",
+          "pykala_nro": "§ 33",
+          "otsikko": null,
+          "score": 0.6373028
+        }
+      ],
+      "response_time_ms": 7519,
+      "timestamp": "2025-12-05T11:37:23.071112",
+      "error": null
+    },
+    {
+      "id": 2,
+      "topic": "Talousarvio ja taloussuunnitelma",
+      "question": "Mitkä ovat talousarvion keskeiset säästötoimenpiteet ja raamilinjaukset?",
+      "answer": "**Lyhyt yhteenveto**  \nVuoden 2026 talousarviokehys rajoittaa kokonaismenojen kasvun enintään 1,5 % suhteessa 2025‑vuoteen, asettaa nettoprojekti‑kattorajan 6,7 milj. €, ja velvoittaa toimialoja aktiivisiin menojen hillintä‑ ja priorisointitoimenpiteisiin. Säästötoimenpiteisiin kuuluvat uusien käyttömenojen välttäminen, investointien tarkka priorisointi, henkilöstökulujen tarkastelu sekä konkreettiset leikkaukset esimerkiksi kirjastojen logistiikkakuluissa, kulttuuripalveluissa ja kiinteistöverotulojen ajoituksessa.\n\n**Keskeiset päätökset**  \n- **Kaupunginhallitus, 23.06.2025, § 263** – Talousarviokehys 2026 sallii enintään 1,5 % kasvun toimintakuissa, asettaa nettoprojekti‑kattorajan 6,7 milj. €, ja määrää tiukan raamin, joka edellyttää menojen hillintää, uusien käyttömenojen pidättäytymistä ja investointien priorisointia.  \n- **Hyvinvointilautakunta, 26.08.2025, § 99** – Hyväksyttiin vuoden 2026 talousarvio, jossa toimintakulut on rajoitettu ‑4 ",
+      "sources": [
+        {
+          "doc_id": "Kaupunginhallitus_2025-11-03",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-11-03",
+          "pykala_nro": "§ 372",
+          "otsikko": null,
+          "score": 0.5915303
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-11-10",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-11-10",
+          "pykala_nro": "§ 77",
+          "otsikko": null,
+          "score": 0.5615598
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-06-23",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-06-23",
+          "pykala_nro": "§ 263",
+          "otsikko": null,
+          "score": 0.574986
+        },
+        {
+          "doc_id": "Esityslista-Kaupunginvaltuusto_2025-11-10",
+          "toimielin": "Esityslista-Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-11-10",
+          "pykala_nro": "§ 77",
+          "otsikko": null,
+          "score": 0.53773546
+        },
+        {
+          "doc_id": "Hyvinvointilautakunta_2025-10-07",
+          "toimielin": "Hyvinvointilautakunta",
+          "poytakirja_pvm": "2025-10-07",
+          "pykala_nro": "§ 119",
+          "otsikko": null,
+          "score": 0.536963
+        },
+        {
+          "doc_id": "Sivistyslautakunta_2025-10-08",
+          "toimielin": "Sivistyslautakunta",
+          "poytakirja_pvm": "2025-10-08",
+          "pykala_nro": "§ 125",
+          "otsikko": null,
+          "score": 0.5361198
+        },
+        {
+          "doc_id": "Hyvinvointilautakunta_2025-09-15",
+          "toimielin": "Hyvinvointilautakunta",
+          "poytakirja_pvm": "2025-09-15",
+          "pykala_nro": "§ 109",
+          "otsikko": null,
+          "score": 0.53559166
+        },
+        {
+          "doc_id": "Hyvinvointilautakunta_2025-01-22",
+          "toimielin": "Hyvinvointilautakunta",
+          "poytakirja_pvm": "2025-01-22",
+          "pykala_nro": "§ 7",
+          "otsikko": null,
+          "score": 0.5696196
+        },
+        {
+          "doc_id": "Hyvinvointilautakunta_2025-08-26",
+          "toimielin": "Hyvinvointilautakunta",
+          "poytakirja_pvm": "2025-08-26",
+          "pykala_nro": "§ 104",
+          "otsikko": null,
+          "score": 0.5333818
+        },
+        {
+          "doc_id": "Sivistyslautakunta_2025-08-19",
+          "toimielin": "Sivistyslautakunta",
+          "poytakirja_pvm": "2025-08-19",
+          "pykala_nro": "§ 100",
+          "otsikko": null,
+          "score": 0.5320641
+        },
+        {
+          "doc_id": "Sivistyslautakunta_2025-01-15",
+          "toimielin": "Sivistyslautakunta",
+          "poytakirja_pvm": "2025-01-15",
+          "pykala_nro": "§ 7",
+          "otsikko": null,
+          "score": 0.55723596
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2024-12-09",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2024-12-09",
+          "pykala_nro": "§ 85",
+          "otsikko": null,
+          "score": 0.55618036
+        }
+      ],
+      "response_time_ms": 5461,
+      "timestamp": "2025-12-05T11:37:30.545516",
+      "error": null
+    },
+    {
+      "id": 3,
+      "topic": "Talousarvio ja taloussuunnitelma",
+      "question": "Miten talousarvion sitovuustaso on määritelty eri lautakunnille?",
+      "answer": "**Lyhyt yhteenveto**  \nTalouden sitovuustaso määritellään kunkin lautakunnan osalta erikseen. Teknisen lautakunnan osalta sitovuus rajoittaa sen investointien kokonaismäärää (rakennus‑, liikenne‑, vesihuolto‑ ja kalustohankkeet) suhteessa valtuuston hyväksymään talousarvioon (Lähde 12). Tarkastuslautakunnan määräraha on puolestaan sitova valtuustoon nähden, eli sen budjetti ei voi ylittää valtuuston asettamaa kokonaisrajaa (Lähde 14). Muita lautakuntia koskevia tarkkoja sitovuustason määritelmiä lähteissä ei ole.\n\n**Keskeiset päätökset**  \n- **Tekninen lautakunta, 28.01.2025, § 8** – Vuoden 2024 talousarvion investointiosan sitovuus koskee valtuustoon nähden rakennusinvestointien, liikenneväylien, muiden kiinteiden rakenteiden ja laitteiden sekä vesihuoltolaitoksen ja kalustohankintojen kustannuspaikkakohtaista jakoa (Lähde 12).  \n- **Tarkastuslautakunta, 20.05.2025, § 5** – Tarkastuslautakunnan määräraha on valtuustoon nähden sitova; sen budjetti on sidottu valtuuston hyväksymään talousarvioon (Lähde 14).  \n\n*Jos tietoa muista lautakunnista (esim. sivistys‑, hyvinvointi‑, ympäristö‑ tai keskusvaalilautakunta) ei ole mainittu lähteissä, sitä ei voida esittää.*",
+      "sources": [
+        {
+          "doc_id": "Esityslista-Kaupunginvaltuusto_2025-11-10",
+          "toimielin": "Esityslista-Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-11-10",
+          "pykala_nro": "§ 84",
+          "otsikko": null,
+          "score": 0.5640341
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-11-03",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-11-03",
+          "pykala_nro": "§ 372",
+          "otsikko": null,
+          "score": 0.5643612
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-11-10",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-11-10",
+          "pykala_nro": "§ 84",
+          "otsikko": null,
+          "score": 0.5568043
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-06-02",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-06-02",
+          "pykala_nro": "§ 54",
+          "otsikko": null,
+          "score": 0.5702661
+        },
+        {
+          "doc_id": "Hyvinvointilautakunta_2025-09-15",
+          "toimielin": "Hyvinvointilautakunta",
+          "poytakirja_pvm": "2025-09-15",
+          "pykala_nro": "§ 109",
+          "otsikko": null,
+          "score": 0.5492
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-05-26",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-05-26",
+          "pykala_nro": "§ 197",
+          "otsikko": null,
+          "score": 0.56307817
+        },
+        {
+          "doc_id": "Tarkastuslautakunta_2025-05-08",
+          "toimielin": "Tarkastuslautakunta",
+          "poytakirja_pvm": "2025-05-08",
+          "pykala_nro": "§ 32",
+          "otsikko": null,
+          "score": 0.56146413
+        },
+        {
+          "doc_id": "Sivistyslautakunta_2025-06-18",
+          "toimielin": "Sivistyslautakunta",
+          "poytakirja_pvm": "2025-06-18",
+          "pykala_nro": "§ 88",
+          "otsikko": null,
+          "score": 0.55223894
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-06-23",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-06-23",
+          "pykala_nro": "§ 263",
+          "otsikko": null,
+          "score": 0.5482479
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-05-19",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-05-19",
+          "pykala_nro": "§ 35",
+          "otsikko": null,
+          "score": 0.5490198
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-05-26",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-05-26",
+          "pykala_nro": "§ 186",
+          "otsikko": null,
+          "score": 0.5470209
+        },
+        {
+          "doc_id": "Tekninen lautakunta_2025-01-28",
+          "toimielin": "Tekninen lautakunta",
+          "poytakirja_pvm": "2025-01-28",
+          "pykala_nro": "§ 8",
+          "otsikko": null,
+          "score": 0.5626985
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2024-12-09",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2024-12-09",
+          "pykala_nro": "§ 85",
+          "otsikko": null,
+          "score": 0.5703371
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-02-17",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-02-17",
+          "pykala_nro": "§ 5",
+          "otsikko": null,
+          "score": 0.55779314
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-02-17",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-02-17",
+          "pykala_nro": "§ 17",
+          "otsikko": null,
+          "score": 0.5559939
+        }
+      ],
+      "response_time_ms": 4034,
+      "timestamp": "2025-12-05T11:37:36.587100",
+      "error": null
+    },
+    {
+      "id": 4,
+      "topic": "Verotus (tulovero ja kiinteistövero)",
+      "question": "Mikä on Lapuan kaupungin tuloveroprosentti vuodelle 2025?",
+      "answer": "**Lyhyt yhteenveto**  \nLapuan kaupungin tuloveroprosentti vuodelle 2025 on 8,9 %. Tämä prosentti on vahvistettu kaupunginhallituksen päätöksessä ja on ilmoitettu myös kaupunginvaltuustolle.\n\n**Keskeiset päätökset**  \n- **Kaupunginhallitus, 03.11.2025, § 372** – Vuodelle 2025 vahvistettiin tuloveroprosentti 8,9 %.  \n- **Kaupunginvaltuusto, 10.11.2025, § 79** – Vahvistettiin, että Lapuan kaupungin tuloveroprosentti vuodelle 2025 on 8,9 %.",
+      "sources": [
+        {
+          "doc_id": "Kaupunginhallitus_2025-11-03",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-11-03",
+          "pykala_nro": "§ 372",
+          "otsikko": null,
+          "score": 0.70050883
+        },
+        {
+          "doc_id": "Esityslista-Kaupunginvaltuusto_2025-11-10",
+          "toimielin": "Esityslista-Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-11-10",
+          "pykala_nro": "§ 79",
+          "otsikko": null,
+          "score": 0.69556797
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-11-10",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-11-10",
+          "pykala_nro": "§ 79",
+          "otsikko": null,
+          "score": 0.6917062
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2024-11-11",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2024-11-11",
+          "pykala_nro": "§ 75",
+          "otsikko": null,
+          "score": 0.7371875
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-11-18",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-11-18",
+          "pykala_nro": "§ 79",
+          "otsikko": null,
+          "score": 0.63968676
+        },
+        {
+          "doc_id": "Sivistyslautakunta_2025-09-16",
+          "toimielin": "Sivistyslautakunta",
+          "poytakirja_pvm": "2025-09-16",
+          "pykala_nro": "§ 115",
+          "otsikko": null,
+          "score": 0.6199014
+        },
+        {
+          "doc_id": "Sivistyslautakunta_2025-10-27",
+          "toimielin": "Sivistyslautakunta",
+          "poytakirja_pvm": "2025-10-27",
+          "pykala_nro": "§ 134",
+          "otsikko": null,
+          "score": 0.6037918
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-08-11",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-08-11",
+          "pykala_nro": "§ 282",
+          "otsikko": null,
+          "score": 0.61365616
+        },
+        {
+          "doc_id": "Tekninen lautakunta_2025-08-26",
+          "toimielin": "Tekninen lautakunta",
+          "poytakirja_pvm": "2025-08-26",
+          "pykala_nro": "§ 109",
+          "otsikko": null,
+          "score": 0.6069602
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-06-23",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-06-23",
+          "pykala_nro": "§ 263",
+          "otsikko": null,
+          "score": 0.60845184
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-02-17",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-02-17",
+          "pykala_nro": "§ 8",
+          "otsikko": null,
+          "score": 0.6119454
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2024-11-11",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2024-11-11",
+          "pykala_nro": "§ 76",
+          "otsikko": null,
+          "score": 0.6292607
+        },
+        {
+          "doc_id": "Sivistyslautakunta_2025-01-15",
+          "toimielin": "Sivistyslautakunta",
+          "poytakirja_pvm": "2025-01-15",
+          "pykala_nro": "§ 7",
+          "otsikko": null,
+          "score": 0.61206186
+        }
+      ],
+      "response_time_ms": 3710,
+      "timestamp": "2025-12-05T11:37:42.309432",
+      "error": null
+    },
+    {
+      "id": 5,
+      "topic": "Verotus (tulovero ja kiinteistövero)",
+      "question": "Mitkä ovat Lapuan kaupungin kiinteistöveroprosentit eri kiinteistötyypeille?",
+      "answer": "**Lyhyt yhteenveto**  \nLapuan kaupungin kiinteistöveroprosentit on määritelty laissa säädettyjen vaihteluvälien sisällä ja ne on vahvistettu sekä kaupunginhallituksessa että kaupunginvaltuustossa vuodelle 2026. Prosentit vaihtelevat 0 % – 6 % riippuen kiinteistötyypistä.  \n\n**Keskeiset päätökset**  \n- **Kaupunginhallitus, 03.11.2025, § 376** – Kiinteistöveroprosentit vuodelle 2026:  \n  - Maapohjan yleinen 1,30 %  \n  - Rakennusten yleinen 1,05 %  \n  - Vakituisten asuinrakennusten veroprosentti 0,45 %  \n  - Muiden asuinrakennusten veroprosentti 1,05 %  \n  - Rakentamattoman rakennuspaikan veroprosentti 6,00 %  \n  - Yleishyödyllinen yhteisö 0,00 %  \n  - Voimalaitos 3,10 %【LÄHDE 2†L31-L38】  \n\n- **Kaupunginvaltuusto, 10.11.2025, § 80** – Vahvistettiin samat kiinteistöveroprosentit vuodelle 2026 (samassa taulukossa kuin yllä)【LÄHDE 2†L31-L38】  \n\n- **Kaupunginhallitus, 03.11.2025, § 376** – Kiinteistöveroprosentit vuodelle 2025 (samat arvot kuin 2026) esitettiin talousseminaarissa 22.10.2025 ja päätettiin pitää ennallaan【LÄHDE 1†L71-L78】  \n\n- **Kaupunginvaltuusto, 11.11.2024, § 76** – Kiinteistöveroprosentit vuodelle 2025 vahvistettiin: maapohjan 1,30 %, rakennusten 1,05 %, vakituisten asuinrakennusten 0,45 %, muiden asuinrakennusten 1,05 %, rakentamattoman rakennuspaikan 6,00 %, yleishyödyllinen 0,00 %, voimalaitos 3,10 %【LÄHDE 4†L71-L78】",
+      "sources": [
+        {
+          "doc_id": "Kaupunginhallitus_2025-11-03",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-11-03",
+          "pykala_nro": "§ 372",
+          "otsikko": null,
+          "score": 0.74227035
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-11-10",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-11-10",
+          "pykala_nro": "§ 80",
+          "otsikko": null,
+          "score": 0.6936294
+        },
+        {
+          "doc_id": "Esityslista-Kaupunginvaltuusto_2025-11-10",
+          "toimielin": "Esityslista-Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-11-10",
+          "pykala_nro": "§ 80",
+          "otsikko": null,
+          "score": 0.65772307
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2024-11-11",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2024-11-11",
+          "pykala_nro": "§ 76",
+          "otsikko": null,
+          "score": 0.6991968
+        },
+        {
+          "doc_id": "Esityslista-Kaupunginvaltuusto_2025-11-10",
+          "toimielin": "Esityslista-Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-11-10",
+          "pykala_nro": "§ 79",
+          "otsikko": null,
+          "score": 0.60158944
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-11-10",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-11-10",
+          "pykala_nro": "§ 79",
+          "otsikko": null,
+          "score": 0.59923923
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-06-23",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-06-23",
+          "pykala_nro": "§ 263",
+          "otsikko": null,
+          "score": 0.6171381
+        },
+        {
+          "doc_id": "Tekninen lautakunta_2025-10-14",
+          "toimielin": "Tekninen lautakunta",
+          "poytakirja_pvm": "2025-10-14",
+          "pykala_nro": "§ 145",
+          "otsikko": null,
+          "score": 0.5682677
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-09-01",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-09-01",
+          "pykala_nro": "§ 69",
+          "otsikko": null,
+          "score": 0.5714083
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2024-11-11",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2024-11-11",
+          "pykala_nro": "§ 75",
+          "otsikko": null,
+          "score": 0.6161787
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-02-17",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-02-17",
+          "pykala_nro": "§ 8",
+          "otsikko": null,
+          "score": 0.59733295
+        }
+      ],
+      "response_time_ms": 4316,
+      "timestamp": "2025-12-05T11:37:48.633560",
+      "error": null
+    },
+    {
+      "id": 6,
+      "topic": "Verotus (tulovero ja kiinteistövero)",
+      "question": "Miten kunnallisverotulot ovat kehittyneet suhteessa talousarvioon?",
+      "answer": "**Kunnallisverotulojen kehitys suhteessa talousarvioon (Lapua 2024‑2025)**  \n\n| Ajanjakso | Kunnallisverojen kertymä (M €) | Toteutuma % budjetista | Poikkeama budjettiin | Vertailu edelliseen vuoteen |\n|-----------|------------------------------|-----------------------|----------------------|-----------------------------|\n| 30 .9. 2024 | 18,0 | 74,3 % | –0,16 M € (vähemmän) | –1,5 M € (vähemmän) |\n| 31.3. 2025 | 7,0 (Q1) | – | +0,6 M € (enemmän kuin budjetti) | +0,4 M € (enemmän kuin 2024 Q1) |\n| 30.6. 2025 | 13,29 (Q2) | 51,6 % | +0,4 M € (enemmän kuin budjetti) | +0,38 M € (enemmän kuin 2024 Q2) |\n|",
+      "sources": [
+        {
+          "doc_id": "Kaupunginhallitus_2025-11-03",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-11-03",
+          "pykala_nro": "§ 372",
+          "otsikko": null,
+          "score": 0.6210625
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-11-10",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-11-10",
+          "pykala_nro": "§ 77",
+          "otsikko": null,
+          "score": 0.6130599
+        },
+        {
+          "doc_id": "Esityslista-Kaupunginvaltuusto_2025-11-10",
+          "toimielin": "Esityslista-Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-11-10",
+          "pykala_nro": "§ 77",
+          "otsikko": null,
+          "score": 0.6078043
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-09-01",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-09-01",
+          "pykala_nro": "§ 69",
+          "otsikko": null,
+          "score": 0.5916902
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-06-23",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-06-23",
+          "pykala_nro": "§ 263",
+          "otsikko": null,
+          "score": 0.5967736
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-05-19",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-05-19",
+          "pykala_nro": "§ 40",
+          "otsikko": null,
+          "score": 0.5979703
+        },
+        {
+          "doc_id": "Hyvinvointilautakunta_2025-08-26",
+          "toimielin": "Hyvinvointilautakunta",
+          "poytakirja_pvm": "2025-08-26",
+          "pykala_nro": "§ 104",
+          "otsikko": null,
+          "score": 0.56627166
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2024-11-11",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2024-11-11",
+          "pykala_nro": "§ 77",
+          "otsikko": null,
+          "score": 0.59811246
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-05-26",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-05-26",
+          "pykala_nro": "§ 183",
+          "otsikko": null,
+          "score": 0.55667007
+        }
+      ],
+      "response_time_ms": 9938,
+      "timestamp": "2025-12-05T11:38:00.572022",
+      "error": null
+    },
+    {
+      "id": 7,
+      "topic": "Alakoulujen palveluverkko",
+      "question": "Mikä on palveluverkkolinjauksen oppilasmääräraja koulun toiminnan lakkauttamiselle?",
+      "answer": "**Lyhyt yhteenveto**  \nPalveluverkkolinjauksessa koulu lakkautetaan, jos sen 1.–6. luokkien oppilasmäärä on alle 35 oppilasta kahden peräkkäisen lukuvuoden ajan.  \n\n**Keskeiset päätökset**  \n- **Sivistyslautakunta, 20.11.2025, § 154** – Määriteltiin, että “Mikäli koulun 1.–6. luokkalaisten oppilasmäärä on alle 35 oppilasta kahtena lukuvuotena peräkkäin, niin toiminta lakkaa seuraavan lukuvuoden alussa (1.8.)”.  \n- **Sivistyslautakunta, 20.11.2025, § 153** – Hyväksytti saman rajan: alle 35 oppilasta kahden peräkkäisen lukuvuoden aikana → lakkautus 1.8. alkaen.  \n- **Sivistyslautakunta, 08.10.2025, § 129** – Vahvisti oppilasmäärärajaksi 35 oppilasta kahden peräkkäisen lukuvuoden aikana.  \n- **Sivistyslautakunta, 08.10.2025, § 128** – Toisti saman rajan 35 oppilasta kahden peräkkäisen lukuvuoden aikana.  \n- **Kaupunginvaltuusto, 09.12.2024, § 86** – Päätettiin, että “Mikäli koulun 1.–6. luokkalaisten oppilasmäärä on alle 35 oppilasta kahtena lukuvuotena peräkkäin, niin koulun toiminta lakkautuu seuraavan lukuvuoden alussa (1.8.)”.  \n- **Kaupunginhallitus, 02.12.2024, § 349** – Hyväksyi palveluverkkolinjauksen, jossa oppilasmäärärajaksi asetettiin 35 oppilasta kahden peräkkäisen lukuvuoden aikana.  ",
+      "sources": [
+        {
+          "doc_id": "Sivistyslautakunta_2025-11-20",
+          "toimielin": "Sivistyslautakunta",
+          "poytakirja_pvm": "2025-11-20",
+          "pykala_nro": "§ 154",
+          "otsikko": null,
+          "score": 0.6042887
+        },
+        {
+          "doc_id": "Sivistyslautakunta_2025-11-20",
+          "toimielin": "Sivistyslautakunta",
+          "poytakirja_pvm": "2025-11-20",
+          "pykala_nro": "§ 153",
+          "otsikko": null,
+          "score": 0.59820056
+        },
+        {
+          "doc_id": "Sivistyslautakunta_2025-10-08",
+          "toimielin": "Sivistyslautakunta",
+          "poytakirja_pvm": "2025-10-08",
+          "pykala_nro": "§ 129",
+          "otsikko": null,
+          "score": 0.6053157
+        },
+        {
+          "doc_id": "Sivistyslautakunta_2025-10-08",
+          "toimielin": "Sivistyslautakunta",
+          "poytakirja_pvm": "2025-10-08",
+          "pykala_nro": "§ 128",
+          "otsikko": null,
+          "score": 0.601596
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2024-12-09",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2024-12-09",
+          "pykala_nro": "§ 86",
+          "otsikko": null,
+          "score": 0.5982168
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2024-12-02",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2024-12-02",
+          "pykala_nro": "§ 349",
+          "otsikko": null,
+          "score": 0.5963482
+        }
+      ],
+      "response_time_ms": 4313,
+      "timestamp": "2025-12-05T11:38:06.893781",
+      "error": null
+    },
+    {
+      "id": 8,
+      "topic": "Alakoulujen palveluverkko",
+      "question": "Mikä on alakoulujen oppilasennuste vuosille 2024-2030?",
+      "answer": "**Lyhyt yhteenveto**  \nAlakoulujen (luokat 1‑6) oppilasmäärä Lapualla on ennustettu vähenevän tasaisesti vuosina 2024‑2030: 1 052 oppilasta lukuvuonna 2024‑25, 1 008 2025‑26, 944 2026‑27, 894 2027‑28, 839 2028‑29 ja 770 2029‑30 – keskimäärin noin 56 oppilasta vuodessa [Lähde 1 § 129; Lähde 2 § 128; Lähde 5 § 86; Lähde 6 § 349].\n\n**Keskeiset päätökset**  \n- **Sivistyslautakunta, 08.10.2025, § 129** – Hyväksytti oppilasennusteen 2024‑2030 (liite 1 Oppilasennuste 20.9.2025.pdf).  \n- **Sivistyslautakunta, 08.10.2025, § 128** – Hyväksyi saman oppilasennusteen 2024‑2030 (liite 1 Oppilasennuste 20.9.2025.pdf).  \n- **Sivistyslautakunta, 20.11.2025, § 153** – Merkitsi tiedoksi oppilasennusteen 2024‑2030 (liite 1 Oppilasennuste 20.9.2025.pdf).  \n- **Kaupunginvaltuusto, 09.12.2024, § 86** – Hyväksyi palveluverkkolinjauksen ja liitti siihen oppilasennusteen 2024‑2030 (liite 1 Oppilasennuste 2024‑2030(2031) 20.9.2024).  \n- **Kaupunginhallitus, 02.12.2024, § 349** – Hyväksyi kaupunginjohtajan esityksen, jossa oli mukana oppilasennuste 2024‑2030 (liite 1 Oppilasennuste 2024‑2030(2031) 20.9.2024).  ",
+      "sources": [
+        {
+          "doc_id": "Sivistyslautakunta_2025-10-08",
+          "toimielin": "Sivistyslautakunta",
+          "poytakirja_pvm": "2025-10-08",
+          "pykala_nro": "§ 129",
+          "otsikko": null,
+          "score": 0.6587957
+        },
+        {
+          "doc_id": "Sivistyslautakunta_2025-10-08",
+          "toimielin": "Sivistyslautakunta",
+          "poytakirja_pvm": "2025-10-08",
+          "pykala_nro": "§ 128",
+          "otsikko": null,
+          "score": 0.65630734
+        },
+        {
+          "doc_id": "Sivistyslautakunta_2025-11-20",
+          "toimielin": "Sivistyslautakunta",
+          "poytakirja_pvm": "2025-11-20",
+          "pykala_nro": "§ 153",
+          "otsikko": null,
+          "score": 0.629906
+        },
+        {
+          "doc_id": "Sivistyslautakunta_2025-11-20",
+          "toimielin": "Sivistyslautakunta",
+          "poytakirja_pvm": "2025-11-20",
+          "pykala_nro": "§ 154",
+          "otsikko": null,
+          "score": 0.62530607
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2024-12-09",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2024-12-09",
+          "pykala_nro": "§ 86",
+          "otsikko": null,
+          "score": 0.64840925
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2024-12-02",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2024-12-02",
+          "pykala_nro": "§ 349",
+          "otsikko": null,
+          "score": 0.64337385
+        },
+        {
+          "doc_id": "Sivistyslautakunta_2025-10-27",
+          "toimielin": "Sivistyslautakunta",
+          "poytakirja_pvm": "2025-10-27",
+          "pykala_nro": "§ 134",
+          "otsikko": null,
+          "score": 0.5286585
+        },
+        {
+          "doc_id": "Sivistyslautakunta_2025-09-16",
+          "toimielin": "Sivistyslautakunta",
+          "poytakirja_pvm": "2025-09-16",
+          "pykala_nro": "§ 115",
+          "otsikko": null,
+          "score": 0.5311997
+        }
+      ],
+      "response_time_ms": 4170,
+      "timestamp": "2025-12-05T11:38:13.072672",
+      "error": null
+    },
+    {
+      "id": 9,
+      "topic": "Alakoulujen palveluverkko",
+      "question": "Milloin ja miten alakoulun lakkauttamispäätös tehdään?",
+      "answer": "**Lyhyt yhteenveto**  \nAlakoulun lakkauttamispäätös voidaan tehdä, kun 1.–6. luokkien oppilasmäärä on alle 35 oppilasta kahden peräkkäisen lukuvuoden ajan; tällöin toiminta lakkaa 1 tammi‑elokuuta seuraavan lukuvuoden alussa. Päätös tehdään erillisenä kaupunginvaltuuston päätöksenä sen jälkeen, kun on suoritettu valmistelut, vaikutusarvioinnit ja kuulemiset (tavoitteena päätös syksyllä 2025, lakkautus 1.8.2026)【LÄHDE 1】.\n\n**Keskeiset päätökset**  \n- **Sivistyslautakunta, 21.11.2024, § 123** – Hyväksyi ehdotuksen viedä palveluverkkolinjaus kaupunginvaltuustolle.  \n- **Kaupunginhallitus, 02.12.2024, § 349** – Hyväksyi kaupunginjohtajan esityksen, että oppilasmäärän alittaminen < 35 kahdesti peräkkäin johtaa lakkautukseen 1.8. alkaen; laskentapäivät 15.12.2024 ja 20.9.‑päivinä jatkossa.  \n- **Kaupunginvaltuusto, 09.12.2024, § 86** – Päätti palveluverkkolinjauksen: “Mikäli koulun 1.–6. luokkalaisten oppilasmäärä on alle 35 oppilasta kahtena lukuvuotena peräkkäin, niin toiminta lakkaa seuraavan lukuvuoden alussa (1.8. alkaen). Laskentapäivät ovat 15.12.2024 ja jatkossa aina 20.9.”【LÄHDE 1】.  \n- **Kaupunginvaltuusto, 09.12.2024, § 86** – Toteaa, että yksittäisen koulun lakkauttamisesta tehdään erillinen päätös, jonka tekee kaupunginvaltuusto hallintosäännön mukaisesti【LÄHDE 1】.  \n- **Sivistyslautakunta, 20.11.2025, § 154** – Päätös Männikön koulun lakkauttamisesta 1.8.2026 alkaen (esimerkki yksittäisestä",
+      "sources": [
+        {
+          "doc_id": "Sivistyslautakunta_2025-11-20",
+          "toimielin": "Sivistyslautakunta",
+          "poytakirja_pvm": "2025-11-20",
+          "pykala_nro": "§ 153",
+          "otsikko": null,
+          "score": 0.6198396
+        },
+        {
+          "doc_id": "Sivistyslautakunta_2025-10-08",
+          "toimielin": "Sivistyslautakunta",
+          "poytakirja_pvm": "2025-10-08",
+          "pykala_nro": "§ 129",
+          "otsikko": null,
+          "score": 0.62569624
+        },
+        {
+          "doc_id": "Sivistyslautakunta_2025-11-20",
+          "toimielin": "Sivistyslautakunta",
+          "poytakirja_pvm": "2025-11-20",
+          "pykala_nro": "§ 154",
+          "otsikko": null,
+          "score": 0.6105801
+        },
+        {
+          "doc_id": "Sivistyslautakunta_2025-10-08",
+          "toimielin": "Sivistyslautakunta",
+          "poytakirja_pvm": "2025-10-08",
+          "pykala_nro": "§ 128",
+          "otsikko": null,
+          "score": 0.604909
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2024-12-02",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2024-12-02",
+          "pykala_nro": "§ 349",
+          "otsikko": null,
+          "score": 0.6056154
+        }
+      ],
+      "response_time_ms": 5531,
+      "timestamp": "2025-12-05T11:38:20.606995",
+      "error": null
+    },
+    {
+      "id": 10,
+      "topic": "Hallintosääntö",
+      "question": "Mitä muutoksia hallintosääntöön tehtiin 1.1.2025 alkaen?",
+      "answer": "**Lyhyt yhteenveto**  \n1.1.2025 alkaen Lapuan kaupungin hallintosääntöön lisättiin useita sisällöllisiä tarkennuksia, joihin kuului maankäyttö‑ ja rakennuslain viittausten muuttaminen Rakentamislaiksi (myöhemmin alueidenkäyttölaiksi) sekä viranhaltijoiden toimivallan tarkennuksia teknisellä, henkilöstö‑, maahanmuutto‑ ja kasvatuksen‑ ja opetusalalla.  \nMuutokset hyväksyttiin kaupunginvaltuustossa ja ne astuvat voimaan vuoden alusta. (LÄHDE 3)\n\n**Keskeiset päätökset**  \n- **Kaupunginhallitus, 02.12.2024, § 350** – Hallintosääntöön tehtiin viittausmuutokset maankäyttö‑ ja rakennuslakiin (muuttuu Rakentamislaiksi 1.1.2025, myöhemmin alueidenkäyttölaiksi), tarkennettiin teknisen toimialan viranhaltijoiden toimivaltaa, henkilöstöasioiden ratkaisuvallan ja henkilöstöpäällikön toimivaltaa, maahanmuuttokoordinaattorin päätösvaltaa sekä kasvatuksen ja opetuksen viranhaltijoiden toimivaltaa, ja tehtiin muita pieniä muutoksia ja korjauksia. (LÄHDE 3)  \n- **Kaupunginvaltuusto, 09.12.2024, § 87** – Valtuusto hyväksyi hallintosäännön muutokset, jotka astuvat voimaan 1.1.2025 alkaen. (LÄHDE 3)",
+      "sources": [
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-06-02",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-06-02",
+          "pykala_nro": "§ 59",
+          "otsikko": null,
+          "score": 0.6523269
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-02-17",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-02-17",
+          "pykala_nro": "§ 13",
+          "otsikko": null,
+          "score": 0.6501297
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2024-12-09",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2024-12-09",
+          "pykala_nro": "§ 87",
+          "otsikko": null,
+          "score": 0.6584824
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-05-26",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-05-26",
+          "pykala_nro": "§ 186",
+          "otsikko": null,
+          "score": 0.59839565
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2024-12-16",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2024-12-16",
+          "pykala_nro": "§ 87",
+          "otsikko": null,
+          "score": 0.6019689
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-03-24",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-03-24",
+          "pykala_nro": "§ 28",
+          "otsikko": null,
+          "score": 0.5631809
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-02-17",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-02-17",
+          "pykala_nro": "§ 9",
+          "otsikko": null,
+          "score": 0.5651586
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-08-25",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-08-25",
+          "pykala_nro": "§ 303",
+          "otsikko": null,
+          "score": 0.53380024
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-06-23",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-06-23",
+          "pykala_nro": "§ 263",
+          "otsikko": null,
+          "score": 0.5352004
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-03-17",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-03-17",
+          "pykala_nro": "§ 84",
+          "otsikko": null,
+          "score": 0.55022955
+        },
+        {
+          "doc_id": "Hyvinvointilautakunta_2024-12-17",
+          "toimielin": "Hyvinvointilautakunta",
+          "poytakirja_pvm": "2024-12-17",
+          "pykala_nro": "§ 169",
+          "otsikko": null,
+          "score": 0.56027925
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2024-12-02",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2024-12-02",
+          "pykala_nro": "§ 349",
+          "otsikko": null,
+          "score": 0.5621344
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-02-24",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-02-24",
+          "pykala_nro": "§ 9",
+          "otsikko": null,
+          "score": 0.5393698
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-02-03",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-02-03",
+          "pykala_nro": "§ 33",
+          "otsikko": null,
+          "score": 0.53651977
+        }
+      ],
+      "response_time_ms": 3830,
+      "timestamp": "2025-12-05T11:38:26.444755",
+      "error": null
+    }
+  ]
+}

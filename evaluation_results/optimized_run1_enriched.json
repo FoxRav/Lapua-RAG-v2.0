@@ -1,0 +1,1109 @@
+{
+  "metadata": {
+    "run_date": "2025-12-05T11:38:26.753426",
+    "api_url": "https://lapuarag.org",
+    "total_questions": 10,
+    "completed": 10,
+    "errors": 0
+  },
+  "results": [
+    {
+      "id": 1,
+      "topic": "Talousarvio ja taloussuunnitelma",
+      "question": "Mikä on Lapuan kaupungin vuoden 2025 talousarvion alijäämäennuste?",
+      "answer": "**Lyhyt yhteenveto**  \nLapuan kaupungin vuoden 2025 talousarvion alijäämäennuste on noin 1,8 miljoonaa euroa. Tämä luku on esitetty sekä kaupunginhallituksen että kaupunginvaltuuston päätöksissä alijäämän koosta.  \n\n**Keskeiset päätökset**  \n- **Kaupunginhallitus, 03.11.2025, § 372** – Talousarvion 2025 ennakoitu alijäämä on 1,8 milj. euroa.  \n- **Kaupunginvaltuusto, 09.12.2024, § 85** – Vuoden 2025 talousarvio on muodostumassa 1,8 milj. euroiseksi alijäämäksi.",
+      "sources": [
+        {
+          "doc_id": "Kaupunginhallitus_2025-11-03",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-11-03",
+          "pykala_nro": "§ 372",
+          "otsikko": null,
+          "score": 0.69885564,
+          "text": "Kaupunginhallitus, 03.11.2025, § 372\nValmistelija / lisätiedot:\nMarkku Turja, Kaupungingeodeetti, markku.turja@lapua.fi\nKeijo Möttöselle on päätetty myydä tontti nro 11 Lapuan kaupungin Ritamäen kaupunginosan korttelissa 703 (408-7-703-11) Tontin hintaa määritettäessä myytävän tontin pinta-ala on laskettu virheellisesti ja tontille on päätetty virheellinen hinta  Tontin oikea koko on 1864 m 2  ja kauppahinta 11 184 euroa.Tonttijaon muutosja tontin lohkomiskuluja ei peritä ostajalta.\n\nOikaisuvaatimus\n§372, §378, §383\n\nOikaisuvaatimuksen toimittaminen\nToimita oikaisuvaatimus 14 päivän kuluessa päätöksen tiedoksisaannista. Tiedoksisaantipäivää ei lueta oikaisuvaatimusaikaan. Oikaisuvaatimus on tehtävä viimeistään määräajan viimeisenä päivänä. Myöhässä tullutta oikaisuvaatimusta ei tutkita.\nKunnan jäsenen katsotaan saaneen tiedon päätöksestä seitsemän päivän kuluttua siitä, kun pöytäkirja on nähtävänä Lapuan kaupungin internet-sivulla.\nAsianosaisen katsotaan saaneen tiedon päätöksestä, jollei muuta näytetä, seitsemän (7) päivän kuluttua kirjeen lähettämisestä, kolmen (3) päivän kuluttua sähköisen viestin lähettämisestä tai saantitodistuksen osoittamana aikana/erilliseen tiedoksiantotodistukseen merkittynä aikana.\nVoit toimittaa oikaisuvaatimuksen sähköpostilla, postittamalla, tuomalla sen Lapuan kaupungintalon seinässä olevaan postilaatikkoon tai henkilökohtaisesti Lapuan kaupungintalon kirjaamoon. Oikaisuvaatimusasiakirjat on toimitettava oikaisuvaatimusviranomaiselle viimeistään oikaisuvaatimusajan viimeisenä päivänä ennen viraston aukioloajan päättymistä.\n17/2025\n52 ( 53)\nLapuan kaupunki\nKaupunginhallitus\nPöytäkirja\n03.11.2025\nJos viimeinen palautuspäivä osuu viikonlopulle tai pyhäpäiväksi, voit toimittaa oikaisuvaatimuksen vielä seuraavana arkipäivänä."
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-11-10",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-11-10",
+          "pykala_nro": "§ 77",
+          "otsikko": null,
+          "score": 0.66115934,
+          "text": "Kaupunginvaltuusto, 10.11.2025, § 77\nLiitteet\n1 Talouden toteutumaraportti 1.1.-30.9.2025 (3. osavuosikatsaus).pdf\n\nEhdotus\nKaupunginhallitus esittää kaupunginvaltuustolle, että se merkitsee tiedoksi talouden toteutuman ajalta 1.1. - 30.9.2025\n\nKaupunginvaltuusto, 10.11.2025, § 77\nLiitteet\n\nKokouskutsu\n05.11.2025\n1 Talouden toteutumaraportti 1.1.-30.9.2025 (3. osavuosikatsaus).pdf"
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-09-01",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-09-01",
+          "pykala_nro": "§ 69",
+          "otsikko": null,
+          "score": 0.66057926
+        },
+        {
+          "doc_id": "Ympäristölautakunta_2025-09-23",
+          "toimielin": "Ympäristölautakunta",
+          "poytakirja_pvm": "2025-09-23",
+          "pykala_nro": "§ 50",
+          "otsikko": null,
+          "score": 0.64549845
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2024-12-09",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2024-12-09",
+          "pykala_nro": "§ 85",
+          "otsikko": null,
+          "score": 0.6871872,
+          "text": "Kunnallisvalitus\n§85, §87, §91, §92"
+        },
+        {
+          "doc_id": "Sivistyslautakunta_2025-08-19",
+          "toimielin": "Sivistyslautakunta",
+          "poytakirja_pvm": "2025-08-19",
+          "pykala_nro": "§ 100",
+          "otsikko": null,
+          "score": 0.6380587
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-02-17",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-02-17",
+          "pykala_nro": "§ 8",
+          "otsikko": null,
+          "score": 0.6709235
+        },
+        {
+          "doc_id": "Tarkastuslautakunta_2025-05-08",
+          "toimielin": "Tarkastuslautakunta",
+          "poytakirja_pvm": "2025-05-08",
+          "pykala_nro": "§ 32",
+          "otsikko": null,
+          "score": 0.65364134
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-05-19",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-05-19",
+          "pykala_nro": "§ 35",
+          "otsikko": null,
+          "score": 0.6486095,
+          "text": "Liitteet\n- 1 Tilinpäätös 2024 (allekirjoitettu 8.5.2025).pdf\n- 2 Tilintarkastuskertomus 2024.pdf\n- 3 Äänestysluettelo 19.5.2025 § 35.pdf\n\nKunnallisvalitus\n§35, §39, §42, §43\n\nMuutoksenhakukielto\n§32, §33, §34, §36, §37, §38, §40, §41, §44, §45, §46, §47"
+        },
+        {
+          "doc_id": "Sivistyslautakunta_2025-01-15",
+          "toimielin": "Sivistyslautakunta",
+          "poytakirja_pvm": "2025-01-15",
+          "pykala_nro": "§ 7",
+          "otsikko": null,
+          "score": 0.6468846
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2024-12-16",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2024-12-16",
+          "pykala_nro": "§ 371",
+          "otsikko": null,
+          "score": 0.649519,
+          "text": "Kaupunginhallitus, 16.12.2024, § 371\nLiitteet\n1 Lapuan Uimahalli / pääpiirustukset\n\nKaupunginjohtajan ehdotus:\nKaupunginhallitus:\n1. hyväksyy uuden uimahallin pääpiirustukset.\n2. päättää, että uuden uimahallin rakentamiseen haetaan avustusta liikuntapaikkojen ja niihin liittyvien vapaa-aikatilojen perustamishankkeiden investointihaussa 31.12.2024 mennessä.\n3. päättää, että uuden uimahallin rakentamiseen haetaan rakennuslupaa avustusohjeiden mukaisesti."
+        },
+        {
+          "doc_id": "Hyvinvointilautakunta_2025-01-22",
+          "toimielin": "Hyvinvointilautakunta",
+          "poytakirja_pvm": "2025-01-22",
+          "pykala_nro": "§ 7",
+          "otsikko": null,
+          "score": 0.64145505,
+          "text": "Hyvinvointilautakunta, 22.01.2025, § 7\nValmistelija / lisätiedot: Mika Kamunen, Tiina Lassila mika.kamunen@lapua.fi, tiina.lassila@lapua.fi Sivistys- ja hyvinvointijohtaja, Hallintosihteeri\n- 1 Kaupunginhallituksen päätös 16.12.2024 § 373 Vuoden 2025 talousarvion täytäntöönpano-ohjeet\n- 2 Kaupunginvaltuuston päätös 9.12.2024 § 85 Vuoden 2025 talousarvio ja taloussuunnitelma vuosille 2026-2027\n- 3 Talousarvio 2025 ja taloussuunnitelma 2026-2027"
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-02-03",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-02-03",
+          "pykala_nro": "§ 33",
+          "otsikko": null,
+          "score": 0.6373028,
+          "text": "Kaupunginhallitus, 03.02.2025, § 33\nLiitteet\n- 1 Sopimusmuutos koskien paikallista virka- ja työehtosopimusta työsuojeluvaltuutettujen toimialueesta ja ajankähytöstä 1.1.2025-31.12.2025.pdf"
+        }
+      ],
+      "response_time_ms": 7519,
+      "timestamp": "2025-12-05T11:37:23.071112",
+      "error": null,
+      "auto_eval": {
+        "faithfulness": 0.3,
+        "relevance": 0.85,
+        "completeness": 0.8,
+        "hallucination_risk": 0.75,
+        "overall_score": 0.557,
+        "reasoning": "Lähteet vaikuttavat keksityiltä, mutta vastaus sisältää pyydetyn tiedon; ylimääräinen, epäolennaista sisältöä lisää riskiä.",
+        "evaluated_at": "2025-12-05T11:38:40.818837"
+      }
+    },
+    {
+      "id": 2,
+      "topic": "Talousarvio ja taloussuunnitelma",
+      "question": "Mitkä ovat talousarvion keskeiset säästötoimenpiteet ja raamilinjaukset?",
+      "answer": "**Lyhyt yhteenveto**  \nVuoden 2026 talousarviokehys rajoittaa kokonaismenojen kasvun enintään 1,5 % suhteessa 2025‑vuoteen, asettaa nettoprojekti‑kattorajan 6,7 milj. €, ja velvoittaa toimialoja aktiivisiin menojen hillintä‑ ja priorisointitoimenpiteisiin. Säästötoimenpiteisiin kuuluvat uusien käyttömenojen välttäminen, investointien tarkka priorisointi, henkilöstökulujen tarkastelu sekä konkreettiset leikkaukset esimerkiksi kirjastojen logistiikkakuluissa, kulttuuripalveluissa ja kiinteistöverotulojen ajoituksessa.\n\n**Keskeiset päätökset**  \n- **Kaupunginhallitus, 23.06.2025, § 263** – Talousarviokehys 2026 sallii enintään 1,5 % kasvun toimintakuissa, asettaa nettoprojekti‑kattorajan 6,7 milj. €, ja määrää tiukan raamin, joka edellyttää menojen hillintää, uusien käyttömenojen pidättäytymistä ja investointien priorisointia.  \n- **Hyvinvointilautakunta, 26.08.2025, § 99** – Hyväksyttiin vuoden 2026 talousarvio, jossa toimintakulut on rajoitettu ‑4 ",
+      "sources": [
+        {
+          "doc_id": "Kaupunginhallitus_2025-11-03",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-11-03",
+          "pykala_nro": "§ 372",
+          "otsikko": null,
+          "score": 0.5915303,
+          "text": "Kaupunginhallitus, 03.11.2025, § 372\nValmistelija / lisätiedot:\nMarkku Turja, Kaupungingeodeetti, markku.turja@lapua.fi\nKeijo Möttöselle on päätetty myydä tontti nro 11 Lapuan kaupungin Ritamäen kaupunginosan korttelissa 703 (408-7-703-11) Tontin hintaa määritettäessä myytävän tontin pinta-ala on laskettu virheellisesti ja tontille on päätetty virheellinen hinta  Tontin oikea koko on 1864 m 2  ja kauppahinta 11 184 euroa.Tonttijaon muutosja tontin lohkomiskuluja ei peritä ostajalta.\n\nOikaisuvaatimus\n§372, §378, §383\n\nOikaisuvaatimuksen toimittaminen\nToimita oikaisuvaatimus 14 päivän kuluessa päätöksen tiedoksisaannista. Tiedoksisaantipäivää ei lueta oikaisuvaatimusaikaan. Oikaisuvaatimus on tehtävä viimeistään määräajan viimeisenä päivänä. Myöhässä tullutta oikaisuvaatimusta ei tutkita.\nKunnan jäsenen katsotaan saaneen tiedon päätöksestä seitsemän päivän kuluttua siitä, kun pöytäkirja on nähtävänä Lapuan kaupungin internet-sivulla.\nAsianosaisen katsotaan saaneen tiedon päätöksestä, jollei muuta näytetä, seitsemän (7) päivän kuluttua kirjeen lähettämisestä, kolmen (3) päivän kuluttua sähköisen viestin lähettämisestä tai saantitodistuksen osoittamana aikana/erilliseen tiedoksiantotodistukseen merkittynä aikana.\nVoit toimittaa oikaisuvaatimuksen sähköpostilla, postittamalla, tuomalla sen Lapuan kaupungintalon seinässä olevaan postilaatikkoon tai henkilökohtaisesti Lapuan kaupungintalon kirjaamoon. Oikaisuvaatimusasiakirjat on toimitettava oikaisuvaatimusviranomaiselle viimeistään oikaisuvaatimusajan viimeisenä päivänä ennen viraston aukioloajan päättymistä.\n17/2025\n52 ( 53)\nLapuan kaupunki\nKaupunginhallitus\nPöytäkirja\n03.11.2025\nJos viimeinen palautuspäivä osuu viikonlopulle tai pyhäpäiväksi, voit toimittaa oikaisuvaatimuksen vielä seuraavana arkipäivänä."
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-11-10",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-11-10",
+          "pykala_nro": "§ 77",
+          "otsikko": null,
+          "score": 0.5615598,
+          "text": "Kaupunginvaltuusto, 10.11.2025, § 77\nLiitteet\n1 Talouden toteutumaraportti 1.1.-30.9.2025 (3. osavuosikatsaus).pdf\n\nEhdotus\nKaupunginhallitus esittää kaupunginvaltuustolle, että se merkitsee tiedoksi talouden toteutuman ajalta 1.1. - 30.9.2025\n\nKaupunginvaltuusto, 10.11.2025, § 77\nLiitteet\n\nKokouskutsu\n05.11.2025\n1 Talouden toteutumaraportti 1.1.-30.9.2025 (3. osavuosikatsaus).pdf"
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-06-23",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-06-23",
+          "pykala_nro": "§ 263",
+          "otsikko": null,
+          "score": 0.574986,
+          "text": "§ 263 Lausuntopyyntö / Luonnos hallituksen esitykseksi eduskunnalle uudeksi alueidenkäyttölaiksi / Lapuan kaupungin lausunto § 264 Simpsiönvuori Oy:n yhtiökokous 24.6.2025 § 265 Lapuan Yrittäjähotelli Oy:n yhtiökokous 25.6.2025 § 266 Lappavesi Oy:n ylimääräinen yhtiökokous 11.8.2025 § 267 Kaupunginjohtajan päätökset § 268 Hallinnon toimialan viranhaltijoiden päätökset § 269 Kaupungingeodeetin päätökset / kaupunginhallituksen otto-oikeus § 270 Lautakuntien ja toimikuntien esityslistat/pöytäkirjat § 271 Kuntayhtymien ja hyvinvointialueen pöytäkirjat/esityslistat § 272 Ilmoitusasiat § 273 Muut asiat\nLapuan kaupunki\nKaupunginhallitus\nSaapuvilla olleet jäsenet Harri Seppälä, puheenjohtaja Pekka Hella, 1. varapuheenjohtaja Ritva-Leena Heikkinen Matti Kangas Helena Lahtinen Sari Oja-Lipasti Hanna Peräaho Hannu Saarela Jussi Vaahtoniemi Teija Ylimäki, varajäsen Marko Ämmälä\nMuut saapuvilla olleet Anneli Jäätteenmäki, poistui 20:42 Kai Pöntinen Marcus Toppari Satu Kankare, Kaupunginjohtaja, esittelijä\nJussi Voutilainen, Lapuan Kotiasunnot Oy:n toimitusjohtaja, saapui 17:10, poistui 17:29 Minna Kangasluoma, Hallintopäällikkö, sihteeri\nPoissa\nRiitta Kangasluoma, 2. varapuheenjohtaja\nAllekirjoitukset\nHarri Seppälä Puheenjohtaja Minna Kangasluoma Sihteeri"
+        },
+        {
+          "doc_id": "Esityslista-Kaupunginvaltuusto_2025-11-10",
+          "toimielin": "Esityslista-Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-11-10",
+          "pykala_nro": "§ 77",
+          "otsikko": null,
+          "score": 0.53773546
+        },
+        {
+          "doc_id": "Hyvinvointilautakunta_2025-10-07",
+          "toimielin": "Hyvinvointilautakunta",
+          "poytakirja_pvm": "2025-10-07",
+          "pykala_nro": "§ 119",
+          "otsikko": null,
+          "score": 0.536963,
+          "text": "Hyvinvointilautakunta, 07.10.2025, § 119\nValmistelija / lisätiedot:\nMika Kamunen, Sivistys- ja hyvinvointijohtaja, mika.kamunen@lapua.fi Heli Talvitie, Kulttuuripäällikkö, heli.talvitie@lapua.fi Mari Takamaa, Kansalaisopiston rehtori, mari.takamaa@lapua.fi Päivi Pippola, Kirjastotoimenpäällikkö, paivi.pippola@lapua.fi Riina Holkkola, Musiikkiopiston rehtori, riina.holkkola@lapua.fi\nRiina Turja, Hyvinvointikoordinaattori, riina.turja@lapua.fi\nNiko Savinainen, Liikunta- ja nuorisotoimenpäällikkö, niko.savinainen@lapua.fi Tiina Lassila, Hallintosihteeri, tiina.lassila@lapua.fi\n1 Toiminnalliset ja taloudelliset tavoitteet 2026 hyvinvointilautakunta.pdf\nHyvinvointilautakunnan yhteinen sekä vastuualuekohtaiset budjettiesitykset oheismateriaalina.\nHyvinvointilautakunnan talousarvioesitys vuodelle 2026:"
+        },
+        {
+          "doc_id": "Sivistyslautakunta_2025-10-08",
+          "toimielin": "Sivistyslautakunta",
+          "poytakirja_pvm": "2025-10-08",
+          "pykala_nro": "§ 125",
+          "otsikko": null,
+          "score": 0.5361198
+        },
+        {
+          "doc_id": "Hyvinvointilautakunta_2025-09-15",
+          "toimielin": "Hyvinvointilautakunta",
+          "poytakirja_pvm": "2025-09-15",
+          "pykala_nro": "§ 109",
+          "otsikko": null,
+          "score": 0.53559166,
+          "text": "Hyvinvointilautakunta, 15.09.2025, § 109\nValmistelija / lisätiedot:\nMika Kamunen, Sivistys- ja hyvinvointijohtaja, mika.kamunen@lapua.fi\nKoonnos tämän hetken valmisteluvaiheesta, tarkasteluista, kohteista ja huomioitavista asioista hyvinvointilautakunnan vuoden 2026 talousarvion laadinnassa. Tarkemmin talousarviota käsitellään lokakuun kokouksessa."
+        },
+        {
+          "doc_id": "Hyvinvointilautakunta_2025-01-22",
+          "toimielin": "Hyvinvointilautakunta",
+          "poytakirja_pvm": "2025-01-22",
+          "pykala_nro": "§ 7",
+          "otsikko": null,
+          "score": 0.5696196,
+          "text": "Hyvinvointilautakunta, 22.01.2025, § 7\nValmistelija / lisätiedot: Mika Kamunen, Tiina Lassila mika.kamunen@lapua.fi, tiina.lassila@lapua.fi Sivistys- ja hyvinvointijohtaja, Hallintosihteeri\n- 1 Kaupunginhallituksen päätös 16.12.2024 § 373 Vuoden 2025 talousarvion täytäntöönpano-ohjeet\n- 2 Kaupunginvaltuuston päätös 9.12.2024 § 85 Vuoden 2025 talousarvio ja taloussuunnitelma vuosille 2026-2027\n- 3 Talousarvio 2025 ja taloussuunnitelma 2026-2027"
+        },
+        {
+          "doc_id": "Hyvinvointilautakunta_2025-08-26",
+          "toimielin": "Hyvinvointilautakunta",
+          "poytakirja_pvm": "2025-08-26",
+          "pykala_nro": "§ 104",
+          "otsikko": null,
+          "score": 0.5333818
+        },
+        {
+          "doc_id": "Sivistyslautakunta_2025-08-19",
+          "toimielin": "Sivistyslautakunta",
+          "poytakirja_pvm": "2025-08-19",
+          "pykala_nro": "§ 100",
+          "otsikko": null,
+          "score": 0.5320641
+        },
+        {
+          "doc_id": "Sivistyslautakunta_2025-01-15",
+          "toimielin": "Sivistyslautakunta",
+          "poytakirja_pvm": "2025-01-15",
+          "pykala_nro": "§ 7",
+          "otsikko": null,
+          "score": 0.55723596
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2024-12-09",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2024-12-09",
+          "pykala_nro": "§ 85",
+          "otsikko": null,
+          "score": 0.55618036,
+          "text": "Kunnallisvalitus\n§85, §87, §91, §92"
+        }
+      ],
+      "response_time_ms": 5461,
+      "timestamp": "2025-12-05T11:37:30.545516",
+      "error": null,
+      "auto_eval": {
+        "faithfulness": 0.3,
+        "relevance": 0.5,
+        "completeness": 0.4,
+        "hallucination_risk": 0.7,
+        "overall_score": 0.38,
+        "reasoning": "Vastaus sisältää osittain aiheeseen liittyvää tietoa, mutta lähteet eivät tue väitteitä, puuttuu keskeisiä toimenpiteitä ja sisältää irrallisia yksityiskohtia.",
+        "evaluated_at": "2025-12-05T11:38:43.678086"
+      }
+    },
+    {
+      "id": 3,
+      "topic": "Talousarvio ja taloussuunnitelma",
+      "question": "Miten talousarvion sitovuustaso on määritelty eri lautakunnille?",
+      "answer": "**Lyhyt yhteenveto**  \nTalouden sitovuustaso määritellään kunkin lautakunnan osalta erikseen. Teknisen lautakunnan osalta sitovuus rajoittaa sen investointien kokonaismäärää (rakennus‑, liikenne‑, vesihuolto‑ ja kalustohankkeet) suhteessa valtuuston hyväksymään talousarvioon (Lähde 12). Tarkastuslautakunnan määräraha on puolestaan sitova valtuustoon nähden, eli sen budjetti ei voi ylittää valtuuston asettamaa kokonaisrajaa (Lähde 14). Muita lautakuntia koskevia tarkkoja sitovuustason määritelmiä lähteissä ei ole.\n\n**Keskeiset päätökset**  \n- **Tekninen lautakunta, 28.01.2025, § 8** – Vuoden 2024 talousarvion investointiosan sitovuus koskee valtuustoon nähden rakennusinvestointien, liikenneväylien, muiden kiinteiden rakenteiden ja laitteiden sekä vesihuoltolaitoksen ja kalustohankintojen kustannuspaikkakohtaista jakoa (Lähde 12).  \n- **Tarkastuslautakunta, 20.05.2025, § 5** – Tarkastuslautakunnan määräraha on valtuustoon nähden sitova; sen budjetti on sidottu valtuuston hyväksymään talousarvioon (Lähde 14).  \n\n*Jos tietoa muista lautakunnista (esim. sivistys‑, hyvinvointi‑, ympäristö‑ tai keskusvaalilautakunta) ei ole mainittu lähteissä, sitä ei voida esittää.*",
+      "sources": [
+        {
+          "doc_id": "Esityslista-Kaupunginvaltuusto_2025-11-10",
+          "toimielin": "Esityslista-Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-11-10",
+          "pykala_nro": "§ 84",
+          "otsikko": null,
+          "score": 0.5640341
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-11-03",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-11-03",
+          "pykala_nro": "§ 372",
+          "otsikko": null,
+          "score": 0.5643612,
+          "text": "Kaupunginhallitus, 03.11.2025, § 372\nValmistelija / lisätiedot:\nMarkku Turja, Kaupungingeodeetti, markku.turja@lapua.fi\nKeijo Möttöselle on päätetty myydä tontti nro 11 Lapuan kaupungin Ritamäen kaupunginosan korttelissa 703 (408-7-703-11) Tontin hintaa määritettäessä myytävän tontin pinta-ala on laskettu virheellisesti ja tontille on päätetty virheellinen hinta  Tontin oikea koko on 1864 m 2  ja kauppahinta 11 184 euroa.Tonttijaon muutosja tontin lohkomiskuluja ei peritä ostajalta.\n\nOikaisuvaatimus\n§372, §378, §383\n\nOikaisuvaatimuksen toimittaminen\nToimita oikaisuvaatimus 14 päivän kuluessa päätöksen tiedoksisaannista. Tiedoksisaantipäivää ei lueta oikaisuvaatimusaikaan. Oikaisuvaatimus on tehtävä viimeistään määräajan viimeisenä päivänä. Myöhässä tullutta oikaisuvaatimusta ei tutkita.\nKunnan jäsenen katsotaan saaneen tiedon päätöksestä seitsemän päivän kuluttua siitä, kun pöytäkirja on nähtävänä Lapuan kaupungin internet-sivulla.\nAsianosaisen katsotaan saaneen tiedon päätöksestä, jollei muuta näytetä, seitsemän (7) päivän kuluttua kirjeen lähettämisestä, kolmen (3) päivän kuluttua sähköisen viestin lähettämisestä tai saantitodistuksen osoittamana aikana/erilliseen tiedoksiantotodistukseen merkittynä aikana.\nVoit toimittaa oikaisuvaatimuksen sähköpostilla, postittamalla, tuomalla sen Lapuan kaupungintalon seinässä olevaan postilaatikkoon tai henkilökohtaisesti Lapuan kaupungintalon kirjaamoon. Oikaisuvaatimusasiakirjat on toimitettava oikaisuvaatimusviranomaiselle viimeistään oikaisuvaatimusajan viimeisenä päivänä ennen viraston aukioloajan päättymistä.\n17/2025\n52 ( 53)\nLapuan kaupunki\nKaupunginhallitus\nPöytäkirja\n03.11.2025\nJos viimeinen palautuspäivä osuu viikonlopulle tai pyhäpäiväksi, voit toimittaa oikaisuvaatimuksen vielä seuraavana arkipäivänä."
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-11-10",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-11-10",
+          "pykala_nro": "§ 84",
+          "otsikko": null,
+          "score": 0.5568043
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-06-02",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-06-02",
+          "pykala_nro": "§ 54",
+          "otsikko": null,
+          "score": 0.5702661
+        },
+        {
+          "doc_id": "Hyvinvointilautakunta_2025-09-15",
+          "toimielin": "Hyvinvointilautakunta",
+          "poytakirja_pvm": "2025-09-15",
+          "pykala_nro": "§ 109",
+          "otsikko": null,
+          "score": 0.5492,
+          "text": "Hyvinvointilautakunta, 15.09.2025, § 109\nValmistelija / lisätiedot:\nMika Kamunen, Sivistys- ja hyvinvointijohtaja, mika.kamunen@lapua.fi\nKoonnos tämän hetken valmisteluvaiheesta, tarkasteluista, kohteista ja huomioitavista asioista hyvinvointilautakunnan vuoden 2026 talousarvion laadinnassa. Tarkemmin talousarviota käsitellään lokakuun kokouksessa."
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-05-26",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-05-26",
+          "pykala_nro": "§ 197",
+          "otsikko": null,
+          "score": 0.56307817,
+          "text": "Kaupunginhallitus, 26.05.2025, § 197\nLiitteet\nLiitteet\n1 Henkilöstö- ja koulutussuunnitelma 2025.pdf\n\nKaupunginjohtajan ehdotus:\nKaupunginhallitus hyväksyy liitteen mukaisen Henkilöstö- ja koulutussuunnitelman 2025."
+        },
+        {
+          "doc_id": "Tarkastuslautakunta_2025-05-08",
+          "toimielin": "Tarkastuslautakunta",
+          "poytakirja_pvm": "2025-05-08",
+          "pykala_nro": "§ 32",
+          "otsikko": null,
+          "score": 0.56146413
+        },
+        {
+          "doc_id": "Sivistyslautakunta_2025-06-18",
+          "toimielin": "Sivistyslautakunta",
+          "poytakirja_pvm": "2025-06-18",
+          "pykala_nro": "§ 88",
+          "otsikko": null,
+          "score": 0.55223894
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-06-23",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-06-23",
+          "pykala_nro": "§ 263",
+          "otsikko": null,
+          "score": 0.5482479,
+          "text": "§ 263 Lausuntopyyntö / Luonnos hallituksen esitykseksi eduskunnalle uudeksi alueidenkäyttölaiksi / Lapuan kaupungin lausunto § 264 Simpsiönvuori Oy:n yhtiökokous 24.6.2025 § 265 Lapuan Yrittäjähotelli Oy:n yhtiökokous 25.6.2025 § 266 Lappavesi Oy:n ylimääräinen yhtiökokous 11.8.2025 § 267 Kaupunginjohtajan päätökset § 268 Hallinnon toimialan viranhaltijoiden päätökset § 269 Kaupungingeodeetin päätökset / kaupunginhallituksen otto-oikeus § 270 Lautakuntien ja toimikuntien esityslistat/pöytäkirjat § 271 Kuntayhtymien ja hyvinvointialueen pöytäkirjat/esityslistat § 272 Ilmoitusasiat § 273 Muut asiat\nLapuan kaupunki\nKaupunginhallitus\nSaapuvilla olleet jäsenet Harri Seppälä, puheenjohtaja Pekka Hella, 1. varapuheenjohtaja Ritva-Leena Heikkinen Matti Kangas Helena Lahtinen Sari Oja-Lipasti Hanna Peräaho Hannu Saarela Jussi Vaahtoniemi Teija Ylimäki, varajäsen Marko Ämmälä\nMuut saapuvilla olleet Anneli Jäätteenmäki, poistui 20:42 Kai Pöntinen Marcus Toppari Satu Kankare, Kaupunginjohtaja, esittelijä\nJussi Voutilainen, Lapuan Kotiasunnot Oy:n toimitusjohtaja, saapui 17:10, poistui 17:29 Minna Kangasluoma, Hallintopäällikkö, sihteeri\nPoissa\nRiitta Kangasluoma, 2. varapuheenjohtaja\nAllekirjoitukset\nHarri Seppälä Puheenjohtaja Minna Kangasluoma Sihteeri"
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-05-19",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-05-19",
+          "pykala_nro": "§ 35",
+          "otsikko": null,
+          "score": 0.5490198,
+          "text": "Liitteet\n- 1 Tilinpäätös 2024 (allekirjoitettu 8.5.2025).pdf\n- 2 Tilintarkastuskertomus 2024.pdf\n- 3 Äänestysluettelo 19.5.2025 § 35.pdf\n\nKunnallisvalitus\n§35, §39, §42, §43\n\nMuutoksenhakukielto\n§32, §33, §34, §36, §37, §38, §40, §41, §44, §45, §46, §47"
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-05-26",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-05-26",
+          "pykala_nro": "§ 186",
+          "otsikko": null,
+          "score": 0.5470209
+        },
+        {
+          "doc_id": "Tekninen lautakunta_2025-01-28",
+          "toimielin": "Tekninen lautakunta",
+          "poytakirja_pvm": "2025-01-28",
+          "pykala_nro": "§ 8",
+          "otsikko": null,
+          "score": 0.5626985
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2024-12-09",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2024-12-09",
+          "pykala_nro": "§ 85",
+          "otsikko": null,
+          "score": 0.5703371,
+          "text": "Kunnallisvalitus\n§85, §87, §91, §92"
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-02-17",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-02-17",
+          "pykala_nro": "§ 5",
+          "otsikko": null,
+          "score": 0.55779314,
+          "text": "Tarkastuslautakunta, § 5,08.01.2025 Kaupunginvaltuusto, § 17, 17.02.2025\n§ 17 Sidonnaisuusilmoitukset\nLAPDno-2024-976\n\nTarkastuslautakunta, 08.01.2025, § 5\nKuntalain 84 § mukaan kunnan luottamushenkilön ja viranhaltijan on tehtävä sidonnaisuusilmoitus johtotehtävistään sekä luottamustehtävistään elinkeinotoimintaa harjoittavissa yrityksissä sekä muissa yhteisöissä, merkittävästä varallisuudesta sekä muistakin sidonnaisuuksista, joilla voi olla merkitystä luottamusja virkatehtävien hoitamisessa.\nVelvollisuus ilmoittaa sidonnaisuuksista koskee kunnanhallituksen ja maankäyttö- ja rakennuslaissa (132/1999) tarkoitettuja tehtäviä hoitavan toimielimen jäseniä, valtuuston ja lautakunnan puheenjohtajaa ja varapuheenjohtajaa, kunnanjohtajaa, pormestaria ja apulaispormestaria sekä kunnanhallituksen ja lautakunnan esittelijää. Ilmoitus on tehtävä kahden kuukauden kuluessa siitä, kun henkilö on tehtäväänsä valittu. Henkilön on myös ilmoitettava viivytyksettä sidonnaisuuksissa tapahtuneet muutokset.\nSidonnaisuusilmoitus tehdään tarkastuslautakunnalle, joka valvoo ilmoitusvelvollisuuden noudattamista ja saattaa ilmoitukset valtuuston tiedoksi. Ilmoitusvelvollisuuden piirin kuuluvan luottamustoimen tai tehtävän päättyessä henkilöä koskevat tiedot on poistettava rekisteristä ja tietoverkosta."
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-02-17",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-02-17",
+          "pykala_nro": "§ 17",
+          "otsikko": null,
+          "score": 0.5559939
+        }
+      ],
+      "response_time_ms": 4034,
+      "timestamp": "2025-12-05T11:37:36.587100",
+      "error": null,
+      "auto_eval": {
+        "faithfulness": 0.2,
+        "relevance": 0.8,
+        "completeness": 0.5,
+        "hallucination_risk": 0.8,
+        "overall_score": 0.44,
+        "reasoning": "Vastaus viittaa lähteisiin, joita ei ole annetuissa materiaaleissa, ja sisältää mahdollisesti keksittyjä tietoja; se on osittain relevantti, mutta puutteellinen ja epäluotettava.",
+        "evaluated_at": "2025-12-05T11:38:46.601612"
+      }
+    },
+    {
+      "id": 4,
+      "topic": "Verotus (tulovero ja kiinteistövero)",
+      "question": "Mikä on Lapuan kaupungin tuloveroprosentti vuodelle 2025?",
+      "answer": "**Lyhyt yhteenveto**  \nLapuan kaupungin tuloveroprosentti vuodelle 2025 on 8,9 %. Tämä prosentti on vahvistettu kaupunginhallituksen päätöksessä ja on ilmoitettu myös kaupunginvaltuustolle.\n\n**Keskeiset päätökset**  \n- **Kaupunginhallitus, 03.11.2025, § 372** – Vuodelle 2025 vahvistettiin tuloveroprosentti 8,9 %.  \n- **Kaupunginvaltuusto, 10.11.2025, § 79** – Vahvistettiin, että Lapuan kaupungin tuloveroprosentti vuodelle 2025 on 8,9 %.",
+      "sources": [
+        {
+          "doc_id": "Kaupunginhallitus_2025-11-03",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-11-03",
+          "pykala_nro": "§ 372",
+          "otsikko": null,
+          "score": 0.70050883,
+          "text": "Kaupunginhallitus, 03.11.2025, § 372\nValmistelija / lisätiedot:\nMarkku Turja, Kaupungingeodeetti, markku.turja@lapua.fi\nKeijo Möttöselle on päätetty myydä tontti nro 11 Lapuan kaupungin Ritamäen kaupunginosan korttelissa 703 (408-7-703-11) Tontin hintaa määritettäessä myytävän tontin pinta-ala on laskettu virheellisesti ja tontille on päätetty virheellinen hinta  Tontin oikea koko on 1864 m 2  ja kauppahinta 11 184 euroa.Tonttijaon muutosja tontin lohkomiskuluja ei peritä ostajalta.\n\nOikaisuvaatimus\n§372, §378, §383\n\nOikaisuvaatimuksen toimittaminen\nToimita oikaisuvaatimus 14 päivän kuluessa päätöksen tiedoksisaannista. Tiedoksisaantipäivää ei lueta oikaisuvaatimusaikaan. Oikaisuvaatimus on tehtävä viimeistään määräajan viimeisenä päivänä. Myöhässä tullutta oikaisuvaatimusta ei tutkita.\nKunnan jäsenen katsotaan saaneen tiedon päätöksestä seitsemän päivän kuluttua siitä, kun pöytäkirja on nähtävänä Lapuan kaupungin internet-sivulla.\nAsianosaisen katsotaan saaneen tiedon päätöksestä, jollei muuta näytetä, seitsemän (7) päivän kuluttua kirjeen lähettämisestä, kolmen (3) päivän kuluttua sähköisen viestin lähettämisestä tai saantitodistuksen osoittamana aikana/erilliseen tiedoksiantotodistukseen merkittynä aikana.\nVoit toimittaa oikaisuvaatimuksen sähköpostilla, postittamalla, tuomalla sen Lapuan kaupungintalon seinässä olevaan postilaatikkoon tai henkilökohtaisesti Lapuan kaupungintalon kirjaamoon. Oikaisuvaatimusasiakirjat on toimitettava oikaisuvaatimusviranomaiselle viimeistään oikaisuvaatimusajan viimeisenä päivänä ennen viraston aukioloajan päättymistä.\n17/2025\n52 ( 53)\nLapuan kaupunki\nKaupunginhallitus\nPöytäkirja\n03.11.2025\nJos viimeinen palautuspäivä osuu viikonlopulle tai pyhäpäiväksi, voit toimittaa oikaisuvaatimuksen vielä seuraavana arkipäivänä."
+        },
+        {
+          "doc_id": "Esityslista-Kaupunginvaltuusto_2025-11-10",
+          "toimielin": "Esityslista-Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-11-10",
+          "pykala_nro": "§ 79",
+          "otsikko": null,
+          "score": 0.69556797
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-11-10",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-11-10",
+          "pykala_nro": "§ 79",
+          "otsikko": null,
+          "score": 0.6917062
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2024-11-11",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2024-11-11",
+          "pykala_nro": "§ 75",
+          "otsikko": null,
+          "score": 0.7371875,
+          "text": "Päätös\nPöytäkirjan tarkastajiksi valittiin Jussi Vaahtoniemi ja Teija Ylimäki sekä varatarkastajiksi valittiin Esko Yli-Karhu ja Pekka Hella.\nLapuan kaupunki Kaupunginvaltuusto\nYmpäristölautakunta, § 75,19.12.2023 Ympäristölautakunta, § 14,16.04.2024 Puheenjohtajiston työryhmä, § 43,28.05.2024 Ympäristölautakunta, § 29,11.06.2024 Ympäristölautakunta, § 41,27.08.2024 Ympäristölautakunta, § 51,29.10.2024 Kaupunginhallitus, § 314,04.11.2024 Kaupunginvaltuusto, § 74, 11.11.2024\n§ 74\n\nYmpäristölautakunta, 19.12.2023, § 75\nRakentamislain myötä rakennuslupa, toimenpidelupa ja rakentamiseen liittyvä ilmoitusmenettely poistuvat ja rakentamislain myötä ne korvaa rakentamislupa. Maisematyölupa, rakennuksen purkamislupa ja purkamisilmoitus sisältyvät rakentamislakiin. Painopiste siirtyy ennakkovalvonnasta jatkuvaan valvontaan. Rakennusvalvontaviranomaisen tehtävä on jatkossa valvoa rakentamista yleisen edun kannalta ja valvoa myös alueidenkäyttölain noudattamista sekä huolehtia rakentamisen yleisestä ohjauksesta ja neuvonnasta (RakL 100 §). Rakennusvalvontaviranomainen ei kuitenkaan vastaa rakentamisen laadusta.\nRakentamislain myötä rakennusjärjestyksen rooli kasvaa. Rakentamislain 42 § määrittää, mille rakentamishankkeelle tulee jatkossa hakea rakentamislupa. Lupakynnystä muutetaan luettelemalla laissa sellaiset hankeet, jotka tarvitsevat aina luvan. Näitä ovat asuinrakennus, laajuudeltaan vähintään 30 m² tai 120 m³ oleva\n\nYmpäristölautakunta, 19.12.2023, § 75\nrakennus, vähintään 50 m² oleva katos, yleisörakennelma, jota käyttää yhtä aikaa vähintään viisi henkilöä, energiakaivo ja erityistä toimintaa varten rakennettava alue, josta aiheutuu vaikutuksia sitä ympäröivien alueiden käytölle. Rakentamislailla luvanvaraisuudesta vapautettua rakentamista ei voida rakennusjärjestyksellä määrätä luvanvaraiseksi. Luvanvaraisuudesta vapautetuille rakennuksille voidaan antaa rakennusjärjestyksessä määräyksiä esimerkiksi niiden koosta ja ympäristöön soveltuvuudesta. Rakennusjärjestyksellä "
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-11-18",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-11-18",
+          "pykala_nro": "§ 79",
+          "otsikko": null,
+          "score": 0.63968676
+        },
+        {
+          "doc_id": "Sivistyslautakunta_2025-09-16",
+          "toimielin": "Sivistyslautakunta",
+          "poytakirja_pvm": "2025-09-16",
+          "pykala_nro": "§ 115",
+          "otsikko": null,
+          "score": 0.6199014
+        },
+        {
+          "doc_id": "Sivistyslautakunta_2025-10-27",
+          "toimielin": "Sivistyslautakunta",
+          "poytakirja_pvm": "2025-10-27",
+          "pykala_nro": "§ 134",
+          "otsikko": null,
+          "score": 0.6037918
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-08-11",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-08-11",
+          "pykala_nro": "§ 282",
+          "otsikko": null,
+          "score": 0.61365616,
+          "text": "Kaupunginhallitus, 11.08.2025, § 282\nValmistelija / lisätiedot:\nSatu Kankare, Kaupunginjohtaja, satu.kankare@lapua.fi\n- 1 Lapuan kaupungin lausunto 11.8.2025 / Osastosihteerien palkkasaatava.pdf 2 Lapuan kaupungin lausunto palkkasaatavaa koskien (24.2.2025 allekirjoitettu).pdf\nEtelä-Pohjanmaan hyvinvointialue on lähettänyt Etelä-Pohjanmaan Sairaanhoitopiirin jäsenkunnille 28.5.2025 päivätyn kirjeen, jossa aikaisempaan kirjeeseen (27.1.2025) viitaten kerrotaan, että Etelä-Pohjanmaan hyvinvointialue on maksanut EteläPohjanmaan sairaanhoitopiirin kuntayhtymän aikaisia palkkasaatavia osastosihteereille yhteensä 968 587,07 euroa, perustuen aikaisempiin oikeuden päätöksiin ja tehtyihin sovintosopimuksiin. Kirjeessä perustellaan myös aikaisempaa yksityiskohtaisemmin Etelä-Pohjanmaan sairaanhoitopiirin kuntayhtymän jäsenkuntien palkkasaatavien maksuvelvollisuutta. Samalla perustellaan myös se, että Etelä-Pohjanmaan sairaanhoitopiirin kuntayhtymän jäsenkuntien maksuvelvollisuus määräytyy kuntayhtymän perussopimuksen mukaisesti, jolloin Lapuan kaupungin maksuosuuden määrä on 74.299,43 euroa. Etelä-Pohjanmaan hyvinvointialueen kustannukseksi jäävät oikeudenkäyntikulut.\n\nKaupunginhallitus, 11.08.2025, § 282\nOheismateriaalina on Etelä-Pohjanmaan hyvinvointialueen 28.5.2025 lähettämä kirje liitteineen.\nLapuan kaupungin lausunto Etelä-Pohjanmaan hyvinvointialueelle on liitteenä. Lausunnon perusteella Lapuan kaupunki katsoo, että sote-voimaanpanolain (616 /2021) mukaan Etelä-Pohjanmaan sairaanhoitopiirin toiminta kaikkine varoineen ja velkoineen on siirtynyt hyvinvointialueelle. Vastuu oikeudenkäynnin mukaisesti"
+        },
+        {
+          "doc_id": "Tekninen lautakunta_2025-08-26",
+          "toimielin": "Tekninen lautakunta",
+          "poytakirja_pvm": "2025-08-26",
+          "pykala_nro": "§ 109",
+          "otsikko": null,
+          "score": 0.6069602
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-06-23",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-06-23",
+          "pykala_nro": "§ 263",
+          "otsikko": null,
+          "score": 0.60845184,
+          "text": "§ 263 Lausuntopyyntö / Luonnos hallituksen esitykseksi eduskunnalle uudeksi alueidenkäyttölaiksi / Lapuan kaupungin lausunto § 264 Simpsiönvuori Oy:n yhtiökokous 24.6.2025 § 265 Lapuan Yrittäjähotelli Oy:n yhtiökokous 25.6.2025 § 266 Lappavesi Oy:n ylimääräinen yhtiökokous 11.8.2025 § 267 Kaupunginjohtajan päätökset § 268 Hallinnon toimialan viranhaltijoiden päätökset § 269 Kaupungingeodeetin päätökset / kaupunginhallituksen otto-oikeus § 270 Lautakuntien ja toimikuntien esityslistat/pöytäkirjat § 271 Kuntayhtymien ja hyvinvointialueen pöytäkirjat/esityslistat § 272 Ilmoitusasiat § 273 Muut asiat\nLapuan kaupunki\nKaupunginhallitus\nSaapuvilla olleet jäsenet Harri Seppälä, puheenjohtaja Pekka Hella, 1. varapuheenjohtaja Ritva-Leena Heikkinen Matti Kangas Helena Lahtinen Sari Oja-Lipasti Hanna Peräaho Hannu Saarela Jussi Vaahtoniemi Teija Ylimäki, varajäsen Marko Ämmälä\nMuut saapuvilla olleet Anneli Jäätteenmäki, poistui 20:42 Kai Pöntinen Marcus Toppari Satu Kankare, Kaupunginjohtaja, esittelijä\nJussi Voutilainen, Lapuan Kotiasunnot Oy:n toimitusjohtaja, saapui 17:10, poistui 17:29 Minna Kangasluoma, Hallintopäällikkö, sihteeri\nPoissa\nRiitta Kangasluoma, 2. varapuheenjohtaja\nAllekirjoitukset\nHarri Seppälä Puheenjohtaja Minna Kangasluoma Sihteeri"
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-02-17",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-02-17",
+          "pykala_nro": "§ 8",
+          "otsikko": null,
+          "score": 0.6119454
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2024-11-11",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2024-11-11",
+          "pykala_nro": "§ 76",
+          "otsikko": null,
+          "score": 0.6292607
+        },
+        {
+          "doc_id": "Sivistyslautakunta_2025-01-15",
+          "toimielin": "Sivistyslautakunta",
+          "poytakirja_pvm": "2025-01-15",
+          "pykala_nro": "§ 7",
+          "otsikko": null,
+          "score": 0.61206186
+        }
+      ],
+      "response_time_ms": 3710,
+      "timestamp": "2025-12-05T11:37:42.309432",
+      "error": null,
+      "auto_eval": {
+        "faithfulness": 0.2,
+        "relevance": 0.9,
+        "completeness": 0.8,
+        "hallucination_risk": 0.9,
+        "overall_score": 0.515,
+        "reasoning": "Vastaus osuu kysymykseen, mutta lähteet vaikuttavat keksityiltä ja sisältää turhaa tietoa.",
+        "evaluated_at": "2025-12-05T11:38:49.177115"
+      }
+    },
+    {
+      "id": 5,
+      "topic": "Verotus (tulovero ja kiinteistövero)",
+      "question": "Mitkä ovat Lapuan kaupungin kiinteistöveroprosentit eri kiinteistötyypeille?",
+      "answer": "**Lyhyt yhteenveto**  \nLapuan kaupungin kiinteistöveroprosentit on määritelty laissa säädettyjen vaihteluvälien sisällä ja ne on vahvistettu sekä kaupunginhallituksessa että kaupunginvaltuustossa vuodelle 2026. Prosentit vaihtelevat 0 % – 6 % riippuen kiinteistötyypistä.  \n\n**Keskeiset päätökset**  \n- **Kaupunginhallitus, 03.11.2025, § 376** – Kiinteistöveroprosentit vuodelle 2026:  \n  - Maapohjan yleinen 1,30 %  \n  - Rakennusten yleinen 1,05 %  \n  - Vakituisten asuinrakennusten veroprosentti 0,45 %  \n  - Muiden asuinrakennusten veroprosentti 1,05 %  \n  - Rakentamattoman rakennuspaikan veroprosentti 6,00 %  \n  - Yleishyödyllinen yhteisö 0,00 %  \n  - Voimalaitos 3,10 %【LÄHDE 2†L31-L38】  \n\n- **Kaupunginvaltuusto, 10.11.2025, § 80** – Vahvistettiin samat kiinteistöveroprosentit vuodelle 2026 (samassa taulukossa kuin yllä)【LÄHDE 2†L31-L38】  \n\n- **Kaupunginhallitus, 03.11.2025, § 376** – Kiinteistöveroprosentit vuodelle 2025 (samat arvot kuin 2026) esitettiin talousseminaarissa 22.10.2025 ja päätettiin pitää ennallaan【LÄHDE 1†L71-L78】  \n\n- **Kaupunginvaltuusto, 11.11.2024, § 76** – Kiinteistöveroprosentit vuodelle 2025 vahvistettiin: maapohjan 1,30 %, rakennusten 1,05 %, vakituisten asuinrakennusten 0,45 %, muiden asuinrakennusten 1,05 %, rakentamattoman rakennuspaikan 6,00 %, yleishyödyllinen 0,00 %, voimalaitos 3,10 %【LÄHDE 4†L71-L78】",
+      "sources": [
+        {
+          "doc_id": "Kaupunginhallitus_2025-11-03",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-11-03",
+          "pykala_nro": "§ 372",
+          "otsikko": null,
+          "score": 0.74227035,
+          "text": "Kaupunginhallitus, 03.11.2025, § 372\nValmistelija / lisätiedot:\nMarkku Turja, Kaupungingeodeetti, markku.turja@lapua.fi\nKeijo Möttöselle on päätetty myydä tontti nro 11 Lapuan kaupungin Ritamäen kaupunginosan korttelissa 703 (408-7-703-11) Tontin hintaa määritettäessä myytävän tontin pinta-ala on laskettu virheellisesti ja tontille on päätetty virheellinen hinta  Tontin oikea koko on 1864 m 2  ja kauppahinta 11 184 euroa.Tonttijaon muutosja tontin lohkomiskuluja ei peritä ostajalta.\n\nOikaisuvaatimus\n§372, §378, §383\n\nOikaisuvaatimuksen toimittaminen\nToimita oikaisuvaatimus 14 päivän kuluessa päätöksen tiedoksisaannista. Tiedoksisaantipäivää ei lueta oikaisuvaatimusaikaan. Oikaisuvaatimus on tehtävä viimeistään määräajan viimeisenä päivänä. Myöhässä tullutta oikaisuvaatimusta ei tutkita.\nKunnan jäsenen katsotaan saaneen tiedon päätöksestä seitsemän päivän kuluttua siitä, kun pöytäkirja on nähtävänä Lapuan kaupungin internet-sivulla.\nAsianosaisen katsotaan saaneen tiedon päätöksestä, jollei muuta näytetä, seitsemän (7) päivän kuluttua kirjeen lähettämisestä, kolmen (3) päivän kuluttua sähköisen viestin lähettämisestä tai saantitodistuksen osoittamana aikana/erilliseen tiedoksiantotodistukseen merkittynä aikana.\nVoit toimittaa oikaisuvaatimuksen sähköpostilla, postittamalla, tuomalla sen Lapuan kaupungintalon seinässä olevaan postilaatikkoon tai henkilökohtaisesti Lapuan kaupungintalon kirjaamoon. Oikaisuvaatimusasiakirjat on toimitettava oikaisuvaatimusviranomaiselle viimeistään oikaisuvaatimusajan viimeisenä päivänä ennen viraston aukioloajan päättymistä.\n17/2025\n52 ( 53)\nLapuan kaupunki\nKaupunginhallitus\nPöytäkirja\n03.11.2025\nJos viimeinen palautuspäivä osuu viikonlopulle tai pyhäpäiväksi, voit toimittaa oikaisuvaatimuksen vielä seuraavana arkipäivänä."
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-11-10",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-11-10",
+          "pykala_nro": "§ 80",
+          "otsikko": null,
+          "score": 0.6936294
+        },
+        {
+          "doc_id": "Esityslista-Kaupunginvaltuusto_2025-11-10",
+          "toimielin": "Esityslista-Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-11-10",
+          "pykala_nro": "§ 80",
+          "otsikko": null,
+          "score": 0.65772307
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2024-11-11",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2024-11-11",
+          "pykala_nro": "§ 76",
+          "otsikko": null,
+          "score": 0.6991968
+        },
+        {
+          "doc_id": "Esityslista-Kaupunginvaltuusto_2025-11-10",
+          "toimielin": "Esityslista-Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-11-10",
+          "pykala_nro": "§ 79",
+          "otsikko": null,
+          "score": 0.60158944
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-11-10",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-11-10",
+          "pykala_nro": "§ 79",
+          "otsikko": null,
+          "score": 0.59923923
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-06-23",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-06-23",
+          "pykala_nro": "§ 263",
+          "otsikko": null,
+          "score": 0.6171381,
+          "text": "§ 263 Lausuntopyyntö / Luonnos hallituksen esitykseksi eduskunnalle uudeksi alueidenkäyttölaiksi / Lapuan kaupungin lausunto § 264 Simpsiönvuori Oy:n yhtiökokous 24.6.2025 § 265 Lapuan Yrittäjähotelli Oy:n yhtiökokous 25.6.2025 § 266 Lappavesi Oy:n ylimääräinen yhtiökokous 11.8.2025 § 267 Kaupunginjohtajan päätökset § 268 Hallinnon toimialan viranhaltijoiden päätökset § 269 Kaupungingeodeetin päätökset / kaupunginhallituksen otto-oikeus § 270 Lautakuntien ja toimikuntien esityslistat/pöytäkirjat § 271 Kuntayhtymien ja hyvinvointialueen pöytäkirjat/esityslistat § 272 Ilmoitusasiat § 273 Muut asiat\nLapuan kaupunki\nKaupunginhallitus\nSaapuvilla olleet jäsenet Harri Seppälä, puheenjohtaja Pekka Hella, 1. varapuheenjohtaja Ritva-Leena Heikkinen Matti Kangas Helena Lahtinen Sari Oja-Lipasti Hanna Peräaho Hannu Saarela Jussi Vaahtoniemi Teija Ylimäki, varajäsen Marko Ämmälä\nMuut saapuvilla olleet Anneli Jäätteenmäki, poistui 20:42 Kai Pöntinen Marcus Toppari Satu Kankare, Kaupunginjohtaja, esittelijä\nJussi Voutilainen, Lapuan Kotiasunnot Oy:n toimitusjohtaja, saapui 17:10, poistui 17:29 Minna Kangasluoma, Hallintopäällikkö, sihteeri\nPoissa\nRiitta Kangasluoma, 2. varapuheenjohtaja\nAllekirjoitukset\nHarri Seppälä Puheenjohtaja Minna Kangasluoma Sihteeri"
+        },
+        {
+          "doc_id": "Tekninen lautakunta_2025-10-14",
+          "toimielin": "Tekninen lautakunta",
+          "poytakirja_pvm": "2025-10-14",
+          "pykala_nro": "§ 145",
+          "otsikko": null,
+          "score": 0.5682677
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-09-01",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-09-01",
+          "pykala_nro": "§ 69",
+          "otsikko": null,
+          "score": 0.5714083
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2024-11-11",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2024-11-11",
+          "pykala_nro": "§ 75",
+          "otsikko": null,
+          "score": 0.6161787,
+          "text": "Päätös\nPöytäkirjan tarkastajiksi valittiin Jussi Vaahtoniemi ja Teija Ylimäki sekä varatarkastajiksi valittiin Esko Yli-Karhu ja Pekka Hella.\nLapuan kaupunki Kaupunginvaltuusto\nYmpäristölautakunta, § 75,19.12.2023 Ympäristölautakunta, § 14,16.04.2024 Puheenjohtajiston työryhmä, § 43,28.05.2024 Ympäristölautakunta, § 29,11.06.2024 Ympäristölautakunta, § 41,27.08.2024 Ympäristölautakunta, § 51,29.10.2024 Kaupunginhallitus, § 314,04.11.2024 Kaupunginvaltuusto, § 74, 11.11.2024\n§ 74\n\nYmpäristölautakunta, 19.12.2023, § 75\nRakentamislain myötä rakennuslupa, toimenpidelupa ja rakentamiseen liittyvä ilmoitusmenettely poistuvat ja rakentamislain myötä ne korvaa rakentamislupa. Maisematyölupa, rakennuksen purkamislupa ja purkamisilmoitus sisältyvät rakentamislakiin. Painopiste siirtyy ennakkovalvonnasta jatkuvaan valvontaan. Rakennusvalvontaviranomaisen tehtävä on jatkossa valvoa rakentamista yleisen edun kannalta ja valvoa myös alueidenkäyttölain noudattamista sekä huolehtia rakentamisen yleisestä ohjauksesta ja neuvonnasta (RakL 100 §). Rakennusvalvontaviranomainen ei kuitenkaan vastaa rakentamisen laadusta.\nRakentamislain myötä rakennusjärjestyksen rooli kasvaa. Rakentamislain 42 § määrittää, mille rakentamishankkeelle tulee jatkossa hakea rakentamislupa. Lupakynnystä muutetaan luettelemalla laissa sellaiset hankeet, jotka tarvitsevat aina luvan. Näitä ovat asuinrakennus, laajuudeltaan vähintään 30 m² tai 120 m³ oleva\n\nYmpäristölautakunta, 19.12.2023, § 75\nrakennus, vähintään 50 m² oleva katos, yleisörakennelma, jota käyttää yhtä aikaa vähintään viisi henkilöä, energiakaivo ja erityistä toimintaa varten rakennettava alue, josta aiheutuu vaikutuksia sitä ympäröivien alueiden käytölle. Rakentamislailla luvanvaraisuudesta vapautettua rakentamista ei voida rakennusjärjestyksellä määrätä luvanvaraiseksi. Luvanvaraisuudesta vapautetuille rakennuksille voidaan antaa rakennusjärjestyksessä määräyksiä esimerkiksi niiden koosta ja ympäristöön soveltuvuudesta. Rakennusjärjestyksellä "
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-02-17",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-02-17",
+          "pykala_nro": "§ 8",
+          "otsikko": null,
+          "score": 0.59733295
+        }
+      ],
+      "response_time_ms": 4316,
+      "timestamp": "2025-12-05T11:37:48.633560",
+      "error": null,
+      "auto_eval": {
+        "faithfulness": 0.9,
+        "relevance": 1.0,
+        "completeness": 0.9,
+        "hallucination_risk": 0.1,
+        "overall_score": 0.93,
+        "reasoning": "Vastaus perustuu lähteisiin, on relevantti ja melko kattava, mutta pieni mahdollinen epätarkkuus lähdeviitteissä.",
+        "evaluated_at": "2025-12-05T11:38:52.085985"
+      }
+    },
+    {
+      "id": 6,
+      "topic": "Verotus (tulovero ja kiinteistövero)",
+      "question": "Miten kunnallisverotulot ovat kehittyneet suhteessa talousarvioon?",
+      "answer": "**Kunnallisverotulojen kehitys suhteessa talousarvioon (Lapua 2024‑2025)**  \n\n| Ajanjakso | Kunnallisverojen kertymä (M €) | Toteutuma % budjetista | Poikkeama budjettiin | Vertailu edelliseen vuoteen |\n|-----------|------------------------------|-----------------------|----------------------|-----------------------------|\n| 30 .9. 2024 | 18,0 | 74,3 % | –0,16 M € (vähemmän) | –1,5 M € (vähemmän) |\n| 31.3. 2025 | 7,0 (Q1) | – | +0,6 M € (enemmän kuin budjetti) | +0,4 M € (enemmän kuin 2024 Q1) |\n| 30.6. 2025 | 13,29 (Q2) | 51,6 % | +0,4 M € (enemmän kuin budjetti) | +0,38 M € (enemmän kuin 2024 Q2) |\n|",
+      "sources": [
+        {
+          "doc_id": "Kaupunginhallitus_2025-11-03",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-11-03",
+          "pykala_nro": "§ 372",
+          "otsikko": null,
+          "score": 0.6210625,
+          "text": "Kaupunginhallitus, 03.11.2025, § 372\nValmistelija / lisätiedot:\nMarkku Turja, Kaupungingeodeetti, markku.turja@lapua.fi\nKeijo Möttöselle on päätetty myydä tontti nro 11 Lapuan kaupungin Ritamäen kaupunginosan korttelissa 703 (408-7-703-11) Tontin hintaa määritettäessä myytävän tontin pinta-ala on laskettu virheellisesti ja tontille on päätetty virheellinen hinta  Tontin oikea koko on 1864 m 2  ja kauppahinta 11 184 euroa.Tonttijaon muutosja tontin lohkomiskuluja ei peritä ostajalta.\n\nOikaisuvaatimus\n§372, §378, §383\n\nOikaisuvaatimuksen toimittaminen\nToimita oikaisuvaatimus 14 päivän kuluessa päätöksen tiedoksisaannista. Tiedoksisaantipäivää ei lueta oikaisuvaatimusaikaan. Oikaisuvaatimus on tehtävä viimeistään määräajan viimeisenä päivänä. Myöhässä tullutta oikaisuvaatimusta ei tutkita.\nKunnan jäsenen katsotaan saaneen tiedon päätöksestä seitsemän päivän kuluttua siitä, kun pöytäkirja on nähtävänä Lapuan kaupungin internet-sivulla.\nAsianosaisen katsotaan saaneen tiedon päätöksestä, jollei muuta näytetä, seitsemän (7) päivän kuluttua kirjeen lähettämisestä, kolmen (3) päivän kuluttua sähköisen viestin lähettämisestä tai saantitodistuksen osoittamana aikana/erilliseen tiedoksiantotodistukseen merkittynä aikana.\nVoit toimittaa oikaisuvaatimuksen sähköpostilla, postittamalla, tuomalla sen Lapuan kaupungintalon seinässä olevaan postilaatikkoon tai henkilökohtaisesti Lapuan kaupungintalon kirjaamoon. Oikaisuvaatimusasiakirjat on toimitettava oikaisuvaatimusviranomaiselle viimeistään oikaisuvaatimusajan viimeisenä päivänä ennen viraston aukioloajan päättymistä.\n17/2025\n52 ( 53)\nLapuan kaupunki\nKaupunginhallitus\nPöytäkirja\n03.11.2025\nJos viimeinen palautuspäivä osuu viikonlopulle tai pyhäpäiväksi, voit toimittaa oikaisuvaatimuksen vielä seuraavana arkipäivänä."
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-11-10",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-11-10",
+          "pykala_nro": "§ 77",
+          "otsikko": null,
+          "score": 0.6130599,
+          "text": "Kaupunginvaltuusto, 10.11.2025, § 77\nLiitteet\n1 Talouden toteutumaraportti 1.1.-30.9.2025 (3. osavuosikatsaus).pdf\n\nEhdotus\nKaupunginhallitus esittää kaupunginvaltuustolle, että se merkitsee tiedoksi talouden toteutuman ajalta 1.1. - 30.9.2025\n\nKaupunginvaltuusto, 10.11.2025, § 77\nLiitteet\n\nKokouskutsu\n05.11.2025\n1 Talouden toteutumaraportti 1.1.-30.9.2025 (3. osavuosikatsaus).pdf"
+        },
+        {
+          "doc_id": "Esityslista-Kaupunginvaltuusto_2025-11-10",
+          "toimielin": "Esityslista-Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-11-10",
+          "pykala_nro": "§ 77",
+          "otsikko": null,
+          "score": 0.6078043
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-09-01",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-09-01",
+          "pykala_nro": "§ 69",
+          "otsikko": null,
+          "score": 0.5916902
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-06-23",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-06-23",
+          "pykala_nro": "§ 263",
+          "otsikko": null,
+          "score": 0.5967736,
+          "text": "§ 263 Lausuntopyyntö / Luonnos hallituksen esitykseksi eduskunnalle uudeksi alueidenkäyttölaiksi / Lapuan kaupungin lausunto § 264 Simpsiönvuori Oy:n yhtiökokous 24.6.2025 § 265 Lapuan Yrittäjähotelli Oy:n yhtiökokous 25.6.2025 § 266 Lappavesi Oy:n ylimääräinen yhtiökokous 11.8.2025 § 267 Kaupunginjohtajan päätökset § 268 Hallinnon toimialan viranhaltijoiden päätökset § 269 Kaupungingeodeetin päätökset / kaupunginhallituksen otto-oikeus § 270 Lautakuntien ja toimikuntien esityslistat/pöytäkirjat § 271 Kuntayhtymien ja hyvinvointialueen pöytäkirjat/esityslistat § 272 Ilmoitusasiat § 273 Muut asiat\nLapuan kaupunki\nKaupunginhallitus\nSaapuvilla olleet jäsenet Harri Seppälä, puheenjohtaja Pekka Hella, 1. varapuheenjohtaja Ritva-Leena Heikkinen Matti Kangas Helena Lahtinen Sari Oja-Lipasti Hanna Peräaho Hannu Saarela Jussi Vaahtoniemi Teija Ylimäki, varajäsen Marko Ämmälä\nMuut saapuvilla olleet Anneli Jäätteenmäki, poistui 20:42 Kai Pöntinen Marcus Toppari Satu Kankare, Kaupunginjohtaja, esittelijä\nJussi Voutilainen, Lapuan Kotiasunnot Oy:n toimitusjohtaja, saapui 17:10, poistui 17:29 Minna Kangasluoma, Hallintopäällikkö, sihteeri\nPoissa\nRiitta Kangasluoma, 2. varapuheenjohtaja\nAllekirjoitukset\nHarri Seppälä Puheenjohtaja Minna Kangasluoma Sihteeri"
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-05-19",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-05-19",
+          "pykala_nro": "§ 40",
+          "otsikko": null,
+          "score": 0.5979703,
+          "text": "Kaupunginvaltuusto, 19.05.2025, § 40\nLiitteet\n1 Talouden toteutumaraportti 31.3.25 1. osavuosikatsaus.pdf\n\nEhdotus\nKaupunginhallitus esittää kaupunginvaltuustolle, että se merkitsee tiedoksi talouden toteutuman ajalta 1.1. - 31.3.2025."
+        },
+        {
+          "doc_id": "Hyvinvointilautakunta_2025-08-26",
+          "toimielin": "Hyvinvointilautakunta",
+          "poytakirja_pvm": "2025-08-26",
+          "pykala_nro": "§ 104",
+          "otsikko": null,
+          "score": 0.56627166
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2024-11-11",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2024-11-11",
+          "pykala_nro": "§ 77",
+          "otsikko": null,
+          "score": 0.59811246,
+          "text": "Kaupunginvaltuusto, 11.11.2024, § 77\nLiitteet\n1 Talouden toteutumaraportti 30.9.2024 (3. osavuosikatsaus).pdf\n\nEhdotus\nKaupunginhallitus ehdottaa kaupunginvaltuustolle, että se merkitsee tiedoksi talouden toteutuman ajalta 1.1. - 30.9.2024."
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-05-26",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-05-26",
+          "pykala_nro": "§ 183",
+          "otsikko": null,
+          "score": 0.55667007,
+          "text": "Kaupunginhallitus, 26.05.2025, § 183\nValmistelija / lisätiedot:\nMirva Korpi, Tekninen johtaja, mirva.korpi@lapua.fi\nLapuan kaupungin hallintosäännön 33 §:n mukaan kaupunginhallitus päättää yli 1.000.000 euron hankinnoista.\nKorjauksena teknisen lautakunnan tekstiin kirjataan, että uimahallin tarjousten jättöaika päättyi 12.5.2025 klo 10:00.\nUimahallin urakat, jotka käsitellään kaupunginhallituksen pykälinä 178-183, ovat yhteensä 13.891.550 euroa.\nUimahallin rakentamiseen on varattu yhteensä 14.000.000 euron määräraha vuosille 2025-2027. Lisäksi hankkeelle on 7.5.2025 myönnetty Opetus- ja kulttuuriministeriön avustusta 600.000 euroa."
+        }
+      ],
+      "response_time_ms": 9938,
+      "timestamp": "2025-12-05T11:38:00.572022",
+      "error": null,
+      "auto_eval": {
+        "faithfulness": 0.2,
+        "relevance": 0.6,
+        "completeness": 0.5,
+        "hallucination_risk": 0.9,
+        "overall_score": 0.365,
+        "reasoning": "Lähteet eivät tue annettuja lukuja, sisältöön sisältyy epäolennaista tietoa, ja tiedot vaikuttavat keksityiltä.",
+        "evaluated_at": "2025-12-05T11:38:54.798267"
+      }
+    },
+    {
+      "id": 7,
+      "topic": "Alakoulujen palveluverkko",
+      "question": "Mikä on palveluverkkolinjauksen oppilasmääräraja koulun toiminnan lakkauttamiselle?",
+      "answer": "**Lyhyt yhteenveto**  \nPalveluverkkolinjauksessa koulu lakkautetaan, jos sen 1.–6. luokkien oppilasmäärä on alle 35 oppilasta kahden peräkkäisen lukuvuoden ajan.  \n\n**Keskeiset päätökset**  \n- **Sivistyslautakunta, 20.11.2025, § 154** – Määriteltiin, että “Mikäli koulun 1.–6. luokkalaisten oppilasmäärä on alle 35 oppilasta kahtena lukuvuotena peräkkäin, niin toiminta lakkaa seuraavan lukuvuoden alussa (1.8.)”.  \n- **Sivistyslautakunta, 20.11.2025, § 153** – Hyväksytti saman rajan: alle 35 oppilasta kahden peräkkäisen lukuvuoden aikana → lakkautus 1.8. alkaen.  \n- **Sivistyslautakunta, 08.10.2025, § 129** – Vahvisti oppilasmäärärajaksi 35 oppilasta kahden peräkkäisen lukuvuoden aikana.  \n- **Sivistyslautakunta, 08.10.2025, § 128** – Toisti saman rajan 35 oppilasta kahden peräkkäisen lukuvuoden aikana.  \n- **Kaupunginvaltuusto, 09.12.2024, § 86** – Päätettiin, että “Mikäli koulun 1.–6. luokkalaisten oppilasmäärä on alle 35 oppilasta kahtena lukuvuotena peräkkäin, niin koulun toiminta lakkautuu seuraavan lukuvuoden alussa (1.8.)”.  \n- **Kaupunginhallitus, 02.12.2024, § 349** – Hyväksyi palveluverkkolinjauksen, jossa oppilasmäärärajaksi asetettiin 35 oppilasta kahden peräkkäisen lukuvuoden aikana.  ",
+      "sources": [
+        {
+          "doc_id": "Sivistyslautakunta_2025-11-20",
+          "toimielin": "Sivistyslautakunta",
+          "poytakirja_pvm": "2025-11-20",
+          "pykala_nro": "§ 154",
+          "otsikko": null,
+          "score": 0.6042887
+        },
+        {
+          "doc_id": "Sivistyslautakunta_2025-11-20",
+          "toimielin": "Sivistyslautakunta",
+          "poytakirja_pvm": "2025-11-20",
+          "pykala_nro": "§ 153",
+          "otsikko": null,
+          "score": 0.59820056
+        },
+        {
+          "doc_id": "Sivistyslautakunta_2025-10-08",
+          "toimielin": "Sivistyslautakunta",
+          "poytakirja_pvm": "2025-10-08",
+          "pykala_nro": "§ 129",
+          "otsikko": null,
+          "score": 0.6053157
+        },
+        {
+          "doc_id": "Sivistyslautakunta_2025-10-08",
+          "toimielin": "Sivistyslautakunta",
+          "poytakirja_pvm": "2025-10-08",
+          "pykala_nro": "§ 128",
+          "otsikko": null,
+          "score": 0.601596
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2024-12-09",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2024-12-09",
+          "pykala_nro": "§ 86",
+          "otsikko": null,
+          "score": 0.5982168,
+          "text": "Lapuan kaupunki\nKaupunginvaltuusto\n\nKaupunginvaltuusto, 09.12.2024, § 86\nLiitteet\n1 Oppilasennusteet 2024-2030(2031)"
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2024-12-02",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2024-12-02",
+          "pykala_nro": "§ 349",
+          "otsikko": null,
+          "score": 0.5963482,
+          "text": "Kaupunginhallitus, 02.12.2024, § 349\nLiitteet\n1 Oppilasennusteet 2024-2030(2031)\n\nKaupunginjohtajan ehdotus:\nKaupunginhallitus päättää hyväksyä sivistyslautakunnan linjauksen ja esittää sen edelleen kaupunginvaltuustolle päätettäväksi:\nMikäli koulun 1.-6. luokkalaisten oppilasmäärä olisi alle 35 oppilasta kahtena lukuvuotena peräkkäin, niin koulun toiminta lakkautuisi seuraavan lukuvuoden alussa (1.8. alkaen). Laskentapäivät ovat 15.12.2024 ja jatkossa aina 20.9. (esim. 20.9.2025, 20.9.2026 jne). Myös yksittäisten alakoulujen merkittävät investointitarpeet otetaan osaksi kokonaisarviointia."
+        }
+      ],
+      "response_time_ms": 4313,
+      "timestamp": "2025-12-05T11:38:06.893781",
+      "error": null,
+      "auto_eval": {
+        "faithfulness": 0.1,
+        "relevance": 0.9,
+        "completeness": 0.9,
+        "hallucination_risk": 0.9,
+        "overall_score": 0.5,
+        "reasoning": "Vastaus täyttää kysymyksen, mutta lähteet puuttuvat tai ovat tyhjiä, mikä heikentää uskottavuutta.",
+        "evaluated_at": "2025-12-05T11:38:57.623398"
+      }
+    },
+    {
+      "id": 8,
+      "topic": "Alakoulujen palveluverkko",
+      "question": "Mikä on alakoulujen oppilasennuste vuosille 2024-2030?",
+      "answer": "**Lyhyt yhteenveto**  \nAlakoulujen (luokat 1‑6) oppilasmäärä Lapualla on ennustettu vähenevän tasaisesti vuosina 2024‑2030: 1 052 oppilasta lukuvuonna 2024‑25, 1 008 2025‑26, 944 2026‑27, 894 2027‑28, 839 2028‑29 ja 770 2029‑30 – keskimäärin noin 56 oppilasta vuodessa [Lähde 1 § 129; Lähde 2 § 128; Lähde 5 § 86; Lähde 6 § 349].\n\n**Keskeiset päätökset**  \n- **Sivistyslautakunta, 08.10.2025, § 129** – Hyväksytti oppilasennusteen 2024‑2030 (liite 1 Oppilasennuste 20.9.2025.pdf).  \n- **Sivistyslautakunta, 08.10.2025, § 128** – Hyväksyi saman oppilasennusteen 2024‑2030 (liite 1 Oppilasennuste 20.9.2025.pdf).  \n- **Sivistyslautakunta, 20.11.2025, § 153** – Merkitsi tiedoksi oppilasennusteen 2024‑2030 (liite 1 Oppilasennuste 20.9.2025.pdf).  \n- **Kaupunginvaltuusto, 09.12.2024, § 86** – Hyväksyi palveluverkkolinjauksen ja liitti siihen oppilasennusteen 2024‑2030 (liite 1 Oppilasennuste 2024‑2030(2031) 20.9.2024).  \n- **Kaupunginhallitus, 02.12.2024, § 349** – Hyväksyi kaupunginjohtajan esityksen, jossa oli mukana oppilasennuste 2024‑2030 (liite 1 Oppilasennuste 2024‑2030(2031) 20.9.2024).  ",
+      "sources": [
+        {
+          "doc_id": "Sivistyslautakunta_2025-10-08",
+          "toimielin": "Sivistyslautakunta",
+          "poytakirja_pvm": "2025-10-08",
+          "pykala_nro": "§ 129",
+          "otsikko": null,
+          "score": 0.6587957
+        },
+        {
+          "doc_id": "Sivistyslautakunta_2025-10-08",
+          "toimielin": "Sivistyslautakunta",
+          "poytakirja_pvm": "2025-10-08",
+          "pykala_nro": "§ 128",
+          "otsikko": null,
+          "score": 0.65630734
+        },
+        {
+          "doc_id": "Sivistyslautakunta_2025-11-20",
+          "toimielin": "Sivistyslautakunta",
+          "poytakirja_pvm": "2025-11-20",
+          "pykala_nro": "§ 153",
+          "otsikko": null,
+          "score": 0.629906
+        },
+        {
+          "doc_id": "Sivistyslautakunta_2025-11-20",
+          "toimielin": "Sivistyslautakunta",
+          "poytakirja_pvm": "2025-11-20",
+          "pykala_nro": "§ 154",
+          "otsikko": null,
+          "score": 0.62530607
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2024-12-09",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2024-12-09",
+          "pykala_nro": "§ 86",
+          "otsikko": null,
+          "score": 0.64840925,
+          "text": "Lapuan kaupunki\nKaupunginvaltuusto\n\nKaupunginvaltuusto, 09.12.2024, § 86\nLiitteet\n1 Oppilasennusteet 2024-2030(2031)"
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2024-12-02",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2024-12-02",
+          "pykala_nro": "§ 349",
+          "otsikko": null,
+          "score": 0.64337385,
+          "text": "Kaupunginhallitus, 02.12.2024, § 349\nLiitteet\n1 Oppilasennusteet 2024-2030(2031)\n\nKaupunginjohtajan ehdotus:\nKaupunginhallitus päättää hyväksyä sivistyslautakunnan linjauksen ja esittää sen edelleen kaupunginvaltuustolle päätettäväksi:\nMikäli koulun 1.-6. luokkalaisten oppilasmäärä olisi alle 35 oppilasta kahtena lukuvuotena peräkkäin, niin koulun toiminta lakkautuisi seuraavan lukuvuoden alussa (1.8. alkaen). Laskentapäivät ovat 15.12.2024 ja jatkossa aina 20.9. (esim. 20.9.2025, 20.9.2026 jne). Myös yksittäisten alakoulujen merkittävät investointitarpeet otetaan osaksi kokonaisarviointia."
+        },
+        {
+          "doc_id": "Sivistyslautakunta_2025-10-27",
+          "toimielin": "Sivistyslautakunta",
+          "poytakirja_pvm": "2025-10-27",
+          "pykala_nro": "§ 134",
+          "otsikko": null,
+          "score": 0.5286585
+        },
+        {
+          "doc_id": "Sivistyslautakunta_2025-09-16",
+          "toimielin": "Sivistyslautakunta",
+          "poytakirja_pvm": "2025-09-16",
+          "pykala_nro": "§ 115",
+          "otsikko": null,
+          "score": 0.5311997
+        }
+      ],
+      "response_time_ms": 4170,
+      "timestamp": "2025-12-05T11:38:13.072672",
+      "error": null,
+      "auto_eval": {
+        "faithfulness": 0.2,
+        "relevance": 0.9,
+        "completeness": 0.8,
+        "hallucination_risk": 0.9,
+        "overall_score": 0.515,
+        "reasoning": "Vastaus on relevantti ja melko kattava, mutta lähteet puuttuvat tai ovat tyhjiä, mikä heikentää uskottavuutta.",
+        "evaluated_at": "2025-12-05T11:39:00.376982"
+      }
+    },
+    {
+      "id": 9,
+      "topic": "Alakoulujen palveluverkko",
+      "question": "Milloin ja miten alakoulun lakkauttamispäätös tehdään?",
+      "answer": "**Lyhyt yhteenveto**  \nAlakoulun lakkauttamispäätös voidaan tehdä, kun 1.–6. luokkien oppilasmäärä on alle 35 oppilasta kahden peräkkäisen lukuvuoden ajan; tällöin toiminta lakkaa 1 tammi‑elokuuta seuraavan lukuvuoden alussa. Päätös tehdään erillisenä kaupunginvaltuuston päätöksenä sen jälkeen, kun on suoritettu valmistelut, vaikutusarvioinnit ja kuulemiset (tavoitteena päätös syksyllä 2025, lakkautus 1.8.2026)【LÄHDE 1】.\n\n**Keskeiset päätökset**  \n- **Sivistyslautakunta, 21.11.2024, § 123** – Hyväksyi ehdotuksen viedä palveluverkkolinjaus kaupunginvaltuustolle.  \n- **Kaupunginhallitus, 02.12.2024, § 349** – Hyväksyi kaupunginjohtajan esityksen, että oppilasmäärän alittaminen < 35 kahdesti peräkkäin johtaa lakkautukseen 1.8. alkaen; laskentapäivät 15.12.2024 ja 20.9.‑päivinä jatkossa.  \n- **Kaupunginvaltuusto, 09.12.2024, § 86** – Päätti palveluverkkolinjauksen: “Mikäli koulun 1.–6. luokkalaisten oppilasmäärä on alle 35 oppilasta kahtena lukuvuotena peräkkäin, niin toiminta lakkaa seuraavan lukuvuoden alussa (1.8. alkaen). Laskentapäivät ovat 15.12.2024 ja jatkossa aina 20.9.”【LÄHDE 1】.  \n- **Kaupunginvaltuusto, 09.12.2024, § 86** – Toteaa, että yksittäisen koulun lakkauttamisesta tehdään erillinen päätös, jonka tekee kaupunginvaltuusto hallintosäännön mukaisesti【LÄHDE 1】.  \n- **Sivistyslautakunta, 20.11.2025, § 154** – Päätös Männikön koulun lakkauttamisesta 1.8.2026 alkaen (esimerkki yksittäisestä",
+      "sources": [
+        {
+          "doc_id": "Sivistyslautakunta_2025-11-20",
+          "toimielin": "Sivistyslautakunta",
+          "poytakirja_pvm": "2025-11-20",
+          "pykala_nro": "§ 153",
+          "otsikko": null,
+          "score": 0.6198396
+        },
+        {
+          "doc_id": "Sivistyslautakunta_2025-10-08",
+          "toimielin": "Sivistyslautakunta",
+          "poytakirja_pvm": "2025-10-08",
+          "pykala_nro": "§ 129",
+          "otsikko": null,
+          "score": 0.62569624
+        },
+        {
+          "doc_id": "Sivistyslautakunta_2025-11-20",
+          "toimielin": "Sivistyslautakunta",
+          "poytakirja_pvm": "2025-11-20",
+          "pykala_nro": "§ 154",
+          "otsikko": null,
+          "score": 0.6105801
+        },
+        {
+          "doc_id": "Sivistyslautakunta_2025-10-08",
+          "toimielin": "Sivistyslautakunta",
+          "poytakirja_pvm": "2025-10-08",
+          "pykala_nro": "§ 128",
+          "otsikko": null,
+          "score": 0.604909
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2024-12-02",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2024-12-02",
+          "pykala_nro": "§ 349",
+          "otsikko": null,
+          "score": 0.6056154,
+          "text": "Kaupunginhallitus, 02.12.2024, § 349\nLiitteet\n1 Oppilasennusteet 2024-2030(2031)\n\nKaupunginjohtajan ehdotus:\nKaupunginhallitus päättää hyväksyä sivistyslautakunnan linjauksen ja esittää sen edelleen kaupunginvaltuustolle päätettäväksi:\nMikäli koulun 1.-6. luokkalaisten oppilasmäärä olisi alle 35 oppilasta kahtena lukuvuotena peräkkäin, niin koulun toiminta lakkautuisi seuraavan lukuvuoden alussa (1.8. alkaen). Laskentapäivät ovat 15.12.2024 ja jatkossa aina 20.9. (esim. 20.9.2025, 20.9.2026 jne). Myös yksittäisten alakoulujen merkittävät investointitarpeet otetaan osaksi kokonaisarviointia."
+        }
+      ],
+      "response_time_ms": 5531,
+      "timestamp": "2025-12-05T11:38:20.606995",
+      "error": null,
+      "auto_eval": {
+        "faithfulness": 0.1,
+        "relevance": 0.9,
+        "completeness": 0.7,
+        "hallucination_risk": 0.9,
+        "overall_score": 0.46,
+        "reasoning": "Vastaus on aiheeseen liittyvä, mutta lähteet puuttuvat ja tiedot vaikuttavat keksityiltä, mikä heikentää uskottavuutta.",
+        "evaluated_at": "2025-12-05T11:39:03.160416"
+      }
+    },
+    {
+      "id": 10,
+      "topic": "Hallintosääntö",
+      "question": "Mitä muutoksia hallintosääntöön tehtiin 1.1.2025 alkaen?",
+      "answer": "**Lyhyt yhteenveto**  \n1.1.2025 alkaen Lapuan kaupungin hallintosääntöön lisättiin useita sisällöllisiä tarkennuksia, joihin kuului maankäyttö‑ ja rakennuslain viittausten muuttaminen Rakentamislaiksi (myöhemmin alueidenkäyttölaiksi) sekä viranhaltijoiden toimivallan tarkennuksia teknisellä, henkilöstö‑, maahanmuutto‑ ja kasvatuksen‑ ja opetusalalla.  \nMuutokset hyväksyttiin kaupunginvaltuustossa ja ne astuvat voimaan vuoden alusta. (LÄHDE 3)\n\n**Keskeiset päätökset**  \n- **Kaupunginhallitus, 02.12.2024, § 350** – Hallintosääntöön tehtiin viittausmuutokset maankäyttö‑ ja rakennuslakiin (muuttuu Rakentamislaiksi 1.1.2025, myöhemmin alueidenkäyttölaiksi), tarkennettiin teknisen toimialan viranhaltijoiden toimivaltaa, henkilöstöasioiden ratkaisuvallan ja henkilöstöpäällikön toimivaltaa, maahanmuuttokoordinaattorin päätösvaltaa sekä kasvatuksen ja opetuksen viranhaltijoiden toimivaltaa, ja tehtiin muita pieniä muutoksia ja korjauksia. (LÄHDE 3)  \n- **Kaupunginvaltuusto, 09.12.2024, § 87** – Valtuusto hyväksyi hallintosäännön muutokset, jotka astuvat voimaan 1.1.2025 alkaen. (LÄHDE 3)",
+      "sources": [
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-06-02",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-06-02",
+          "pykala_nro": "§ 59",
+          "otsikko": null,
+          "score": 0.6523269
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-02-17",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-02-17",
+          "pykala_nro": "§ 13",
+          "otsikko": null,
+          "score": 0.6501297,
+          "text": "Kaupunginvaltuusto, 17.02.2025, § 13\nLiitteet\n1 Hallintosäännön muutokset 1.4.2025 alkaen\n\nEhdotus\nLiitteet\nLapuan kaupunki Kaupunginvaltuusto\nPöytäkirja\n17.02.2025\nKaupunginhallitus esittää kaupunginvaltuustolle, että se hyväksyy 1.4.2025 alkaen liitteenä olevan Lapuan kaupungin hallintosäännön päivitetyn liitteen 3, mikäli kaupunginvaltuusto hyväksyy tilapalveluinsinöörin viran perustamisen."
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2024-12-09",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2024-12-09",
+          "pykala_nro": "§ 87",
+          "otsikko": null,
+          "score": 0.6584824,
+          "text": "Kaupunginvaltuusto, 09.12.2024, § 87\nLiitteet\n1 Lapuan kaupungin hallintosääntö 1.1.2025 alkaen Hyväksytty Kv 9.12.2024 § 87.pdf"
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-05-26",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-05-26",
+          "pykala_nro": "§ 186",
+          "otsikko": null,
+          "score": 0.59839565
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2024-12-16",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2024-12-16",
+          "pykala_nro": "§ 87",
+          "otsikko": null,
+          "score": 0.6019689
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-03-24",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-03-24",
+          "pykala_nro": "§ 28",
+          "otsikko": null,
+          "score": 0.5631809,
+          "text": "Kaupunginvaltuusto, 24.03.2025, § 28\nLiitteet\n1 Luottamushenkilöiden sekä viran- ja toimenhaltijoiden palkkiosääntö 1.6.2025 alkaen.pdf"
+        },
+        {
+          "doc_id": "Kaupunginvaltuusto_2025-02-17",
+          "toimielin": "Kaupunginvaltuusto",
+          "poytakirja_pvm": "2025-02-17",
+          "pykala_nro": "§ 9",
+          "otsikko": null,
+          "score": 0.5651586,
+          "text": "Päätös\nKaupunginjohtaja alusti asiaa. Kaupunginvaltuusto hyväksyi kaupunginhallituksen ehdotuksen.\nLapuan kaupunki Kaupunginvaltuusto\nTekninen lautakunta, § 9,28.01.2025 Kaupunginhallitus, § 29,03.02.2025 Kaupunginvaltuusto, § 8, 17.02.2025\n§ 8\nTalousarvio 2024 tekninen lautakunta / Vuodelta 2024 siirtyvät investoinnit / Lisämääräraha\nLAPDno-2025-66\n\nTekninen lautakunta, 28.01.2025, § 9\nValmistelijat / lisätiedot:\nMirva Korpi, Tekninen johtaja, mirva.korpi@lapua.fi\n\nKaupunginhallitus, § 35,03.02.2025 Kaupunginvaltuusto, § 9, 17.02.2025\n§ 9"
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-08-25",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-08-25",
+          "pykala_nro": "§ 303",
+          "otsikko": null,
+          "score": 0.53380024,
+          "text": "Kaupunginhallitus, 25.08.2025, § 303\nLiitteet\n- 1 Yläkoulun järjestyssäännöt 1.8.2025 alkaen\n- 2 Alakoulujen järjestyssäännöt 1.8.2025 alkaen\n- 3 Valtuustoaloite kännykkäkiellosta Lapuan peruskoulujen oppitunneilla"
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-06-23",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-06-23",
+          "pykala_nro": "§ 263",
+          "otsikko": null,
+          "score": 0.5352004,
+          "text": "§ 263 Lausuntopyyntö / Luonnos hallituksen esitykseksi eduskunnalle uudeksi alueidenkäyttölaiksi / Lapuan kaupungin lausunto § 264 Simpsiönvuori Oy:n yhtiökokous 24.6.2025 § 265 Lapuan Yrittäjähotelli Oy:n yhtiökokous 25.6.2025 § 266 Lappavesi Oy:n ylimääräinen yhtiökokous 11.8.2025 § 267 Kaupunginjohtajan päätökset § 268 Hallinnon toimialan viranhaltijoiden päätökset § 269 Kaupungingeodeetin päätökset / kaupunginhallituksen otto-oikeus § 270 Lautakuntien ja toimikuntien esityslistat/pöytäkirjat § 271 Kuntayhtymien ja hyvinvointialueen pöytäkirjat/esityslistat § 272 Ilmoitusasiat § 273 Muut asiat\nLapuan kaupunki\nKaupunginhallitus\nSaapuvilla olleet jäsenet Harri Seppälä, puheenjohtaja Pekka Hella, 1. varapuheenjohtaja Ritva-Leena Heikkinen Matti Kangas Helena Lahtinen Sari Oja-Lipasti Hanna Peräaho Hannu Saarela Jussi Vaahtoniemi Teija Ylimäki, varajäsen Marko Ämmälä\nMuut saapuvilla olleet Anneli Jäätteenmäki, poistui 20:42 Kai Pöntinen Marcus Toppari Satu Kankare, Kaupunginjohtaja, esittelijä\nJussi Voutilainen, Lapuan Kotiasunnot Oy:n toimitusjohtaja, saapui 17:10, poistui 17:29 Minna Kangasluoma, Hallintopäällikkö, sihteeri\nPoissa\nRiitta Kangasluoma, 2. varapuheenjohtaja\nAllekirjoitukset\nHarri Seppälä Puheenjohtaja Minna Kangasluoma Sihteeri"
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-03-17",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-03-17",
+          "pykala_nro": "§ 84",
+          "otsikko": null,
+          "score": 0.55022955,
+          "text": "Kaupunginhallitus, 17.03.2025, § 84\nLiitteet\n- 1 Virka- ja työvapaiden myöntämisperiaatteet, päivitys\n\nKaupunginjohtajan ehdotus:\nKaupunginhallitus päättää\n1. lakkauttaa 19.5.1986 § 39 tehdyn periaatepäätöksen sekä siihen 16.12.2022 § 8 sekä 22.4.2014 § 4 tehdyt tarkennukset, päätös koskee vammaisen ja pitkäaikaissairaan lapsen määräaikaistutkimuksia varten myönnettävää palkallista vapaata\n2. hyväksyy liitteen mukaiset Virka- ja työvapaiden myöntämisperiaatteet 1.4.2025 alkaen."
+        },
+        {
+          "doc_id": "Hyvinvointilautakunta_2024-12-17",
+          "toimielin": "Hyvinvointilautakunta",
+          "poytakirja_pvm": "2024-12-17",
+          "pykala_nro": "§ 169",
+          "otsikko": null,
+          "score": 0.56027925,
+          "text": "Päätös\nHyvinvointilautakunta hyväksyi esityslistan siten muutettuna, että esityslistalle lisättiin asia § 169 Päiväranta kiinteistön siirtyminen kulttuuritoimelle 1.1.2025 alkaen.\nLapuan kaupunki Hyvinvointilautakunta"
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2024-12-02",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2024-12-02",
+          "pykala_nro": "§ 349",
+          "otsikko": null,
+          "score": 0.5621344,
+          "text": "Kaupunginhallitus, 02.12.2024, § 349\nLiitteet\n1 Oppilasennusteet 2024-2030(2031)\n\nKaupunginjohtajan ehdotus:\nKaupunginhallitus päättää hyväksyä sivistyslautakunnan linjauksen ja esittää sen edelleen kaupunginvaltuustolle päätettäväksi:\nMikäli koulun 1.-6. luokkalaisten oppilasmäärä olisi alle 35 oppilasta kahtena lukuvuotena peräkkäin, niin koulun toiminta lakkautuisi seuraavan lukuvuoden alussa (1.8. alkaen). Laskentapäivät ovat 15.12.2024 ja jatkossa aina 20.9. (esim. 20.9.2025, 20.9.2026 jne). Myös yksittäisten alakoulujen merkittävät investointitarpeet otetaan osaksi kokonaisarviointia."
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-02-24",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-02-24",
+          "pykala_nro": "§ 9",
+          "otsikko": null,
+          "score": 0.5393698,
+          "text": "Kaupunginhallitus\n§ 9 Sisäiset vuokrat 1.1.2025 alkaen / määrärahat vuoden 2025 talousarvioon Kaupunginjohtajan ehdotus: talouspäällikölle.\nPäätöksestä ilmoitetaan kaupunginjohtajalle ja § 10 Takauksen myöntäminen Invest Lapua Oy:lle ympäristöterveydenhuollon tilojen rakentamista varten Päätöksestä ilmoitetaan Invest Lapua Oy:n Kaupunginjohtajan ehdotus: toimitusjohtajalle, talouspäällikölle ja kaupunginjohtajalle. § 11 Liikenneturvallisuustyö Lapualla 2025-2026 Päätöksestä ilmoitetaan toimialoille sekä työryhmälle. Kaupunginjohtajan ehdotus: § 12 Tilapalveluinsinöörin viran perustaminen 1.4.2025 alkaen Päätöksestä ilmoitetaan tekniselle johtajalle. Kaupunginjohtajan ehdotus: § 13 Lapuan kaupungin hallintosäännön liitteen 3 muuttaminen 1.4.2025 alkaen Päätöksestä ilmoitetaan"
+        },
+        {
+          "doc_id": "Kaupunginhallitus_2025-02-03",
+          "toimielin": "Kaupunginhallitus",
+          "poytakirja_pvm": "2025-02-03",
+          "pykala_nro": "§ 33",
+          "otsikko": null,
+          "score": 0.53651977,
+          "text": "Kaupunginhallitus, 03.02.2025, § 33\nLiitteet\n- 1 Sopimusmuutos koskien paikallista virka- ja työehtosopimusta työsuojeluvaltuutettujen toimialueesta ja ajankähytöstä 1.1.2025-31.12.2025.pdf"
+        }
+      ],
+      "response_time_ms": 3830,
+      "timestamp": "2025-12-05T11:38:26.444755",
+      "error": null,
+      "auto_eval": {
+        "faithfulness": 0.3,
+        "relevance": 0.9,
+        "completeness": 0.6,
+        "hallucination_risk": 0.8,
+        "overall_score": 0.525,
+        "reasoning": "Vastaus on aiheeseen liittyvä, mutta lähteet eivät tue yksityiskohtia, mikä nostaa harhaanjohtamisen riskiä.",
+        "evaluated_at": "2025-12-05T11:39:05.841885"
+      }
+    }
+  ]
+}

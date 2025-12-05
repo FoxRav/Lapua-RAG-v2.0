@@ -259,13 +259,30 @@ class LapuaQueryAgent:
         
         _log.info("Merged %d chunks into %d unique pykälät", len(results[:plan.k]), len(sources))
 
+        # Check if the question is too broad (generic words without specifics)
+        broad_keywords = ["mitä päätöksiä", "mitä on tehty", "mitä on päätetty", "kaikki", "yleisesti"]
+        question_lower = plan.original_question.lower()
+        is_broad_question = any(kw in question_lower for kw in broad_keywords) and len(sources) > 8
+        
+        if is_broad_question:
+            # Add guidance for broad questions
+            broad_guidance = (
+                "\n\nHUOM: Kysymys on laaja. Jos lähteet käsittelevät monia eri aiheita, "
+                "kehota käyttäjää tarkentamaan kysymystä, esim: "
+                "'Kysymys on laaja ja lähteet käsittelevät useita eri päätöksiä. "
+                "Tarkenna kysymystäsi esim. tiettyyn vuoteen, toimielimeen tai aihealueeseen.'\n"
+            )
+        else:
+            broad_guidance = ""
+
         system_prompt = (
             "Olet Lapuan kaupungin pöytäkirjoihin erikoistunut avustaja.\n\n"
             "KRIITTISET SÄÄNNÖT (noudata ehdottomasti):\n"
             "1. KÄYTÄ VAIN ANNETTUJA LÄHTEITÄ - älä keksi mitään\n"
             "2. Jos tietoa EI löydy lähteistä, sano: 'Tätä tietoa ei löydy annetuista lähteistä.'\n"
             "3. ÄLÄ lisää yleistietoa tai oletuksia - vain lähteissä oleva tieto\n"
-            "4. Jokainen väite PITÄÄ pystyä jäljittämään tiettyyn lähteeseen\n\n"
+            "4. Jokainen väite PITÄÄ pystyä jäljittämään tiettyyn lähteeseen\n"
+            "5. Jos kysymys on liian laaja vastattavaksi tarkasti, pyydä tarkennusta\n\n"
             "VASTAUSMUOTO:\n"
             "**Lyhyt yhteenveto**\n"
             "2-3 virkettä tärkeimmästä (perustuen lähteisiin).\n\n"
@@ -275,7 +292,7 @@ class LapuaQueryAgent:
             "- EI TAULUKOITA\n"
             "- Käytä luetteloita\n"
             "- JOKAINEN PYKÄLÄ VAIN KERRAN\n"
-            "- Viittaa aina toimielimeen, päivämäärään ja pykälään"
+            f"- Viittaa aina toimielimeen, päivämäärään ja pykälään{broad_guidance}"
         )
         answer_text = ask_groq(system_prompt, plan.original_question, chunk_dicts)
 
