@@ -182,6 +182,10 @@ systemctl restart lapuarag-backend
 | `/query` | POST | RAG-kysely (`{"question": "..."}`) |
 | `/admin/reindex` | POST | Uudelleenindeksointi |
 
+> 🗑️ **Garbage in → Garbage out!** Tarkka kysymys = tarkka vastaus.
+> - ❌ "Männikön koulu"
+> - ✅ "Mitä Männikön koulun lakkauttamisesta on päätetty?"
+
 ---
 
 ## Tiedostorakenne
