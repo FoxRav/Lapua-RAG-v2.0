@@ -198,7 +198,8 @@ class LapuaQueryAgent:
         for res in results:
             pvm = res.payload.get("poytakirja_pvm") if res.payload else None
             pvm_str = str(pvm) if pvm else None
-            boost = _recency_boost(pvm_str, max_boost=1.25, decay_years=2.0)
+            # Reduced boost to not overshadow older relevant decisions
+            boost = _recency_boost(pvm_str, max_boost=1.15, decay_years=2.0)
             boosted_score = res.score * boost
             boosted_results.append((boosted_score, res))
         
@@ -308,11 +309,12 @@ class LapuaQueryAgent:
             "[2-3 virkettä]\n\n"
             "PÄÄTÖKSET\n"
             "• [Toimielin], [pp.kk.vvvv], § [nro]: [Kuvaus]\n\n"
-            "EHDOTTOMAT SÄÄNNÖT:\n"
-            "1. Mainitse VAIN päätökset joissa on § numero lähteissä\n"
-            "2. Jos § numeroa ei ole lähteessä, ÄLÄ mainitse sitä päätöstä\n"
-            "3. ÄLÄ keksi päivämääriä tai pykälänumeroita\n"
-            "4. EI taulukoita, EI markdown-muotoilua"
+            "KRIITTISET SÄÄNNÖT:\n"
+            "1. Listaa KAIKKI eri pykälät (§) lähteistä - ÄLÄ JÄTÄ YHTÄÄN POIS!\n"
+            "2. Jos lähteissä on 5 eri pykälää, vastauksessa TÄYTYY olla 5 päätöstä\n"
+            "3. Mainitse VAIN päätökset joissa on § numero lähteissä\n"
+            "4. ÄLÄ keksi päivämääriä tai pykälänumeroita\n"
+            "5. EI taulukoita, EI markdown-muotoilua"
             f"{broad_guidance}"
         )
         answer_text = ask_groq(system_prompt, plan.original_question, chunk_dicts)
