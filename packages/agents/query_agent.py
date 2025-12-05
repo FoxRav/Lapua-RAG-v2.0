@@ -312,9 +312,13 @@ class LapuaQueryAgent:
             "KRIITTISET SÄÄNNÖT:\n"
             "1. Listaa KAIKKI eri pykälät (§) lähteistä - ÄLÄ JÄTÄ YHTÄÄN POIS!\n"
             "2. Jos lähteissä on 5 eri pykälää, vastauksessa TÄYTYY olla 5 päätöstä\n"
-            "3. Mainitse VAIN päätökset joissa on § numero lähteissä\n"
-            "4. ÄLÄ keksi päivämääriä tai pykälänumeroita\n"
-            "5. EI taulukoita, EI markdown-muotoilua"
+            "3. EROTA ESITYS JA LOPULLINEN PÄÄTÖS:\n"
+            "   - 'esittää kaupunginhallitukselle/valtuustolle' = ESITYS, ei lopullinen\n"
+            "   - Vain KAUPUNGINVALTUUSTO tekee lopullisia päätöksiä isoissa asioissa\n"
+            "   - Jos asia on vain lautakunnan käsittelyssä, mainitse: 'Odottaa valtuuston päätöstä'\n"
+            "4. ÄLÄ sano 'päätettiin' jos kyseessä on vain esitys ylemmälle toimielimelle!\n"
+            "5. ÄLÄ keksi päivämääriä tai pykälänumeroita\n"
+            "6. EI taulukoita, EI markdown-muotoilua"
             f"{broad_guidance}"
         )
         answer_text = ask_groq(system_prompt, plan.original_question, chunk_dicts)
