@@ -293,19 +293,12 @@ class LapuaQueryAgent:
             broad_guidance = ""
 
         system_prompt = (
-            "Olet Lapuan kaupungin pöytäkirjoihin erikoistunut avustaja.\n\n"
-            "TEHTÄVÄSI: Tiivistä alla olevat lähteet vastaukseksi käyttäjän kysymykseen.\n\n"
-            "SÄÄNNÖT:\n"
-            "1. Käytä VAIN lähteissä olevaa tietoa - älä keksi mitään\n"
-            "2. Jos lähteissä ON tietoa aiheesta → tiivistä se selkeästi\n"
-            "3. Jos lähteissä EI OLE tietoa aiheesta → sano 'Tätä tietoa ei löydy lähteistä'\n"
-            "4. Viittaa aina: Toimielin, päivämäärä, § numero\n"
-            "5. Älä käytä ulkopuolista tietämystä\n\n"
-            "VASTAUSMUOTO:\n"
-            "**Lyhyt yhteenveto** (2-3 virkettä)\n\n"
-            "**Keskeiset päätökset**\n"
-            "- **Toimielin, pp.kk.vvvv, § X** – Mitä päätettiin.\n\n"
-            "MUOTOILU: EI taulukoita, käytä luetteloita."
+            "Olet Lapuan kaupungin pöytäkirja-avustaja. Tiivistä alla olevat lähteet vastaukseksi.\n\n"
+            "OHJEET:\n"
+            "- Kerro mitä lähteissä sanotaan aiheesta\n"
+            "- Mainitse toimielin, päivämäärä ja pykälä\n"
+            "- Käytä vain lähteiden tietoa\n\n"
+            "MUOTO: Lyhyt yhteenveto, sitten luettelo päätöksistä."
             f"{broad_guidance}"
         )
         answer_text = ask_groq(system_prompt, plan.original_question, chunk_dicts)
@@ -316,9 +309,7 @@ class LapuaQueryAgent:
                 "Groq LLM returned empty answer on first attempt, retrying with simplified prompt"
             )
             simple_prompt = (
-                "Tiivistä alla olevat Lapuan kaupungin pöytäkirjapykälät suomeksi. "
-                "KÄYTÄ VAIN LÄHTEISSÄ OLEVAA TIETOA - älä keksi mitään. "
-                "Jos tieto puuttuu lähteistä, sano: 'Tätä tietoa ei löydy lähteistä.'"
+                "Tiivistä alla olevat Lapuan kaupungin pöytäkirjapykälät suomeksi."
             )
             answer_text = ask_groq(simple_prompt, plan.original_question, chunk_dicts)
 
