@@ -298,7 +298,10 @@ class LapuaQueryAgent:
             "- Kerro mitä lähteissä sanotaan aiheesta\n"
             "- Mainitse toimielin, päivämäärä ja pykälä\n"
             "- Käytä vain lähteiden tietoa\n\n"
-            "MUOTO: Lyhyt yhteenveto, sitten luettelo päätöksistä."
+            "MUOTO:\n"
+            "**Yhteenveto** - 2-3 virkettä\n"
+            "**Päätökset** - luettelo (- merkeillä)\n\n"
+            "KIELLETTY: ÄLÄ käytä taulukoita (| merkkejä). Käytä VAIN luetteloita."
             f"{broad_guidance}"
         )
         answer_text = ask_groq(system_prompt, plan.original_question, chunk_dicts)
