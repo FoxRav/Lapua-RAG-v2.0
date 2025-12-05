@@ -9,6 +9,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
 from agents.query_agent import LapuaAnswer, LapuaQueryAgent, LapuaQueryFilters
+from apps.backend.cache.answer_cache import log_user_question
 
 _log = logging.getLogger(__name__)
 
@@ -46,6 +47,9 @@ async def health() -> dict[str, str]:
 
 @app.post("/query", response_model=LapuaAnswer)
 async def query(req: QueryRequest) -> LapuaAnswer:
+    # Log user question for analytics/development
+    log_user_question(req.question)
+    
     agent = LapuaQueryAgent()
     filters = LapuaQueryFilters(**req.filters.model_dump())
     plan = agent.plan(req.question, filters=filters)
