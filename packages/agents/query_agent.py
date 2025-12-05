@@ -145,7 +145,7 @@ class LapuaAnswer(BaseModel):
 class LapuaQueryAgent:
     """Lightweight query agent orchestrating retrieval and answer formatting."""
 
-    max_k: int = 20
+    max_k: int = 25  # Allow comprehensive retrieval for multi-organ decisions
 
     def plan(self, question: str, filters: Optional[LapuaQueryFilters] = None) -> LapuaQueryPlan:
         """Decide retrieval strategy and parameters based on the question."""
@@ -156,17 +156,27 @@ class LapuaQueryAgent:
         word_count = len(question.split())
         
         # Simple questions (mikä on X, kuka on Y) need fewer sources
-        simple_patterns = ("mikä on", "kuka on", "mitä on", "missä on", "milloin")
-        is_simple = any(lowered.startswith(p) for p in simple_patterns) and word_count <= 6
+        simple_patterns = ("mikä on", "kuka on", "mitä on", "missä on")
+        is_simple = any(lowered.startswith(p) for p in simple_patterns) and word_count <= 5
+        
+        # Keywords that require comprehensive retrieval (multiple decisions across organs)
+        comprehensive_keywords = (
+            "historia", "kehitys", "trendit", "aikajana", "kaikki",
+            "lakkauttami", "palveluverkko", "koulu", "männikö",  # School decisions span multiple organs
+            "päätetty", "keskusteltu", "käsitelty",  # Questions asking for all decisions
+        )
+        
+        # Complex topics that need moderate retrieval
+        complex_keywords = ("simpsiö", "simpsiönvuori", "takaus", "takauksen", "thermopolis", "uimahalli")
         
         if is_simple:
             k = 5  # Simple factual questions need few sources
-        elif any(word in lowered for word in ("historia", "kehitys", "trendit", "aikajana", "kaikki")):
-            k = min(self.max_k, 20)  # Broad questions need more sources
-        elif any(word in lowered for word in ("simpsiö", "simpsiönvuori", "takaus", "takauksen")):
-            k = 12  # Specific complex topics
+        elif any(word in lowered for word in comprehensive_keywords):
+            k = min(self.max_k, 20)  # Need ALL relevant decisions from ALL organs
+        elif any(word in lowered for word in complex_keywords):
+            k = 15  # Specific complex topics
         else:
-            k = 8  # Default for normal questions
+            k = 10  # Default for normal questions
 
         plan = LapuaQueryPlan(
             original_question=question,
@@ -343,7 +353,7 @@ class LapuaQueryAgent:
             answer=answer_text,
             sources=sources,
             strategy_used=plan.strategy,
-            model="openai/gpt-oss-120b",
+            model="llama-3.3-70b-versatile",
         )
 
 
