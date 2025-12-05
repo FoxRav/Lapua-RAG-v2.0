@@ -80,43 +80,79 @@
     },
     {
       "name": "Lapuan Kotiasunnot Oy",
-      "y_tunnus": null,
+      "y_tunnus": "2841190-1",
       "mentions": 160,
       "category": "kaupungin_omistama",
       "role": "Kaupungin vuokra-asuntoyhtiö",
       "notes": "Omistaa vuokra-asuntoja Lapualla",
-      "sources": [],
-      "last_updated": null
+      "address": {
+        "city": "Lapua"
+      },
+      "industry": {
+        "description": "Asuntojen ja asuinkiinteistöjen hallinta"
+      },
+      "company_form": "Osakeyhtiö",
+      "sources": [
+        "https://tietopalvelu.ytj.fi/"
+      ],
+      "last_updated": "2025-12-05"
     },
     {
       "name": "Thermopolis Oy",
-      "y_tunnus": null,
+      "y_tunnus": "2029286-4",
       "mentions": 134,
       "category": "kaupungin_omistama",
       "role": "Kylpylä- ja uimahallitoiminta",
       "notes": "Uimahallihanke keskeinen investointi",
-      "sources": [],
-      "last_updated": null
+      "address": {
+        "city": "Lapua"
+      },
+      "industry": {
+        "description": "Tekniikan tutkimus ja kehittäminen"
+      },
+      "company_form": "Osakeyhtiö",
+      "sources": [
+        "https://tietopalvelu.ytj.fi/"
+      ],
+      "last_updated": "2025-12-05"
     },
     {
       "name": "Lapuan Jätevesi Oy",
-      "y_tunnus": null,
+      "y_tunnus": "0209116-1",
       "mentions": 86,
       "category": "kaupungin_omistama",
       "role": "Jätevesihuolto",
       "notes": "Infrastruktuuriyhtiö",
-      "sources": [],
-      "last_updated": null
+      "address": {
+        "city": "Lapua"
+      },
+      "industry": {
+        "description": "Viemäri- ja jätevesihuolto"
+      },
+      "company_form": "Osakeyhtiö",
+      "sources": [
+        "https://tietopalvelu.ytj.fi/"
+      ],
+      "last_updated": "2025-12-05"
     },
     {
       "name": "Koskienergia Oy",
-      "y_tunnus": null,
+      "y_tunnus": "1014042-9",
       "mentions": 74,
       "category": "energiayhtiö",
       "role": "Sähköntuotanto ja -jakelu",
       "notes": "Alueellinen energiayhtiö",
-      "sources": [],
-      "last_updated": null
+      "address": {
+        "city": "Mikkeli"
+      },
+      "industry": {
+        "description": "Sähkön ja kaukolämmön yhteistuotanto"
+      },
+      "company_form": "Osakeyhtiö",
+      "sources": [
+        "https://tietopalvelu.ytj.fi/"
+      ],
+      "last_updated": "2025-12-05"
     },
     {
       "name": "Destia Oy",
@@ -132,33 +168,60 @@
     },
     {
       "name": "Invest Lapua Oy",
-      "y_tunnus": null,
+      "y_tunnus": "1006221-3",
       "mentions": 58,
       "category": "kaupungin_omistama",
       "role": "Elinkeinoyhtiö, yritystonttien myynti",
       "notes": "Kaupungin elinkeinopolitiikan työkalu",
-      "sources": [],
-      "last_updated": null
+      "address": {
+        "city": "Lapua"
+      },
+      "industry": {
+        "description": "Muiden kiinteistöjen vuokraus ja hallinta"
+      },
+      "company_form": "Osakeyhtiö",
+      "sources": [
+        "https://tietopalvelu.ytj.fi/"
+      ],
+      "last_updated": "2025-12-05"
     },
     {
       "name": "Lappavesi Oy",
-      "y_tunnus": null,
+      "y_tunnus": "0180606-5",
       "mentions": 35,
       "category": "vesihuolto",
       "role": "Vesihuolto, talousveden jakelu",
       "notes": "Seudullinen vesihuoltoyhtiö",
-      "sources": [],
-      "last_updated": null
+      "address": {
+        "city": "Lapua"
+      },
+      "industry": {
+        "description": "Veden otto, puhdistus ja jakelu"
+      },
+      "company_form": "Osakeyhtiö",
+      "sources": [
+        "https://tietopalvelu.ytj.fi/"
+      ],
+      "last_updated": "2025-12-05"
     },
     {
       "name": "Lapuan Energia Oy",
-      "y_tunnus": null,
+      "y_tunnus": "0180601-4",
       "mentions": 25,
       "category": "energiayhtiö",
       "role": "Paikallinen energiayhtiö",
       "notes": "",
-      "sources": [],
-      "last_updated": null
+      "address": {
+        "city": "Lapua"
+      },
+      "industry": {
+        "description": "Kaukolämmön ja -kylmän erillistuotanto ja jakelu"
+      },
+      "company_form": "Osakeyhtiö",
+      "sources": [
+        "https://tietopalvelu.ytj.fi/"
+      ],
+      "last_updated": "2025-12-05"
     },
     {
       "name": "Lakeuden Etappi Oy",
@@ -174,13 +237,22 @@
     },
     {
       "name": "Seinäjoen Työterveys Oy",
-      "y_tunnus": null,
+      "y_tunnus": "2788158-1",
       "mentions": 20,
       "category": "palveluntuottaja",
       "role": "Työterveyspalvelut",
       "notes": "Kaupungin henkilöstön työterveyshuolto",
-      "sources": [],
-      "last_updated": null
+      "sources": [
+        "https://tietopalvelu.ytj.fi/"
+      ],
+      "last_updated": "2025-12-05",
+      "address": {
+        "city": "Seinäjoki"
+      },
+      "industry": {
+        "description": "Lääkäriasemat, yksityislääkärit"
+      },
+      "company_form": "Osakeyhtiö"
     },
     {
       "name": "Ramboll Finland Oy",
@@ -196,23 +268,41 @@
     },
     {
       "name": "Foodwest Oy",
-      "y_tunnus": null,
+      "y_tunnus": "1021523-2",
       "mentions": 17,
       "category": "elinkeinoyhtiö",
       "role": "Elintarvikealan kehittäminen",
       "notes": "",
-      "sources": [],
-      "last_updated": null
+      "sources": [
+        "https://tietopalvelu.ytj.fi/"
+      ],
+      "last_updated": "2025-12-05",
+      "address": {
+        "city": "Seinäjoki"
+      },
+      "industry": {
+        "description": "Tekniikan tutkimus ja kehittäminen"
+      },
+      "company_form": "Osakeyhtiö"
     },
     {
       "name": "Lounea Palvelut Oy",
-      "y_tunnus": null,
+      "y_tunnus": "2883655-5",
       "mentions": 16,
       "category": "palveluntuottaja",
       "role": "IT-palvelut",
       "notes": "Tietotekniikkapalvelut kaupungille",
-      "sources": [],
-      "last_updated": null
+      "sources": [
+        "https://tietopalvelu.ytj.fi/"
+      ],
+      "last_updated": "2025-12-05",
+      "address": {
+        "city": "Seinäjoki"
+      },
+      "industry": {
+        "description": "Televiestintä"
+      },
+      "company_form": "Osakeyhtiö"
     },
     {
       "name": "Are Oy",
@@ -228,23 +318,41 @@
     },
     {
       "name": "Infrarakenne Oy",
-      "y_tunnus": null,
+      "y_tunnus": "2115696-3",
       "mentions": 32,
       "category": "urakoitsija",
       "role": "Infrarakentaminen",
       "notes": "",
-      "sources": [],
-      "last_updated": null
+      "sources": [
+        "https://tietopalvelu.ytj.fi/"
+      ],
+      "last_updated": "2025-12-05",
+      "address": {
+        "city": "Espoo"
+      },
+      "industry": {
+        "description": "Muu rakennusten ja rakennelmien rakentaminen"
+      },
+      "company_form": "Osakeyhtiö"
     },
     {
       "name": "Sakela Rakennus Oy",
-      "y_tunnus": null,
+      "y_tunnus": "0873197-5",
       "mentions": 5,
       "category": "urakoitsija",
       "role": "Rakennusurakointi",
       "notes": "",
-      "sources": [],
-      "last_updated": null
+      "sources": [
+        "https://tietopalvelu.ytj.fi/"
+      ],
+      "last_updated": "2025-12-05",
+      "address": {
+        "city": "Seinäjoki"
+      },
+      "industry": {
+        "description": "Asuin- ja muiden rakennusten rakentaminen"
+      },
+      "company_form": "Osakeyhtiö"
     },
     {
       "name": "Skanska Oy",
@@ -272,53 +380,98 @@
     },
     {
       "name": "Seinäjoen Kiintorakenne Oy",
-      "y_tunnus": null,
+      "y_tunnus": "0608477-4",
       "mentions": 2,
       "category": "urakoitsija",
       "role": "Rakennusurakointi",
       "notes": "Paikallinen rakennusyritys",
-      "sources": [],
-      "last_updated": null
+      "sources": [
+        "https://tietopalvelu.ytj.fi/"
+      ],
+      "last_updated": "2025-12-05",
+      "address": {
+        "city": "Seinäjoki"
+      },
+      "industry": {
+        "description": "Asuin- ja muiden rakennusten rakentaminen"
+      },
+      "company_form": "Osakeyhtiö"
     },
     {
       "name": "Oteran Oy",
-      "y_tunnus": null,
+      "y_tunnus": "2154419-7",
       "mentions": 2,
       "category": "urakoitsija",
       "role": "Urakointi",
       "notes": "",
-      "sources": [],
-      "last_updated": null
+      "sources": [
+        "https://tietopalvelu.ytj.fi/"
+      ],
+      "last_updated": "2025-12-05",
+      "address": {
+        "city": "Seinäjoki"
+      },
+      "industry": {
+        "description": "Kiinteistöjen rakennuttaminen"
+      },
+      "company_form": "Osakeyhtiö"
     },
     {
       "name": "Team Penttilä Oy",
-      "y_tunnus": null,
+      "y_tunnus": "1942251-9",
       "mentions": 5,
       "category": "urakoitsija",
       "role": "Urakointi",
       "notes": "",
-      "sources": [],
-      "last_updated": null
+      "sources": [
+        "https://tietopalvelu.ytj.fi/"
+      ],
+      "last_updated": "2025-12-05",
+      "address": {
+        "city": "Lapua"
+      },
+      "industry": {
+        "description": "Maansiirtokoneiden kuljettajien vuokraus"
+      },
+      "company_form": "Osakeyhtiö"
     },
     {
       "name": "Hajato Oy",
-      "y_tunnus": null,
+      "y_tunnus": "0859195-2",
       "mentions": 5,
       "category": "urakoitsija",
       "role": "Urakointi",
       "notes": "",
-      "sources": [],
-      "last_updated": null
+      "sources": [
+        "https://tietopalvelu.ytj.fi/"
+      ],
+      "last_updated": "2025-12-05",
+      "address": {
+        "city": "Lapua"
+      },
+      "industry": {
+        "description": "Betonielementtien valmistus"
+      },
+      "company_form": "Osakeyhtiö"
     },
     {
       "name": "Emineo Oy",
-      "y_tunnus": null,
+      "y_tunnus": "2478116-3",
       "mentions": 3,
       "category": "urakoitsija",
       "role": "Urakointi",
       "notes": "",
-      "sources": [],
-      "last_updated": null
+      "sources": [
+        "https://tietopalvelu.ytj.fi/"
+      ],
+      "last_updated": "2025-12-05",
+      "address": {
+        "city": "Seinäjoki"
+      },
+      "industry": {
+        "description": "Liikkeenjohdon konsultointi"
+      },
+      "company_form": "Osakeyhtiö"
     },
     {
       "name": "Elenia Oy",
@@ -346,53 +499,98 @@
     },
     {
       "name": "Sähkö Sipa Oy",
-      "y_tunnus": null,
+      "y_tunnus": "0539652-9",
       "mentions": 8,
       "category": "urakoitsija",
       "role": "Sähköurakointi",
       "notes": "",
-      "sources": [],
-      "last_updated": null
+      "sources": [
+        "https://tietopalvelu.ytj.fi/"
+      ],
+      "last_updated": "2025-12-05",
+      "address": {
+        "city": "Lapua"
+      },
+      "industry": {
+        "description": "Sähköasennus"
+      },
+      "company_form": "Osakeyhtiö"
     },
     {
       "name": "Textilservice Oy",
-      "y_tunnus": null,
+      "y_tunnus": "0540606-6",
       "mentions": 20,
       "category": "palveluntuottaja",
       "role": "Tekstiilipalvelut, pyykkihuolto",
       "notes": "",
-      "sources": [],
-      "last_updated": null
+      "sources": [
+        "https://tietopalvelu.ytj.fi/"
+      ],
+      "last_updated": "2025-12-05",
+      "address": {
+        "city": "Tampere"
+      },
+      "industry": {
+        "description": "Pesulapalvelut"
+      },
+      "company_form": "Osakeyhtiö"
     },
     {
       "name": "Visit Seinäjoki Region Oy",
-      "y_tunnus": null,
+      "y_tunnus": "2685878-9",
       "mentions": 2,
       "category": "matkailuyhtiö",
       "role": "Alueellinen matkailumarkkinointi",
       "notes": "Seudullinen matkailun edistämisyhtiö",
-      "sources": [],
-      "last_updated": null
+      "sources": [
+        "https://tietopalvelu.ytj.fi/"
+      ],
+      "last_updated": "2025-12-05",
+      "address": {
+        "city": "Seinäjoki"
+      },
+      "industry": {
+        "description": "Matkailun edistäminen"
+      },
+      "company_form": "Osakeyhtiö"
     },
     {
       "name": "Suomen Emoyhtiö Oy",
-      "y_tunnus": null,
+      "y_tunnus": "3181478-9",
       "mentions": 44,
       "category": "yritys",
       "role": "Maanvuokraus, liiketoiminta",
       "notes": "Merkittäviä maanvuokrasopimuksia kaupungin kanssa",
-      "sources": [],
-      "last_updated": null
+      "sources": [
+        "https://tietopalvelu.ytj.fi/"
+      ],
+      "last_updated": "2025-12-05",
+      "address": {
+        "city": "Helsinki"
+      },
+      "industry": {
+        "description": "Omistusyhteisöjen toiminta"
+      },
+      "company_form": "Osakeyhtiö"
     },
     {
       "name": "Lapuan Yrittäjähotelli Oy",
-      "y_tunnus": null,
+      "y_tunnus": "0180587-1",
       "mentions": 13,
       "category": "kaupungin_omistama",
       "role": "Yrityskiinteistöt, toimitilat",
       "notes": "",
-      "sources": [],
-      "last_updated": null
+      "sources": [
+        "https://tietopalvelu.ytj.fi/"
+      ],
+      "last_updated": "2025-12-05",
+      "address": {
+        "city": "Lapua"
+      },
+      "industry": {
+        "description": "Hotellit ja vastaavat majoitusliikkeet"
+      },
+      "company_form": "Osakeyhtiö"
     }
   ],
   "categories": {
