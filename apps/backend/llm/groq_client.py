@@ -45,9 +45,8 @@ def ask_groq(system_prompt: str, question: str, chunks: List[dict], max_tokens: 
     context = build_context_block(chunks)
     user_content = (
         f"KYSYMYS:\n{question}\n\n"
-        f"LÄHTEET (käytä VAIN näitä):\n{context}\n\n"
-        f"TÄRKEÄÄ: Vastaa VAIN yllä olevien lähteiden perusteella. "
-        f"Jos tietoa ei löydy lähteistä, sano selkeästi 'Tätä tietoa ei löydy annetuista lähteistä.'"
+        f"LÄHTEET:\n{context}\n\n"
+        f"Tiivistä yllä olevien lähteiden sisältö vastaukseksi kysymykseen."
     )
     client = _get_client()
     resp = client.chat.completions.create(
@@ -56,9 +55,9 @@ def ask_groq(system_prompt: str, question: str, chunks: List[dict], max_tokens: 
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_content},
         ],
-        temperature=0.01,  # Erittäin matala = lähes deterministinen, minimoi hallusinaatio
+        temperature=0.3,  # Hieman korkeampi jotta malli käyttää lähteitä vapaammin
         max_completion_tokens=max_tokens,
-        top_p=0.5,  # Laskettu myös top_p tiukemmaksi
+        top_p=0.8,  # Vapaampi valinta
         reasoning_effort="medium",
         stream=False,
     )
