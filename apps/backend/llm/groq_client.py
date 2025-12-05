@@ -44,10 +44,10 @@ def ask_groq(system_prompt: str, question: str, chunks: List[dict], max_tokens: 
     """Call Groq chat completion API with given question and context chunks."""
     context = build_context_block(chunks)
     user_content = (
-        f"Kysymys:\n{question}\n\n"
-        f"Hyödynnä alla olevaa kontekstia vastatessasi.\n"
-        f"Vastaa suomeksi, viittaa pykäliin ja päivämääriin.\n\n"
-        f"{context}"
+        f"KYSYMYS:\n{question}\n\n"
+        f"LÄHTEET (käytä VAIN näitä):\n{context}\n\n"
+        f"TÄRKEÄÄ: Vastaa VAIN yllä olevien lähteiden perusteella. "
+        f"Jos tietoa ei löydy lähteistä, sano selkeästi 'Tätä tietoa ei löydy annetuista lähteistä.'"
     )
     client = _get_client()
     resp = client.chat.completions.create(
@@ -56,9 +56,9 @@ def ask_groq(system_prompt: str, question: str, chunks: List[dict], max_tokens: 
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_content},
         ],
-        temperature=0.2,
+        temperature=0.05,  # Minimoi hallusinaatio
         max_completion_tokens=max_tokens,
-        top_p=1,
+        top_p=0.9,
         reasoning_effort="medium",
         stream=False,
     )

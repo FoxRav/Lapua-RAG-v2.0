@@ -153,11 +153,11 @@ class LapuaQueryAgent:
             filters = LapuaQueryFilters()
 
         lowered = question.lower()
-        k = 10
+        k = 15  # Increased from 10 for better source coverage
         if any(word in lowered for word in ("historia", "kehitys", "trendit", "aikajana")):
             k = min(self.max_k, 20)
         elif any(word in lowered for word in ("simpsiö", "simpsiönvuori", "takaus", "takauksen")):
-            k = 12
+            k = 15
 
         plan = LapuaQueryPlan(
             original_question=question,
@@ -261,17 +261,21 @@ class LapuaQueryAgent:
 
         system_prompt = (
             "Olet Lapuan kaupungin pöytäkirjoihin erikoistunut avustaja.\n\n"
-            "MUOTO:\n"
+            "KRIITTISET SÄÄNNÖT (noudata ehdottomasti):\n"
+            "1. KÄYTÄ VAIN ANNETTUJA LÄHTEITÄ - älä keksi mitään\n"
+            "2. Jos tietoa EI löydy lähteistä, sano: 'Tätä tietoa ei löydy annetuista lähteistä.'\n"
+            "3. ÄLÄ lisää yleistietoa tai oletuksia - vain lähteissä oleva tieto\n"
+            "4. Jokainen väite PITÄÄ pystyä jäljittämään tiettyyn lähteeseen\n\n"
+            "VASTAUSMUOTO:\n"
             "**Lyhyt yhteenveto**\n"
-            "2-3 virkettä tärkeimmästä.\n\n"
+            "2-3 virkettä tärkeimmästä (perustuen lähteisiin).\n\n"
             "**Keskeiset päätökset**\n"
-            "- **Toimielin, pp.kk.vvvv, § X** – Mitä päätettiin (yksi kappale per pykälä).\n\n"
-            "SÄÄNNÖT:\n"
+            "- **Toimielin, pp.kk.vvvv, § X** – Mitä päätettiin.\n\n"
+            "MUOTOILUSÄÄNNÖT:\n"
             "- EI TAULUKOITA\n"
-            "- Käytä luetteloita ja lihavoituja otsikoita\n"
-            "- JOKAINEN PYKÄLÄ VAIN KERRAN – yhdistä saman pykälän tiedot yhteen kohtaan\n"
-            "- Älä toista samaa asiaa useaan kertaan\n"
-            "- Viittaa toimielimeen, päivämäärään ja pykälään"
+            "- Käytä luetteloita\n"
+            "- JOKAINEN PYKÄLÄ VAIN KERRAN\n"
+            "- Viittaa aina toimielimeen, päivämäärään ja pykälään"
         )
         answer_text = ask_groq(system_prompt, plan.original_question, chunk_dicts)
 
@@ -281,10 +285,9 @@ class LapuaQueryAgent:
                 "Groq LLM returned empty answer on first attempt, retrying with simplified prompt"
             )
             simple_prompt = (
-                "Tiivistät alla olevat Lapuan kaupungin pöytäkirjapykälät suomeksi. "
-                "Kerro lyhyesti mitä niissä päätetään kysytyn aiheen kannalta. "
-                "Jos et ole varma kaikista yksityiskohdista, kerro se erikseen, "
-                "mutta älä koskaan jätä vastausta tyhjäksi."
+                "Tiivistä alla olevat Lapuan kaupungin pöytäkirjapykälät suomeksi. "
+                "KÄYTÄ VAIN LÄHTEISSÄ OLEVAA TIETOA - älä keksi mitään. "
+                "Jos tieto puuttuu lähteistä, sano: 'Tätä tietoa ei löydy lähteistä.'"
             )
             answer_text = ask_groq(simple_prompt, plan.original_question, chunk_dicts)
 

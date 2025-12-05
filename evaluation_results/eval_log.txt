@@ -1,0 +1,2 @@
+Error: GROQ_API_KEY environment variable not set
+Set it with: $env:GROQ_API_KEY = 'your-key'
