@@ -16,7 +16,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             </div>
           </header>
           <main className="app-main">{children}</main>
-          <footer className="app-footer">Backend: http://localhost:8000/query • Groq LLM</footer>
+          <footer className="app-footer">© 2025 Lapua RAG • Tekoälypohjainen päätöshaku</footer>
         </div>
       </body>
     </html>
