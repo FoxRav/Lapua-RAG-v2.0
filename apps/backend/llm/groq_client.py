@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import os
+import re
 from typing import List
 
 from dotenv import load_dotenv
@@ -10,7 +11,8 @@ from groq import Groq
 # can be defined in a persisted config file rather than every shell session.
 load_dotenv()
 
-GROQ_MODEL_ID: str = os.getenv("GROQ_MODEL_ID", "openai/gpt-oss-120b")
+# Käytä llama-mallia joka noudattaa ohjeita paremmin
+GROQ_MODEL_ID: str = os.getenv("GROQ_MODEL_ID", "llama-3.3-70b-versatile")
 
 # Lazily initialise Groq client so that missing/invalid credentials do not
 # estä API-palvelimen käynnistymistä. Virheet näkyvät vasta kyselyvaiheessa.
@@ -40,6 +42,27 @@ def build_context_block(chunks: List[dict]) -> str:
     return "\n\n".join(parts)
 
 
+def _clean_output(text: str) -> str:
+    """Remove tables and markdown from LLM output."""
+    # Remove markdown table rows (lines with |)
+    lines = text.split('\n')
+    clean_lines = []
+    for line in lines:
+        # Skip table separator lines
+        if re.match(r'^[\s|:-]+$', line):
+            continue
+        # Convert table rows to bullet points
+        if '|' in line and line.strip().startswith('|'):
+            cells = [c.strip() for c in line.split('|') if c.strip()]
+            if cells:
+                clean_lines.append('• ' + ', '.join(cells))
+        else:
+            # Remove ** markdown
+            clean_line = re.sub(r'\*\*([^*]+)\*\*', r'\1', line)
+            clean_lines.append(clean_line)
+    return '\n'.join(clean_lines)
+
+
 def ask_groq(system_prompt: str, question: str, chunks: List[dict], max_tokens: int = 1500) -> str:
     """Call Groq chat completion API with given question and context chunks."""
     context = build_context_block(chunks)
@@ -55,14 +78,13 @@ def ask_groq(system_prompt: str, question: str, chunks: List[dict], max_tokens: 
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_content},
         ],
-        temperature=0.1,  # Matala = johdonmukainen muotoilu
+        temperature=0.1,
         max_completion_tokens=max_tokens,
         top_p=0.9,
-        reasoning_effort="medium",
         stream=False,
     )
-    content = resp.choices[0].message.content
-    return content or ""
+    content = resp.choices[0].message.content or ""
+    return _clean_output(content)
 
 
 __all__ = ["ask_groq", "build_context_block", "GROQ_MODEL_ID"]
