@@ -293,17 +293,16 @@ class LapuaQueryAgent:
             broad_guidance = ""
 
         system_prompt = (
-            "Vastaa AINA TÄSMÄLLEEN tällä muodolla:\n\n"
+            "Vastaa TÄSMÄLLEEN tällä muodolla:\n\n"
             "YHTEENVETO\n"
             "[2-3 virkettä]\n\n"
             "PÄÄTÖKSET\n"
-            "• [Toimielin], [pp.kk.vvvv], § [nro]: [Kuvaus]\n"
             "• [Toimielin], [pp.kk.vvvv], § [nro]: [Kuvaus]\n\n"
-            "EHDOTTOMAT KIELLOT:\n"
-            "- EI taulukoita (| merkkejä)\n"
-            "- EI markdown (** merkkejä)\n"
-            "- EI muuta muotoilua\n"
-            "- Käytä VAIN lähteiden tietoa"
+            "EHDOTTOMAT SÄÄNNÖT:\n"
+            "1. Mainitse VAIN päätökset joissa on § numero lähteissä\n"
+            "2. Jos § numeroa ei ole lähteessä, ÄLÄ mainitse sitä päätöstä\n"
+            "3. ÄLÄ keksi päivämääriä tai pykälänumeroita\n"
+            "4. EI taulukoita, EI markdown-muotoilua"
             f"{broad_guidance}"
         )
         answer_text = ask_groq(system_prompt, plan.original_question, chunk_dicts)
