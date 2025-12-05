@@ -19,7 +19,7 @@ Kokeellinen harrasteprojekti, joka tarjoaa RAG-pohjaisen haun Lapuan kaupungin j
                         ┌──────────────────┐
                         │  Groq Cloud      │
                         │  (LLM Inference) │
-                        │  gpt-oss-120b    │
+                        │  llama-3.3-70b   │
                         └──────────────────┘
 ```
 
@@ -31,7 +31,7 @@ Kokeellinen harrasteprojekti, joka tarjoaa RAG-pohjaisen haun Lapuan kaupungin j
 | **Backend API** | FastAPI, Python 3.12 | Hetzner VPS (lapuarag.org) |
 | **Vektoritietokanta** | Qdrant 1.13+ | Hetzner VPS (Docker) |
 | **Embeddings** | BGE-M3 (FlagEmbedding) | Hetzner VPS |
-| **LLM** | openai/gpt-oss-120b | Groq Cloud |
+| **LLM** | llama-3.3-70b-versatile | Groq Cloud |
 | **Reverse Proxy** | Caddy (HTTPS) | Hetzner VPS |
 
 ---
@@ -39,19 +39,21 @@ Kokeellinen harrasteprojekti, joka tarjoaa RAG-pohjaisen haun Lapuan kaupungin j
 ## RAG Pipeline
 
 1. **Docling-ingestio**: PDF-pöytäkirjat → Markdown + JSON
-2. **Chunkkaus**: Pykäläkohtaiset chunkit (~700 tokenia/chunk)
-3. **Embeddings**: BGE-M3 dense-vektorit (1024-dim)
-4. **Qdrant**: Vektori-indeksi `lapua_chunks` (1098 pistettä)
-5. **Haku**: Dense-haku + recency boost (uudemmat +25%)
-6. **LLM**: Groq gpt-oss-120b tiivistää vastauksen
+2. **Web scraping**: lapua.fi, simpsio.com, thermopolis.fi
+3. **Chunkkaus**: Pykäläkohtaiset chunkit (~700 tokenia/chunk)
+4. **Embeddings**: BGE-M3 dense-vektorit (1024-dim)
+5. **Qdrant**: Vektori-indeksi `lapua_chunks` (1630 pistettä)
+6. **Haku**: Dense-haku + recency boost (uudemmat +25%)
+7. **LLM**: Groq llama-3.3-70b tiivistää vastauksen
+8. **Jälkikäsittely**: Poistaa taulukot ja markdown-muotoilun
 
-## Parametrit (Hallusinaation minimointi)
+## Parametrit
 
 | Parametri | Arvo | Kuvaus |
 |-----------|------|--------|
-| `temperature` | **0.01** | Lähes deterministinen, minimoi hallusinaatio |
-| `top_p` | **0.5** | Tiukka, vähemmän variaatiota |
-| `k` | 10-20 | Haettavien chunkkien määrä |
+| `temperature` | **0.1** | Matala = johdonmukainen muotoilu |
+| `top_p` | **0.9** | Tasapaino tarkkuuden ja joustavuuden välillä |
+| `k` | 5-12 | Haettavien chunkkien määrä (adaptiivinen) |
 | `max_tokens` | 1500 | LLM-vastauksen max pituus |
 | `recency_boost` | 1.25x | Tuoreiden (< 2v) päätösten painotus |
 
@@ -114,7 +116,7 @@ docker run -d -p 6333:6333 -p 6334:6334 --name lapua-qdrant qdrant/qdrant:latest
 # 4. Konfiguroi .env
 cat > .env << EOF
 GROQ_API_KEY=gsk_xxxxx
-GROQ_MODEL_ID=openai/gpt-oss-120b
+GROQ_MODEL_ID=llama-3.3-70b-versatile
 EOF
 
 # 5. Käynnistä backend
@@ -149,7 +151,24 @@ git push
 
 # 2. PALVELIMELLA (SSH):
 cd /root/Lapua-RAG-v2.0
-git pull
+git pull && systemctl restart lapuarag-backend
+```
+
+### Inkrementaalinen indeksointi (UUDEN DATAN LISÄYS)
+
+**ÄLÄ KOSKAAN** aja koko indeksointia uudelleen - kestää tunteja!
+
+```bash
+# 1. Lisää uudet chunkit
+python3 scripts/index_website_lite.py --source data/uusi_data.json
+
+# 2. Tarkista nykyinen pistemäärä
+python3 -c "from qdrant_client import QdrantClient; c=QdrantClient('localhost',6333); print(c.get_collection('lapua_chunks').points_count)"
+
+# 3. Indeksoi VAIN uudet (start-from = vanha määrä)
+python3 scripts/index_incremental.py --start-from <VANHA_MÄÄRÄ>
+
+# 4. Käynnistä uudelleen
 systemctl restart lapuarag-backend
 ```
 
@@ -170,19 +189,24 @@ systemctl restart lapuarag-backend
 ```
 ├── apps/
 │   ├── backend/          # FastAPI backend
-│   │   ├── llm/          # Groq client (temperature, prompt)
+│   │   ├── llm/          # Groq client + output cleanup
 │   │   └── main.py
 │   └── frontend/         # Next.js frontend
 ├── packages/
-│   └── agents/           # Query agent (system prompt)
+│   ├── agents/           # Query agent (system prompt)
+│   └── rag_core/         # Retrieval, embeddings, indexing
 ├── scripts/
-│   ├── run_evaluation.py # Aja 250 kysymystä
-│   ├── auto_evaluate.py  # GPT-arviointi
-│   └── summary_results.py # Yhteenveto
-├── evaluation_results/   # Evaluointitulokset (JSON)
-├── data/
-│   └── companies_database.json  # Yritysten VAHVISTETUT tiedot
-└── kysymykset.md         # 250 testikysymystä
+│   ├── run_evaluation.py     # Aja 250 kysymystä
+│   ├── auto_evaluate.py      # GPT-arviointi
+│   ├── index_incremental.py  # Inkrementaalinen indeksointi
+│   ├── index_website_lite.py # Website chunkkaus
+│   ├── scrape_lapua_fi.py    # Web scraping
+│   └── summary_results.py    # Yhteenveto
+├── data/                     # (ei GitHubissa - .gitignore)
+│   ├── chunks/               # Vektori-indeksin data
+│   ├── parsed/               # Parsitut pöytäkirjat
+│   └── *_scraped/            # Scrapattu verkkosisältö
+└── kysymykset.md             # 250 testikysymystä
 ```
 
 ---
