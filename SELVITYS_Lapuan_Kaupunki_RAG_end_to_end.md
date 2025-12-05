@@ -47,7 +47,7 @@ Järjestelmä ei keksi omia päätöksiä – se nojaa vain pöytäkirjoissa ole
 │   (Frontend)    │      (Backend)        │        (LLM)              │
 ├─────────────────┼───────────────────────┼───────────────────────────┤
 │ www.lapuarag.org│ lapuarag.org          │ api.groq.com              │
-│ Next.js 14      │ FastAPI + Uvicorn     │ openai/gpt-oss-120b       │
+│ Next.js 14      │ FastAPI + Uvicorn     │ llama-3.3-70b-versatile   │
 │                 │ Caddy (HTTPS)         │                           │
 │                 │ Qdrant (Docker)       │                           │
 │                 │ BGE-M3 embeddings     │                           │
@@ -57,7 +57,8 @@ Järjestelmä ei keksi omia päätöksiä – se nojaa vain pöytäkirjoissa ole
 ### End-to-End Pipeline
 
 #### Vaihe 1: Raakadata
-- **Lähde:** PDF-pöytäkirjat kansiossa `DATA_päättävät_elimet_20251202/`
+- **Lähde 1:** PDF-pöytäkirjat kansiossa `DATA_päättävät_elimet_20251202/`
+- **Lähde 2:** Web scraping: lapua.fi, simpsio.com, thermopolis.fi
 - **Toimielimet:** Kaupunginvaltuusto, Kaupunginhallitus, Sivistyslautakunta, Ympäristölautakunta, Tekninen lautakunta
 
 #### Vaihe 2: Docling-ingestio
@@ -74,14 +75,14 @@ Järjestelmä ei keksi omia päätöksiä – se nojaa vain pöytäkirjoissa ole
   - `MAX_TOKENS_PER_CHUNK = 700`
   - `CHUNK_OVERLAP_TOKENS = 150`
 - **Output:** 
-  - `data/chunks/chunks.jsonl` (1098 chunkkia)
+  - `data/chunks/chunks.jsonl` (1630 chunkkia)
   - Jokainen chunk sisältää: `doc_id`, `toimielin`, `poytakirja_pvm`, `pykala_nro`, `chunk_text`
 
 #### Vaihe 4: Embeddings + Qdrant-indeksi
 - **Moduuli:** `packages/rag_core/embeddings` + `indexing`
 - **Malli:** BGE-M3 (FlagEmbedding) – 1024-ulotteinen dense-vektori
 - **Tietokanta:** Qdrant, kokoelma `lapua_chunks`
-- **Pisteitä:** 1098
+- **Pisteitä:** 1630
 
 #### Vaihe 5: Haku (Retrieval)
 - **Moduuli:** `packages/rag_core/retrieval`
@@ -109,12 +110,13 @@ Järjestelmä ei keksi omia päätöksiä – se nojaa vain pöytäkirjoissa ole
 
 #### Vaihe 7: LLM-inferenssi
 - **Moduuli:** `apps/backend/llm/groq_client`
-- **Malli:** `openai/gpt-oss-120b` (Groq Cloud)
+- **Malli:** `llama-3.3-70b-versatile` (Groq Cloud)
 - **Parametrit:**
   - `max_tokens = 1500`
-  - `temperature = 0.2`
-  - `reasoning_effort = "medium"`
-- **System prompt:** Ohjeistaa vastaamaan ilman taulukoita, luettelomuodossa
+  - `temperature = 0.1`
+  - `top_p = 0.9`
+- **System prompt:** Tiukka formaattiohje (ei taulukoita, ei markdownia)
+- **Jälkikäsittely:** Poistaa automaattisesti taulukot ja markdown-muotoilun
 
 #### Vaihe 8: Backend API
 - **Moduuli:** `apps/backend/main.py`

@@ -33,8 +33,11 @@ Palvelu lukee Lapuan kaupungin pöytäkirjoja ja vastaa kysymyksiin tekoälyn av
 | Sivistyslautakunta | 2024-2025 |
 | Tekninen lautakunta | 2024-2025 |
 | Ympäristölautakunta | 2021-2025 |
+| lapua.fi (web) | 2025 |
+| simpsio.com (web) | 2025 |
+| thermopolis.fi (web) | 2025 |
 
-**Yhteensä:** ~1098 pykälää indeksoitu
+**Yhteensä:** ~1630 chunkkia indeksoitu (pöytäkirjat + verkkosisältö)
 
 ---
 
@@ -107,7 +110,7 @@ Tämä tarkoittaa, että jos sama asia on käsitelty 2023 ja 2025, uudempi näky
 | Frontend | Next.js 14 (Vercel) |
 | Backend | FastAPI (Hetzner VPS) |
 | Vektorihaku | Qdrant + BGE-M3 |
-| LLM | Groq Cloud (gpt-oss-120b) |
+| LLM | Groq Cloud (llama-3.3-70b) |
 
 ### API (kehittäjille)
 
