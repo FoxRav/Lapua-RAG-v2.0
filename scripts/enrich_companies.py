@@ -1,24 +1,21 @@
 #!/usr/bin/env python3
 """
 Enrich company data with financial information and key persons.
-Uses web scraping and APIs to gather comprehensive company data.
+ONLY VERIFIED DATA from web searches - no fabricated/estimated data.
 
 Usage:
     python scripts/enrich_companies.py
-
-Note: Some APIs may require authentication. Set environment variables:
-    - ASIAKASTIETO_API_KEY (if using Asiakastieto API)
 """
 import json
-import os
 from datetime import date
 from pathlib import Path
 from typing import Any
 
 
-# Manual data gathered from public sources (web search results)
-# This data should be updated regularly
-ENRICHED_DATA: dict[str, dict[str, Any]] = {
+# ONLY data that was ACTUALLY VERIFIED through web search results
+# Source: Web search results from 2025-12-05
+VERIFIED_DATA: dict[str, dict[str, Any]] = {
+    # Verified from kotiasunnot.fi and taloustutka.fi
     "Lapuan Kotiasunnot Oy": {
         "address": {
             "street": "Poutuntie 7",
@@ -43,8 +40,9 @@ ENRICHED_DATA: dict[str, dict[str, Any]] = {
             {"name": "Hanne Ronkainen", "role": "Hallituksen jäsen"},
             {"name": "Elina Pesonen", "role": "Tilintarkastaja"}
         ],
-        "sources": ["https://kotiasunnot.fi/", "https://www.asiakastieto.fi/"]
+        "sources": ["https://kotiasunnot.fi/yhteystiedot/", "https://www.taloustutka.fi/company/2841190-1"]
     },
+    # Verified from taloustutka.fi and thermopolis.fi
     "Thermopolis Oy": {
         "address": {
             "street": "Vanhan Paukun tie 1 B",
@@ -59,8 +57,9 @@ ENRICHED_DATA: dict[str, dict[str, Any]] = {
             "2023": {"revenue": 161856, "operating_result": -8898, "net_result": -9349, "employees": 5},
             "2022": {"revenue": 104736, "operating_result": -7066, "net_result": -9083, "employees": 8}
         },
-        "sources": ["https://www.thermopolis.fi/", "https://www.taloustutka.fi/"]
+        "sources": ["https://www.thermopolis.fi/", "https://www.taloustutka.fi/company/2029286-4"]
     },
+    # Verified from lapuanjatevesi.fi vuosikertomus
     "Lapuan Jätevesi Oy": {
         "contact": {
             "website": "www.lapuanjatevesi.fi"
@@ -68,360 +67,55 @@ ENRICHED_DATA: dict[str, dict[str, Any]] = {
         "financials": {
             "2023": {"revenue": 2064513, "net_result": 71036}
         },
-        "sources": ["https://www.lapuanjatevesi.fi/"]
+        "sources": ["https://www.lapuanjatevesi.fi/wp-content/uploads/2024/04/Vuosikertomus-JV-2023.pdf"]
     },
-    "Lappavesi Oy": {
-        "address": {
-            "street": "Pappilantie 1",
-            "postal_code": "62100",
-            "city": "Lapua"
-        },
-        "contact": {
-            "phone": "+358 6 4384111",
-            "website": "www.lappavesi.fi"
-        },
-        "financials": {
-            "2023": {"revenue": 8500000, "employees": 25}
-        },
-        "sources": ["https://www.lappavesi.fi/"]
-    },
-    "Lapuan Energia Oy": {
-        "address": {
-            "street": "Poutuntie 7",
-            "postal_code": "62100",
-            "city": "Lapua"
-        },
-        "contact": {
-            "phone": "+358 6 4384400",
-            "website": "www.lapuanenergia.fi"
-        },
-        "financials": {
-            "2023": {"revenue": 15000000, "employees": 20}
-        },
-        "sources": ["https://www.lapuanenergia.fi/"]
-    },
-    "Invest Lapua Oy": {
-        "address": {
-            "street": "Kauppakatu 1",
-            "postal_code": "62100",
-            "city": "Lapua"
-        },
-        "financials": {
-            "2023": {"revenue": 500000}
-        },
-        "sources": ["https://tietopalvelu.ytj.fi/"]
-    },
-    "Lakeuden Etappi Oy": {
-        "address": {
-            "street": "Laskunmäentie 15",
-            "postal_code": "60800",
-            "city": "Ilmajoki"
-        },
-        "contact": {
-            "phone": "+358 20 728 8880",
-            "website": "www.etappi.com"
-        },
-        "financials": {
-            "2023": {"revenue": 45000000, "employees": 120}
-        },
-        "key_persons": [
-            {"name": "Jari Hongisto", "role": "Toimitusjohtaja"}
-        ],
-        "sources": ["https://www.etappi.com/"]
-    },
-    "Destia Oy": {
-        "address": {
-            "street": "Kirjurinkatu 4",
-            "postal_code": "02600",
-            "city": "Espoo"
-        },
-        "contact": {
-            "phone": "+358 20 444 11",
-            "website": "www.destia.fi"
-        },
-        "financials": {
-            "2023": {"revenue": 550000000, "employees": 1500}
-        },
-        "key_persons": [
-            {"name": "Tero Kiviniemi", "role": "Toimitusjohtaja"}
-        ],
-        "sources": ["https://www.destia.fi/"]
-    },
-    "Ramboll Finland Oy": {
-        "address": {
-            "street": "Säterinkatu 6",
-            "postal_code": "02600",
-            "city": "Espoo"
-        },
-        "contact": {
-            "phone": "+358 20 755 611",
-            "website": "www.ramboll.fi"
-        },
-        "financials": {
-            "2023": {"revenue": 200000000, "employees": 2000}
-        },
-        "sources": ["https://www.ramboll.fi/"]
-    },
-    "Koskienergia Oy": {
-        "address": {
-            "street": "Mikonkatu 1",
-            "postal_code": "50100",
-            "city": "Mikkeli"
-        },
-        "contact": {
-            "phone": "+358 15 351 000",
-            "website": "www.koskienergia.fi"
-        },
-        "financials": {
-            "2023": {"revenue": 85000000, "employees": 70}
-        },
-        "key_persons": [
-            {"name": "Vesa Mäntylä", "role": "Toimitusjohtaja"}
-        ],
-        "sources": ["https://www.koskienergia.fi/"]
-    },
-    "Seinäjoen Työterveys Oy": {
-        "address": {
-            "street": "Vapaudentie 42-44",
-            "postal_code": "60100",
-            "city": "Seinäjoki"
-        },
-        "contact": {
-            "phone": "+358 6 416 2500",
-            "website": "www.seinjtt.fi"
-        },
-        "financials": {
-            "2023": {"revenue": 12000000, "employees": 100}
-        },
-        "sources": ["https://www.seinjtt.fi/"]
-    },
-    "Foodwest Oy": {
-        "address": {
-            "street": "Vaasantie 1 C",
-            "postal_code": "60100",
-            "city": "Seinäjoki"
-        },
-        "contact": {
-            "website": "www.foodwest.fi"
-        },
-        "financials": {
-            "2023": {"revenue": 3500000, "employees": 25}
-        },
-        "sources": ["https://www.foodwest.fi/"]
-    },
-    "Lounea Palvelut Oy": {
-        "address": {
-            "city": "Seinäjoki"
-        },
-        "financials": {
-            "2023": {"revenue": 8000000, "employees": 40}
-        },
-        "sources": ["https://tietopalvelu.ytj.fi/"]
-    },
-    "Are Oy": {
-        "address": {
-            "street": "Malmin asematie 6",
-            "postal_code": "00700",
-            "city": "Helsinki"
-        },
-        "contact": {
-            "phone": "+358 10 8393",
-            "website": "www.are.fi"
-        },
-        "financials": {
-            "2023": {"revenue": 520000000, "employees": 3200}
-        },
-        "key_persons": [
-            {"name": "Jari Vornanen", "role": "Toimitusjohtaja"}
-        ],
-        "sources": ["https://www.are.fi/"]
-    },
-    "Skanska Oy": {
-        "address": {
-            "street": "Nauvontie 18",
-            "postal_code": "00280",
-            "city": "Helsinki"
-        },
-        "contact": {
-            "phone": "+358 20 719 211",
-            "website": "www.skanska.fi"
-        },
-        "financials": {
-            "2023": {"revenue": 800000000, "employees": 1800}
-        },
-        "key_persons": [
-            {"name": "Tuomas Syrjänen", "role": "Toimitusjohtaja"}
-        ],
-        "sources": ["https://www.skanska.fi/"]
-    },
-    "Kreate Oy": {
-        "address": {
-            "street": "Konepajakuja 4",
-            "postal_code": "00510",
-            "city": "Helsinki"
-        },
-        "contact": {
-            "phone": "+358 207 636 000",
-            "website": "www.kreate.fi"
-        },
-        "financials": {
-            "2023": {"revenue": 350000000, "employees": 900}
-        },
-        "key_persons": [
-            {"name": "Timo Vikström", "role": "Toimitusjohtaja"}
-        ],
-        "sources": ["https://www.kreate.fi/"]
-    },
-    "Sakela Rakennus Oy": {
-        "address": {
-            "city": "Seinäjoki"
-        },
-        "financials": {
-            "2023": {"revenue": 25000000, "employees": 50}
-        },
-        "sources": ["https://tietopalvelu.ytj.fi/"]
-    },
-    "Seinäjoen Kiintorakenne Oy": {
-        "address": {
-            "city": "Seinäjoki"
-        },
-        "financials": {
-            "2023": {"revenue": 15000000, "employees": 30}
-        },
-        "sources": ["https://tietopalvelu.ytj.fi/"]
-    },
-    "Infrarakenne Oy": {
-        "address": {
-            "street": "Kelaranta 17",
-            "postal_code": "02150",
-            "city": "Espoo"
-        },
-        "contact": {
-            "phone": "+358 20 7898 600",
-            "website": "www.infrarakenne.fi"
-        },
-        "financials": {
-            "2023": {"revenue": 80000000, "employees": 200}
-        },
-        "sources": ["https://www.infrarakenne.fi/"]
-    },
-    "Oteran Oy": {
-        "address": {
-            "city": "Seinäjoki"
-        },
-        "financials": {
-            "2023": {"revenue": 5000000}
-        },
-        "sources": ["https://tietopalvelu.ytj.fi/"]
-    },
-    "Team Penttilä Oy": {
-        "address": {
-            "city": "Lapua"
-        },
-        "financials": {
-            "2023": {"revenue": 3000000, "employees": 15}
-        },
-        "sources": ["https://tietopalvelu.ytj.fi/"]
-    },
-    "Hajato Oy": {
-        "address": {
-            "city": "Lapua"
-        },
-        "financials": {
-            "2023": {"revenue": 8000000, "employees": 30}
-        },
-        "sources": ["https://tietopalvelu.ytj.fi/"]
-    },
-    "Emineo Oy": {
-        "address": {
-            "city": "Seinäjoki"
-        },
-        "financials": {
-            "2023": {"revenue": 2000000, "employees": 10}
-        },
-        "sources": ["https://tietopalvelu.ytj.fi/"]
-    },
-    "Sähkö Sipa Oy": {
-        "address": {
-            "city": "Lapua"
-        },
-        "financials": {
-            "2023": {"revenue": 4000000, "employees": 20}
-        },
-        "sources": ["https://tietopalvelu.ytj.fi/"]
-    },
-    "Textilservice Oy": {
-        "address": {
-            "city": "Tampere"
-        },
-        "financials": {
-            "2023": {"revenue": 30000000, "employees": 200}
-        },
-        "sources": ["https://tietopalvelu.ytj.fi/"]
-    },
-    "Visit Seinäjoki Region Oy": {
-        "address": {
-            "city": "Seinäjoki"
-        },
-        "contact": {
-            "website": "www.visitseinajoki.fi"
-        },
-        "financials": {
-            "2023": {"revenue": 1500000, "employees": 8}
-        },
-        "sources": ["https://www.visitseinajoki.fi/"]
-    },
-    "Suomen Emoyhtiö Oy": {
-        "address": {
-            "city": "Helsinki"
-        },
-        "financials": {
-            "2023": {"revenue": 500000}
-        },
-        "sources": ["https://tietopalvelu.ytj.fi/"]
-    },
+    # Verified from proff.fi
     "Lapuan Yrittäjähotelli Oy": {
-        "address": {
-            "city": "Lapua"
-        },
         "financials": {
             "2024": {"revenue": 135000, "operating_result": 3000, "net_result": 3000, "equity_ratio_pct": 99.2}
         },
-        "sources": ["https://www.proff.fi/"]
+        "sources": ["https://www.proff.fi/yritys/lapuan-yrittajahotelli-oy/"]
     }
 }
 
 
-def enrich_company(company: dict[str, Any], enriched: dict[str, Any]) -> dict[str, Any]:
-    """Merge enriched data into company record."""
-    # Update address if more detailed
-    if "address" in enriched:
+def enrich_company(company: dict[str, Any], verified: dict[str, Any]) -> dict[str, Any]:
+    """Merge verified data into company record."""
+    if "address" in verified:
         if "address" not in company:
             company["address"] = {}
-        company["address"].update(enriched["address"])
+        company["address"].update(verified["address"])
     
-    # Add contact info
-    if "contact" in enriched:
-        company["contact"] = enriched.get("contact", {})
+    if "contact" in verified:
+        if "contact" not in company:
+            company["contact"] = {}
+        company["contact"].update(verified["contact"])
     
-    # Update financials
-    if "financials" in enriched:
-        company["financials"] = enriched["financials"]
+    if "financials" in verified:
+        company["financials"] = verified["financials"]
     
-    # Add key persons
-    if "key_persons" in enriched:
-        company["key_persons"] = enriched["key_persons"]
+    if "key_persons" in verified:
+        company["key_persons"] = verified["key_persons"]
     
-    # Update sources
-    if "sources" in enriched:
+    if "sources" in verified:
         existing = set(company.get("sources", []))
-        existing.update(enriched["sources"])
+        existing.update(verified["sources"])
         company["sources"] = list(existing)
     
-    # Update timestamp
     company["last_updated"] = date.today().isoformat()
     
     return company
+
+
+def remove_unverified_financials(company: dict[str, Any], verified_names: set[str]) -> None:
+    """Remove financials from companies that weren't verified."""
+    name = company.get("name", "")
+    # Keep Simpsiönvuori - that was verified earlier from Asiakastieto
+    if name not in verified_names and name != "Simpsiönvuori Oy":
+        if "financials" in company:
+            del company["financials"]
+        if "key_persons" in company and name != "Simpsiönvuori Oy":
+            del company["key_persons"]
 
 
 def main() -> None:
@@ -435,32 +129,33 @@ def main() -> None:
     with open(db_path, "r", encoding="utf-8") as f:
         data = json.load(f)
     
-    updated_count = 0
+    verified_names = set(VERIFIED_DATA.keys())
+    verified_names.add("Simpsiönvuori Oy")  # This was verified earlier
     
+    # First, remove unverified data
+    for company in data.get("companies", []):
+        remove_unverified_financials(company, verified_names)
+    
+    # Then add verified data
+    updated_count = 0
     for company in data.get("companies", []):
         name = company.get("name", "")
-        
-        if name in ENRICHED_DATA:
-            enriched = ENRICHED_DATA[name]
-            enrich_company(company, enriched)
+        if name in VERIFIED_DATA:
+            enrich_company(company, VERIFIED_DATA[name])
             updated_count += 1
-            print(f"✓ Enriched: {name}")
+            print(f"✓ Verified: {name}")
     
     with open(db_path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
     
-    print(f"\nEnriched {updated_count} companies.")
+    # Count status
+    total = len(data["companies"])
+    with_fin = sum(1 for c in data["companies"] if c.get("financials"))
+    with_kp = sum(1 for c in data["companies"] if c.get("key_persons"))
     
-    # Show companies still needing data
-    missing_financials = [c["name"] for c in data["companies"] if not c.get("financials")]
-    if missing_financials:
-        print(f"\nStill missing financials ({len(missing_financials)}):")
-        for name in missing_financials[:10]:
-            print(f"  - {name}")
-        if len(missing_financials) > 10:
-            print(f"  ... and {len(missing_financials) - 10} more")
+    print(f"\n✓ Updated {updated_count} companies with VERIFIED data")
+    print(f"Total: {total}, With financials: {with_fin}, With key persons: {with_kp}")
 
 
 if __name__ == "__main__":
     main()
-
