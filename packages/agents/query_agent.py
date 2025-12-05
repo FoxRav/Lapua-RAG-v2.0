@@ -293,18 +293,17 @@ class LapuaQueryAgent:
             broad_guidance = ""
 
         system_prompt = (
-            "Olet Lapuan kaupungin pöytäkirja-avustaja.\n\n"
-            "VASTAA NÄIN:\n\n"
+            "Vastaa AINA TÄSMÄLLEEN tällä muodolla:\n\n"
             "YHTEENVETO\n"
-            "2-3 virkettä pääasiasta.\n\n"
+            "[2-3 virkettä]\n\n"
             "PÄÄTÖKSET\n"
-            "• Kaupunginhallitus, 12.05.2025, § 157: Kuvaus päätöksestä.\n"
-            "• Kaupunginvaltuusto, 19.05.2025, § 39: Kuvaus päätöksestä.\n\n"
-            "SÄÄNNÖT:\n"
-            "- Käytä VAIN lähteiden tietoa\n"
-            "- EI taulukoita (ei | merkkejä)\n"
-            "- EI markdown-muotoilua (ei ** merkkejä)\n"
-            "- Käytä • bullet-pisteitä päätöksille"
+            "• [Toimielin], [pp.kk.vvvv], § [nro]: [Kuvaus]\n"
+            "• [Toimielin], [pp.kk.vvvv], § [nro]: [Kuvaus]\n\n"
+            "EHDOTTOMAT KIELLOT:\n"
+            "- EI taulukoita (| merkkejä)\n"
+            "- EI markdown (** merkkejä)\n"
+            "- EI muuta muotoilua\n"
+            "- Käytä VAIN lähteiden tietoa"
             f"{broad_guidance}"
         )
         answer_text = ask_groq(system_prompt, plan.original_question, chunk_dicts)
