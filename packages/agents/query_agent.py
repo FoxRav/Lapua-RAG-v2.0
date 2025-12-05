@@ -153,11 +153,20 @@ class LapuaQueryAgent:
             filters = LapuaQueryFilters()
 
         lowered = question.lower()
-        k = 15  # Increased from 10 for better source coverage
-        if any(word in lowered for word in ("historia", "kehitys", "trendit", "aikajana")):
-            k = min(self.max_k, 20)
+        word_count = len(question.split())
+        
+        # Simple questions (mikä on X, kuka on Y) need fewer sources
+        simple_patterns = ("mikä on", "kuka on", "mitä on", "missä on", "milloin")
+        is_simple = any(lowered.startswith(p) for p in simple_patterns) and word_count <= 6
+        
+        if is_simple:
+            k = 5  # Simple factual questions need few sources
+        elif any(word in lowered for word in ("historia", "kehitys", "trendit", "aikajana", "kaikki")):
+            k = min(self.max_k, 20)  # Broad questions need more sources
         elif any(word in lowered for word in ("simpsiö", "simpsiönvuori", "takaus", "takauksen")):
-            k = 15
+            k = 12  # Specific complex topics
+        else:
+            k = 8  # Default for normal questions
 
         plan = LapuaQueryPlan(
             original_question=question,
@@ -165,7 +174,7 @@ class LapuaQueryAgent:
             k=k,
             filters=filters,
         )
-        _log.info("Created query plan: %s", plan.model_dump())
+        _log.info("Created query plan: k=%d for question: %s", k, question[:50])
         return plan
 
     def retrieve(self, plan: LapuaQueryPlan) -> List[SearchResult]:
@@ -200,8 +209,10 @@ class LapuaQueryAgent:
                 model=None,
             )
 
-        # Group chunks by pykälä to avoid duplicates
-        pykala_map: dict[str, dict] = {}  # key: "doc_id|pykala_nro"
+        # Group chunks by doc_id to avoid duplicates (same document only once)
+        # For meeting minutes: doc_id|pykala_nro
+        # For website content: doc_id alone (URL-based)
+        doc_map: dict[str, dict] = {}
         
         for res in results[: plan.k]:
             payload_dict = dict(res.payload or {})
@@ -210,19 +221,25 @@ class LapuaQueryAgent:
             except Exception:
                 continue
 
-            # Create unique key for this pykälä
-            pykala_key = f"{chunk.doc_id}|{chunk.pykala_nro or 'unknown'}"
+            # Create unique key - for website content use doc_id alone
+            is_website = chunk.toimielin.startswith("verkkosivu")
+            if is_website:
+                # Website: deduplicate by URL (doc_id)
+                dedup_key = chunk.doc_id
+            else:
+                # Meeting minutes: deduplicate by doc_id + pykälä
+                dedup_key = f"{chunk.doc_id}|{chunk.pykala_nro or 'unknown'}"
             
-            if pykala_key not in pykala_map:
-                # First chunk from this pykälä
-                pykala_map[pykala_key] = {
+            if dedup_key not in doc_map:
+                # First chunk from this source
+                doc_map[dedup_key] = {
                     "chunk": chunk,
                     "score": res.score,
                     "texts": [chunk.chunk_text],
                 }
             else:
-                # Additional chunk from same pykälä - merge text
-                existing = pykala_map[pykala_key]
+                # Additional chunk from same source - merge text
+                existing = doc_map[dedup_key]
                 if chunk.chunk_text not in existing["texts"]:
                     existing["texts"].append(chunk.chunk_text)
                 # Keep highest score
@@ -232,7 +249,7 @@ class LapuaQueryAgent:
         sources: list[SourceRef] = []
         chunk_dicts: list[dict] = []
         
-        for pykala_key, data in pykala_map.items():
+        for dedup_key, data in doc_map.items():
             chunk = data["chunk"]
             merged_text = "\n\n".join(data["texts"])
             

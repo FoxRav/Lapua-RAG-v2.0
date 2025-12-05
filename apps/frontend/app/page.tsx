@@ -104,8 +104,11 @@ export default function HomePage() {
       {answer && answer.sources.length > 0 && (
         <section className="panel panel-sources">
           <h2 className="panel-title">Lähdepykälät</h2>
+          {answer.sources.length > 5 && (
+            <p className="source-count">Näytetään 5/{answer.sources.length} relevanteinta lähdettä</p>
+          )}
           <ul className="source-list">
-            {answer.sources.map((s, idx) => (
+            {answer.sources.slice(0, 5).map((s, idx) => (
               <li key={`${s.doc_id}-${s.pykala_nro}-${idx}`} className="source-item">
                 <div className="source-header">
                   <span className="source-pill">
